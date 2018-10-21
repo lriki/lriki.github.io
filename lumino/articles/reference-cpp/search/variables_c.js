@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['unitx',['UnitX',['../structln_1_1_vector2.html#a066ea4081bad389920448e1a5963f36d',1,'ln::Vector2::UnitX()'],['../structln_1_1_vector3.html#aac9710c10828723825b5a5b76f75fc1a',1,'ln::Vector3::UnitX()']]],
-  ['unity',['UnitY',['../structln_1_1_vector2.html#af72229bbccdad42050e5ff77da40c9f0',1,'ln::Vector2::UnitY()'],['../structln_1_1_vector3.html#ae8b0eb9007c9a991856baf882286cfbe',1,'ln::Vector3::UnitY()']]],
-  ['unitz',['UnitZ',['../structln_1_1_vector3.html#a0efc891c5dc7c92aa74b0a4cfccc1d40',1,'ln::Vector3']]],
-  ['useddefaultchar',['UsedDefaultChar',['../structln_1_1_encoding_conversion_result.html#a2a3a6782a1726486b002aaf2204e387a',1,'ln::EncodingConversionResult']]]
+  ['nan',['NaN',['../classln_1_1_math.html#abeeef4204fa3f372dce64e8e25e4c08e',1,'ln::Math']]],
+  ['navajowhite',['NavajoWhite',['../structln_1_1_color32.html#ad256cd3cd60932b4a51a2b9c8fbfbcb9',1,'ln::Color32::NavajoWhite()'],['../structln_1_1_color.html#adaefdf05f719c5053587ada3d58568a7',1,'ln::Color::NavajoWhite()']]],
+  ['navy',['Navy',['../structln_1_1_color32.html#adec049ae6c17b9ba800cce09951a8584',1,'ln::Color32::Navy()'],['../structln_1_1_color.html#a8bf48fa3b1cc3cf80591e7e7a6d01d26',1,'ln::Color::Navy()']]],
+  ['normal',['normal',['../structln_1_1_plane.html#a69ff034c8f18c0b083c0e6da7ce4dc41',1,'ln::Plane']]],
+  ['null',['Null',['../classln_1_1_ref.html#af4d0aee1471b3963160458aafd49054c',1,'ln::Ref']]]
 ];

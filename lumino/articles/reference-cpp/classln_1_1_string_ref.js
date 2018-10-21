@@ -11,12 +11,12 @@ var classln_1_1_string_ref =
     [ "StringRef", "classln_1_1_string_ref.html#a9b5d58a15abb23ac6487f1577d827ee5", null ],
     [ "StringRef", "classln_1_1_string_ref.html#aeeb0402500afa8623cdc463d515f31c4", null ],
     [ "StringRef", "classln_1_1_string_ref.html#a6089f45d41873ab38cc14ae7a5b12df5", null ],
-    [ "data", "classln_1_1_string_ref.html#a901beaf64a8c4985d9b1f20d80b233a5", null ],
-    [ "endsWith", "classln_1_1_string_ref.html#adc6af69851f7dab1fc0d28abdfa41416", null ],
-    [ "isEmpty", "classln_1_1_string_ref.html#adf6aff01f616df35400e9d1a9bd2846c", null ],
-    [ "length", "classln_1_1_string_ref.html#a601ccc3ea3a95672d9cbdb7b1179b543", null ],
-    [ "operator[]", "classln_1_1_string_ref.html#a1c2950763d096fc9c5c0aed43b2635ee", null ],
-    [ "substr", "classln_1_1_string_ref.html#a952965695bab3080188d59500241cd06", null ],
-    [ "toStdString", "classln_1_1_string_ref.html#a9f489754778887aefa869acccc2784c2", null ],
-    [ "toStdWString", "classln_1_1_string_ref.html#a5f6dbcd100478a6d3efd24853fb33d84", null ]
+    [ "data", "classln_1_1_string_ref.html#a780f8f808d2d14647ddcb167f6be56ed", null ],
+    [ "endsWith", "classln_1_1_string_ref.html#ad059479046d134c6dcea965e71ffc7a7", null ],
+    [ "isEmpty", "classln_1_1_string_ref.html#a070436c5a086d82298ada7755eed36dd", null ],
+    [ "length", "classln_1_1_string_ref.html#a88c6e1b819db53fbca9d0c28c429a74d", null ],
+    [ "operator[]", "classln_1_1_string_ref.html#ab52ce147e7051ba51b49a427e7c3bc2a", null ],
+    [ "substr", "classln_1_1_string_ref.html#a0ada933c16b25d837483caf5c8f09448", null ],
+    [ "toStdString", "classln_1_1_string_ref.html#afd725368397b95a0595c0478df3c67fe", null ],
+    [ "toStdWString", "classln_1_1_string_ref.html#a47cbbbd34bbdcaf497759ae0a73bfbb6", null ]
 ];

@@ -1,9 +1,9 @@
 var classln_1_1_text_writer =
 [
-    [ "encoding", "classln_1_1_text_writer.html#add9537f60ab65f1a8cc9dc516544b744", null ],
+    [ "encoding", "classln_1_1_text_writer.html#ae263aaabf60f0d75f7dc8b223fd7a65e", null ],
     [ "flush", "classln_1_1_text_writer.html#a6600ea0da07be5da454e83f718df1258", null ],
-    [ "formatLocale", "classln_1_1_text_writer.html#af94703bb56106df96d0ed4728b6b6d15", null ],
-    [ "newLine", "classln_1_1_text_writer.html#a1088b148e3d6aac6959c33fc7e6dd4a5", null ],
+    [ "formatLocale", "classln_1_1_text_writer.html#ace697eefe9678d50170ef81d4b596e84", null ],
+    [ "newLine", "classln_1_1_text_writer.html#a0e860e31fcf6573f14fb7dae87800574", null ],
     [ "onFlush", "classln_1_1_text_writer.html#ad9032c429d89bc22a6c95b41ed8251d9", null ],
     [ "onWriteOverride", "classln_1_1_text_writer.html#a948e46e8da8c99a71a1dbd652ab179bd", null ],
     [ "setEncoding", "classln_1_1_text_writer.html#a4525e8eb360f3dce615db7aa0758c1dc", null ],
@@ -19,7 +19,7 @@ var classln_1_1_text_writer =
     [ "write", "classln_1_1_text_writer.html#aca58e459fe22c7c3c845c1a899c9f3e1", null ],
     [ "write", "classln_1_1_text_writer.html#a2eb9ad4640564fea2902e59cc3481069", null ],
     [ "write", "classln_1_1_text_writer.html#abf924f480715c4ae0f55431008643a52", null ],
-    [ "writeFormat", "classln_1_1_text_writer.html#a28e0c2196d32efc29294cf586de966ff", null ],
+    [ "writeFormat", "classln_1_1_text_writer.html#ad793358029a4bf3f267a7d058594a0df", null ],
     [ "writeLine", "classln_1_1_text_writer.html#a98f7821e9500762cf7c791c541e08dbd", null ],
     [ "writeLine", "classln_1_1_text_writer.html#ad27bff6c04415568806cb5f482355e69", null ],
     [ "writeLine", "classln_1_1_text_writer.html#a0daa128647c59a1c40f4f6cc551c13f8", null ],
@@ -31,5 +31,5 @@ var classln_1_1_text_writer =
     [ "writeLine", "classln_1_1_text_writer.html#a7d139d1486f2b2268df63326bce4ebde", null ],
     [ "writeLine", "classln_1_1_text_writer.html#ab667676969bb3578296b95071f04280b", null ],
     [ "writeLine", "classln_1_1_text_writer.html#ab91dc63a753ff608008ea4feb88ae560", null ],
-    [ "writeLineFormat", "classln_1_1_text_writer.html#a2fc2615e0cf1bd7330f310f29b59e21f", null ]
+    [ "writeLineFormat", "classln_1_1_text_writer.html#aa984d927ae0ac77a6e83b7bc2ee24ab7", null ]
 ];

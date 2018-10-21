@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['globallogger',['GlobalLogger',['../classln_1_1_global_logger.html',1,'ln']]]
+  ['gamepadgesture',['GamepadGesture',['../classln_1_1_gamepad_gesture.html',1,'ln']]],
+  ['globallogger',['GlobalLogger',['../classln_1_1_global_logger.html',1,'ln']]],
+  ['graphicsresource',['GraphicsResource',['../classln_1_1_graphics_resource.html',1,'ln']]]
 ];

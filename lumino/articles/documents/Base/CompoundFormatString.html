@@ -8,7 +8,7 @@
     <title>&#25991;&#23383;&#21015;&#12398;&#26360;&#24335;&#25351;&#23450; | Lumino website </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="&#25991;&#23383;&#21015;&#12398;&#26360;&#24335;&#25351;&#23450; | Lumino website ">
-    <meta name="generator" content="docfx 2.34.0.0">
+    <meta name="generator" content="docfx 2.39.2.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
@@ -20,7 +20,7 @@
     
     
   </head>
-  <body data-spy="scroll" data-target="#affix">
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -70,7 +70,7 @@
 <h1 id="文字列の書式指定">文字列の書式指定</h1>
 
 <p>C++ では書式を指定してオブジェクトと文字列を結合して出力するために printf や iostream を使用しますが、
-Lumino はそれらの安全で柔軟な代替手段として、python や .NET のような複合書式文字列を使用する方法を提供します。</p>
+Lumino はそれらの安全で柔軟な代替手段として、Python や .NET のような複合書式文字列を使用する方法を提供します。</p>
 <h2 id="クイックスタート">クイックスタート</h2>
 <p>文字列の書式指定には <code>String::format</code> を使用するのが簡単です。</p>
 <p>この関数は書式として、.NET で使用されている複合書式文字列に似た書式を受け取ります。</p>
@@ -123,7 +123,7 @@ String::format(&quot;0x{0:X}&quot;, 255);    // =&gt; &quot;0xFF&quot;
 <p>精度指定子は小数部の桁数です。</p>
 <pre><code class="lang-cpp">String::format(&quot;{0:F}&quot;, 25.1879));                 // =&gt; &quot;25.1879&quot;
 String::format(&quot;{0:f}&quot;, 25.1879));                 // =&gt; &quot;25.1879&quot;
-String::formatu(&quot;{0:F2}&quot;, 25.1879));                // =&gt; &quot;25.19&quot;
+String::format(&quot;{0:F2}&quot;, 25.1879));                // =&gt; &quot;25.19&quot;
 String::format(Locale(&quot;fr&quot;), &quot;{0:F2}&quot;, 25.1879)); // =&gt; &quot;25,187900&quot;
 </code></pre><h3 id="指数-e-書式指定子">指数 (&quot;E&quot;) 書式指定子</h3>
 <p>実数を指数表現の文字列に変換します。

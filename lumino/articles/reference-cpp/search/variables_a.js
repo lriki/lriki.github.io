@@ -1,4 +1,24 @@
 var searchData=
 [
-  ['scale',['scale',['../structln_1_1_attitude_transform.html#af80dc6f6a136a67f8d573cf6c11af5f5',1,'ln::AttitudeTransform']]]
+  ['lavender',['Lavender',['../structln_1_1_color32.html#a81a673fde5e2b23463de94e9d3bb5530',1,'ln::Color32::Lavender()'],['../structln_1_1_color.html#aec0da586795f437272951bd4ffe51e57',1,'ln::Color::Lavender()']]],
+  ['lavenderblush',['LavenderBlush',['../structln_1_1_color32.html#a05d7c08314cbf727c3ef1706a6902d93',1,'ln::Color32::LavenderBlush()'],['../structln_1_1_color.html#a364a59947226a221203d2018c822be79',1,'ln::Color::LavenderBlush()']]],
+  ['lawngreen',['LawnGreen',['../structln_1_1_color32.html#aa005376b88172d1e98d838959bb1d1ba',1,'ln::Color32::LawnGreen()'],['../structln_1_1_color.html#a678080b9973506026838ec6f81f5cd72',1,'ln::Color::LawnGreen()']]],
+  ['left',['Left',['../classln_1_1_input_buttons.html#a52bf287646a635e2a43d1a9e24786863',1,'ln::InputButtons::Left()'],['../structln_1_1_thickness.html#ac029e09135f7d1271724eac24cf4032e',1,'ln::Thickness::left()']]],
+  ['lemonchiffon',['LemonChiffon',['../structln_1_1_color32.html#a63803ca9be83f1cc8a00105f930b91c7',1,'ln::Color32::LemonChiffon()'],['../structln_1_1_color.html#a16b34458f6e3014e14f116591ce1ea51',1,'ln::Color::LemonChiffon()']]],
+  ['lightblue',['LightBlue',['../structln_1_1_color32.html#ae083d0f41d21a40e0d7df7e50e76bbaf',1,'ln::Color32::LightBlue()'],['../structln_1_1_color.html#ac35891e2030b6eaa85a46e0bbc8adfab',1,'ln::Color::LightBlue()']]],
+  ['lightcoral',['LightCoral',['../structln_1_1_color32.html#a22f7d47d13b6dd14036c65579c1460d6',1,'ln::Color32::LightCoral()'],['../structln_1_1_color.html#a6054dfef4bbce37b43204df5645857b7',1,'ln::Color::LightCoral()']]],
+  ['lightcyan',['LightCyan',['../structln_1_1_color32.html#a0ee394b23fdd044a3e8c4b60ebf4be2d',1,'ln::Color32::LightCyan()'],['../structln_1_1_color.html#a209e3fe6ffc8673a88047c9cc5bd3b8f',1,'ln::Color::LightCyan()']]],
+  ['lightgoldenrodyellow',['LightGoldenrodYellow',['../structln_1_1_color32.html#a6a45cb3bda0cb324c156dd884e2826a7',1,'ln::Color32::LightGoldenrodYellow()'],['../structln_1_1_color.html#a3185bc4e09f21ecff9208596ac548b2e',1,'ln::Color::LightGoldenrodYellow()']]],
+  ['lightgray',['LightGray',['../structln_1_1_color32.html#a595fa06c5fbc5d6d725f8f10901115a8',1,'ln::Color32::LightGray()'],['../structln_1_1_color.html#a1bbd485eef5068aa75a8354c460a96bd',1,'ln::Color::LightGray()']]],
+  ['lightgreen',['LightGreen',['../structln_1_1_color32.html#a2afe00b8a71cefb19b88cba70d025fd8',1,'ln::Color32::LightGreen()'],['../structln_1_1_color.html#a6ede16e26264e3fac21c392b7295fefd',1,'ln::Color::LightGreen()']]],
+  ['lightpink',['LightPink',['../structln_1_1_color32.html#aede78f4f00cc201b5fecf99662316123',1,'ln::Color32::LightPink()'],['../structln_1_1_color.html#a45f8acacec5ea607804a988d075b15ba',1,'ln::Color::LightPink()']]],
+  ['lightsalmon',['LightSalmon',['../structln_1_1_color32.html#a074fb3fee51ddf1a480a3d66d67d8c5f',1,'ln::Color32::LightSalmon()'],['../structln_1_1_color.html#ab3dcee1efc2c775945bcf2484f3b6f94',1,'ln::Color::LightSalmon()']]],
+  ['lightseagreen',['LightSeaGreen',['../structln_1_1_color32.html#acf82471085e96ddf5e643ed2fd2dbe4c',1,'ln::Color32::LightSeaGreen()'],['../structln_1_1_color.html#a126d03ff114f48e9e800915a370e6d43',1,'ln::Color::LightSeaGreen()']]],
+  ['lightskyblue',['LightSkyBlue',['../structln_1_1_color32.html#ac3c671f6ad6910da3bcccd81585b349e',1,'ln::Color32::LightSkyBlue()'],['../structln_1_1_color.html#a24731de631b99ab0d769e746f914b39a',1,'ln::Color::LightSkyBlue()']]],
+  ['lightslategray',['LightSlateGray',['../structln_1_1_color32.html#a502fe636f86765f4ac628f71b88dd624',1,'ln::Color32::LightSlateGray()'],['../structln_1_1_color.html#a58da8c71a738dfffcadf5a29a0c5f44d',1,'ln::Color::LightSlateGray()']]],
+  ['lightsteelblue',['LightSteelBlue',['../structln_1_1_color32.html#a2798fd65ed6bf0f1807e519a8c808cc5',1,'ln::Color32::LightSteelBlue()'],['../structln_1_1_color.html#a943d1803bc8e45f77ccc7de748a1efd3',1,'ln::Color::LightSteelBlue()']]],
+  ['lightyellow',['LightYellow',['../structln_1_1_color32.html#a551489398d0ebfd43eb4a1b7d8fb5f5a',1,'ln::Color32::LightYellow()'],['../structln_1_1_color.html#a307d43caf7ee86e76ec6f6e9df11fa23',1,'ln::Color::LightYellow()']]],
+  ['lime',['Lime',['../structln_1_1_color32.html#a02e2574da10de1a0744a2990405068b7',1,'ln::Color32::Lime()'],['../structln_1_1_color.html#a7fbccd311dcb60f8ea7cfbf11badddc0',1,'ln::Color::Lime()']]],
+  ['limegreen',['LimeGreen',['../structln_1_1_color32.html#af1aebb479a2888e65cb158c743127486',1,'ln::Color32::LimeGreen()'],['../structln_1_1_color.html#a820f636ceff2435fb2ab6f35b35ecc91',1,'ln::Color::LimeGreen()']]],
+  ['linen',['Linen',['../structln_1_1_color32.html#a73da5bbca802d3c54b81eebc42c2fd56',1,'ln::Color32::Linen()'],['../structln_1_1_color.html#a95fe91aaa2f15622ed517b98f919b288',1,'ln::Color::Linen()']]]
 ];

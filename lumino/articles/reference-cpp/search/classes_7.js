@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ioexception',['IOException',['../classln_1_1_i_o_exception.html',1,'ln']]]
+  ['hsvcolor',['HSVColor',['../classln_1_1_h_s_v_color.html',1,'ln']]]
 ];

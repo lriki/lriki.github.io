@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['valueinvalid',['ValueInvalid',['../namespaceln.html#a722c47e04ef466bdc58430e61f752f5aa646b9f95c343c3ff80c49ce96c12b27f',1,'ln']]]
+  ['quit',['Quit',['../namespaceln.html#ab9eb0500271d3d2f510adcedd1c3837aa0d82790b0612935992bd564a17ce37d6',1,'ln']]]
 ];

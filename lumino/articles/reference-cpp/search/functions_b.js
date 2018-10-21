@@ -1,6 +1,7 @@
 var searchData=
 [
   ['makeaffinetransformation',['makeAffineTransformation',['../structln_1_1_matrix.html#a8d7581e1eb4db71f91d8ca47d88e6a98',1,'ln::Matrix']]],
+  ['makedeflate',['makeDeflate',['../structln_1_1_rect.html#a21f374cff7651c602173c6c10dd28dfc',1,'ln::Rect']]],
   ['makefromeulerangles',['makeFromEulerAngles',['../structln_1_1_quaternion.html#a73471dd69b57444de2a7817099b03b07',1,'ln::Quaternion']]],
   ['makefromrotationaxis',['makeFromRotationAxis',['../structln_1_1_quaternion.html#a1e95e0585566f933d10675e24edca758',1,'ln::Quaternion']]],
   ['makefromrotationmatrix',['makeFromRotationMatrix',['../structln_1_1_quaternion.html#aa45b82868eab9adc589d345c9dfbac16',1,'ln::Quaternion']]],
@@ -14,9 +15,9 @@ var searchData=
   ['makeperspective2drh',['makePerspective2DRH',['../structln_1_1_matrix.html#a75bc9b758a5793e06cacb1b3e0b94a77',1,'ln::Matrix']]],
   ['makeperspectivefovlh',['makePerspectiveFovLH',['../structln_1_1_matrix.html#a8b755a2bff42926d68ec5c7d66b69298',1,'ln::Matrix']]],
   ['makeperspectivefovrh',['makePerspectiveFovRH',['../structln_1_1_matrix.html#adbd75b87f5e327428d5f9c55f43e47ef',1,'ln::Matrix']]],
-  ['makeref',['makeRef',['../namespaceln.html#accb6254151ae820f78c6d4274329fcd9',1,'ln']]],
+  ['makeref',['makeRef',['../namespaceln.html#a06248da5887cf0b62d3131bc7ebbbe1d',1,'ln']]],
   ['makereflection',['makeReflection',['../structln_1_1_matrix.html#aeda048124a4a3d14a884214c38503781',1,'ln::Matrix']]],
-  ['makerelative',['makeRelative',['../classln_1_1_path.html#aa7016ce1fc3c1fab052ac5d3fd9a4053',1,'ln::Path']]],
+  ['makerelative',['makeRelative',['../classln_1_1_path.html#ae1deb1d95fda5ec8c324f18296dd9ffa',1,'ln::Path']]],
   ['makerotationaxis',['makeRotationAxis',['../structln_1_1_matrix.html#aabeef3fc821ec94ea0e605e56d7934a7',1,'ln::Matrix']]],
   ['makerotationeulerangles',['makeRotationEulerAngles',['../structln_1_1_matrix.html#a2d05968cbefcca497c3de2c2ea713836',1,'ln::Matrix::makeRotationEulerAngles(float x, float y, float z, RotationOrder order=RotationOrder::ZXY)'],['../structln_1_1_matrix.html#a47d655878617fc4152b28dd1a8901656',1,'ln::Matrix::makeRotationEulerAngles(const Vector3 &amp;angles, RotationOrder order=RotationOrder::ZXY)']]],
   ['makerotationquaternion',['makeRotationQuaternion',['../structln_1_1_matrix.html#a4541b0e4cac67ab628d5e04e2a6b777d',1,'ln::Matrix']]],
@@ -27,12 +28,15 @@ var searchData=
   ['makescaling',['makeScaling',['../structln_1_1_matrix.html#aa17e7b1d2f18d74a1b206352554693ee',1,'ln::Matrix::makeScaling(float x, float y, float z)'],['../structln_1_1_matrix.html#adb008f04de36d9c75ee8fd62d6a0387b',1,'ln::Matrix::makeScaling(const Vector3 &amp;vec)'],['../structln_1_1_matrix.html#a70f0b04c4b33fc691a69a113042b9da2',1,'ln::Matrix::makeScaling(float xyz)']]],
   ['maketranslation',['makeTranslation',['../structln_1_1_matrix.html#ab03fea4672647e7ec90b5fbfbc5e5ad6',1,'ln::Matrix::makeTranslation(float x, float y, float z)'],['../structln_1_1_matrix.html#af214b79b59bf274b3c5bca8dcb6c7d2d',1,'ln::Matrix::makeTranslation(const Vector3 &amp;vec)']]],
   ['maketranspose',['makeTranspose',['../structln_1_1_matrix.html#a9f7f65cfb266226f6f4eff214df5daa8',1,'ln::Matrix']]],
+  ['map',['map',['../classln_1_1_index_buffer.html#af9ad63170fa340c7318d77060548aaaf',1,'ln::IndexBuffer::map()'],['../classln_1_1_texture2_d.html#acee302051c7c722e9d25559d3398756a',1,'ln::Texture2D::map()'],['../classln_1_1_vertex_buffer.html#a2d5a290f2a7c631b89453b6416b8e649',1,'ln::VertexBuffer::map()']]],
   ['match',['match',['../classln_1_1_string_helper.html#a337f9023973e974ccf95ccb2d53cf7da',1,'ln::StringHelper']]],
   ['matchpath',['matchPath',['../classln_1_1_file_system.html#a9157eda2fd0c4bd1e57f49211f285228',1,'ln::FileSystem']]],
   ['matrix',['Matrix',['../structln_1_1_matrix.html#a6c29be720c0ae18f11202934b08548d2',1,'ln::Matrix::Matrix()'],['../structln_1_1_matrix.html#a9d285d72d9cb4f7a907200e8db6becb2',1,'ln::Matrix::Matrix(float m11, float m12, float m13, float m14, float m21, float m22, float m23, float m24, float m31, float m32, float m33, float m34, float m41, float m42, float m43, float m44)'],['../structln_1_1_matrix.html#a5108e932274b04ed448125e3582927ff',1,'ln::Matrix::Matrix(const Vector4 &amp;row1, const Vector4 &amp;row2, const Vector4 &amp;row3, const Vector4 &amp;row4)'],['../structln_1_1_matrix.html#ad33202bbe7bde0d197340612ffabe353',1,'ln::Matrix::Matrix(const AttitudeTransform &amp;transform)']]],
   ['max',['max',['../structln_1_1_vector2.html#a7c7f95c36e2b9748cd947f030ae2fceb',1,'ln::Vector2::max()'],['../structln_1_1_vector3.html#ad21dcc4ab7e96e6f56ffe8af4e250bdd',1,'ln::Vector3::max(const Vector3 &amp;vec1, const Vector3 &amp;vec2)'],['../structln_1_1_vector3.html#a3c3c1ba16b66dd2f8a63c7f8c4d6545a',1,'ln::Vector3::max(const Vector3 *vectors, int count)'],['../structln_1_1_vector4.html#a7c6c41cdb5c1457b9c1368a756f23db9',1,'ln::Vector4::max()']]],
-  ['maxbytecount',['maxByteCount',['../classln_1_1_text_encoding.html#aaad589a8d06fe165c51b29a83ff60eea',1,'ln::TextEncoding']]],
+  ['maxbytecount',['maxByteCount',['../classln_1_1_text_encoding.html#a1e25f4bb0c8c3b0b9f04b86471f21acb',1,'ln::TextEncoding']]],
+  ['memorystream',['MemoryStream',['../classln_1_1_memory_stream.html#a0aebe53e76ae7942e0138c44158dc346',1,'ln::MemoryStream::MemoryStream(void *buffer, size_t size)'],['../classln_1_1_memory_stream.html#ae4192572caf5eaae8d8d14d60567bc55',1,'ln::MemoryStream::MemoryStream(const void *buffer, size_t size, bool copy=false)']]],
   ['min',['min',['../structln_1_1_vector2.html#a4e14189bec429dbd396b9d7e269cd638',1,'ln::Vector2::min()'],['../structln_1_1_vector3.html#a92c7cf04b0abc03e70eaea181364f969',1,'ln::Vector3::min(const Vector3 &amp;vec1, const Vector3 &amp;vec2)'],['../structln_1_1_vector3.html#a50aec84e86cf12054f2d66a9bd2dc71a',1,'ln::Vector3::min(const Vector3 *vectors, int count)'],['../structln_1_1_vector4.html#aff1decc92348791a6be11b52f2014e93',1,'ln::Vector4::min()']]],
-  ['minbytecount',['minByteCount',['../classln_1_1_text_encoding.html#aff3cb063f52c5c03278fb2b8a1bd95b7',1,'ln::TextEncoding']]],
-  ['multiply',['multiply',['../structln_1_1_matrix.html#a8daa16b38fbf5a17d2e39ce0cc62ea67',1,'ln::Matrix::multiply()'],['../structln_1_1_quaternion.html#ad78321632317b99c742c75734875ca7f',1,'ln::Quaternion::multiply(const Quaternion &amp;qua)'],['../structln_1_1_quaternion.html#a96a4773060c387dad59f10c1de8cd8a6',1,'ln::Quaternion::multiply(const Quaternion &amp;qua1, const Quaternion &amp;qua2)']]]
+  ['minbytecount',['minByteCount',['../classln_1_1_text_encoding.html#aaf9c52cf7d9bb2fcf830f6600b3edc4e',1,'ln::TextEncoding']]],
+  ['multiply',['multiply',['../structln_1_1_matrix.html#a8daa16b38fbf5a17d2e39ce0cc62ea67',1,'ln::Matrix::multiply()'],['../structln_1_1_quaternion.html#ad78321632317b99c742c75734875ca7f',1,'ln::Quaternion::multiply(const Quaternion &amp;qua)'],['../structln_1_1_quaternion.html#a96a4773060c387dad59f10c1de8cd8a6',1,'ln::Quaternion::multiply(const Quaternion &amp;qua1, const Quaternion &amp;qua2)']]],
+  ['multiplyclamp',['multiplyClamp',['../structln_1_1_color.html#a501bfdad5dd16dc56a53e0513dfb6b5c',1,'ln::Color']]]
 ];

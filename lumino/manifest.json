@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Proj/GitHub/Lumino/docs/WebDocument",
+  "source_base_path": "D:/Proj/GitHub/Lumino/docs/WebDocument",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "bO0UrV/Bh7MSaOpcwGA17w=="
+          "hash": "flkU5mdXu9nhv0jGTq3jgA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/development/index.html",
-          "hash": "5OBCQRPEUq+k0K+WxzULUg=="
+          "hash": "7eeuJQIx4rfBA96Rpujyvg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Base/CompoundFormatString.html",
-          "hash": "8ehVws7DZ6bSMIQ2sCBJ2g=="
+          "hash": "ugag3KnDyr4kH26bZvdEzw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Base/ErrorHandling.html",
-          "hash": "kbjfsnRTdTOL5U3fMjMR1Q=="
+          "hash": "jhkBcX3QtwcdvJvp767zGw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Base/MemoryManagement.html",
-          "hash": "OO7CVXbVr85wB1DycUcskw=="
+          "hash": "3lsXZxU0ZVgCcExSNNt2cQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Base/String.html",
-          "hash": "kkAdN59U+VKdGwCsD60iXw=="
+          "hash": "hqFj2mZwpY+7jbd90Kkq3A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Base_Logging.html",
-          "hash": "nDZcc4LFRsZukeGlLN8ifA=="
+          "hash": "+ZGQ43RXZxjg3Da/XLH0Xg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Engine_ObjectCreation.html",
-          "hash": "IFaHFEsfADd1haqLQq1xfw=="
+          "hash": "IK37XbOCE8dsyCKYM2mbug=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -105,19 +105,66 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/GettingStarted/Index.html",
-          "hash": "GFIvlBlezu5117iAwgvX6A=="
+          "hash": "xzZeNCyAk9G/fT3YR2pYnQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/documents/GettingStarted/Install.md",
+      "source_relative_path": "articles/documents/GettingStarted/download.md",
       "output": {
         ".html": {
-          "relative_path": "articles/documents/GettingStarted/Install.html",
-          "hash": "B6hqCCizKE73gXBA6vvBlg=="
+          "relative_path": "articles/documents/GettingStarted/download.html",
+          "hash": "9KX+ICMKe8Vf8+3bEXH+og=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/GettingStarted/getting-started-web.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/GettingStarted/getting-started-web.html",
+          "hash": "sI1B9qnmHNYtQe5T26rzNg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/GettingStarted/getting-started-windows.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/GettingStarted/getting-started-windows.html",
+          "hash": "A+fpxkNZo8y8y8ae9eTCbw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/GettingStarted/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/GettingStarted/getting-started.html",
+          "hash": "5O595Q0KGWfKaCZwCi9wDA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/GettingStarted/img/IntroductionAndGettingStarted-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/GettingStarted/img/IntroductionAndGettingStarted-1.png"
         }
       },
       "is_incremental": false,
@@ -125,13 +172,49 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/documents/GettingStarted/img/nuget-1.png",
+      "source_relative_path": "articles/documents/GettingStarted/img/getting-started-web-1.png",
       "output": {
         "resource": {
-          "relative_path": "articles/documents/GettingStarted/img/nuget-1.png"
+          "relative_path": "articles/documents/GettingStarted/img/getting-started-web-1.png"
         }
       },
       "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/GettingStarted/preparing-development-environment-macos.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/GettingStarted/preparing-development-environment-macos.html",
+          "hash": "C/MyKJxaROijT8TzMciLQg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/GettingStarted/preparing-development-environment-windows.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/GettingStarted/preparing-development-environment-windows.html",
+          "hash": "UjQV95tmeYvpIiuoHrC/Ag=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/GettingStarted/requirements.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/GettingStarted/requirements.html",
+          "hash": "dXtK98udX/hItXzWNnGOjA=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -140,10 +223,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/IO/CommandLineParser.html",
-          "hash": "+4jJ9+YWeLHy4yDBFmtvDw=="
+          "hash": "YzE6xk8Ku8g+HKDtijgD+g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -152,10 +235,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/IO/FileReadWrite.html",
-          "hash": "pmZUEC+mwwCD8f1QERiu9A=="
+          "hash": "n8UQfkNk4YfbclOZxb0iSQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -164,10 +247,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/IO/FileSystem.html",
-          "hash": "EtGTv/cEFnd/8i+SHPhsog=="
+          "hash": "aTlJTMaA9e0DMQlbgPBMVw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -176,10 +259,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Input_VirtualController.html",
-          "hash": "ayggSVj1Asm+nt1GXhiu5w=="
+          "hash": "fZQ3jOi4AiMRTJw3NlbKOg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -188,10 +271,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Math/Index.html",
-          "hash": "ybi+Adpt3mXCvpxejBdLbQ=="
+          "hash": "oQS+AV76zYswlHYZIQ5YHg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -200,10 +283,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Math/Matrix.html",
-          "hash": "dHulLTZBLUQvUNwHT/JZiw=="
+          "hash": "myJCwK34Mt+WmDQQ0L5qiw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -212,10 +295,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Math/Quaternion.html",
-          "hash": "NHb9sqa03NVm9WSx4JePcQ=="
+          "hash": "Jas2WmIx1uvsQTmgMipLbA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -224,10 +307,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Math/Utilities.html",
-          "hash": "nCRUmlrh64/0PiBRMWcOYw=="
+          "hash": "b1+dvMwa5hFd0iR6m5WkXw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -236,22 +319,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Math/Vector.html",
-          "hash": "x1gtJZeFsXedwp4q0yQIzw=="
+          "hash": "TGEIDdJdulEVoU+DFJe3ig=="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/Requirements.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/Requirements.html",
-          "hash": "VCSSXAcMLbjX9LPfu3gydg=="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -260,10 +331,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Serialization.html",
-          "hash": "Du0NzQkcYnkkRmkw6GHg8w=="
+          "hash": "v6xOjBTHbXDWZ0RgHcNLyQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -272,10 +343,22 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Shader.html",
-          "hash": "EEcYEoNsw9UI9AUqH8cAEw=="
+          "hash": "NUIjx+mA1WCj4F0xFGHE2Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/Tools/CliTool.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/Tools/CliTool.html",
+          "hash": "YGYGfvgKJZ0VS58xf7NAIw=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -284,10 +367,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/UI_LayoutSystem.html",
-          "hash": "G9pbfyZJ4/aYOEXxDFKt9Q=="
+          "hash": "Z80yBmB7mjvCsFFgJRoTiQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -296,10 +379,93 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/index.html",
-          "hash": "ZF4UTxfy558Spb0MScANsw=="
+          "hash": "NI9bo2mvXzj8rFi/+DArzw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/platform-specific/android.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/platform-specific/android.html",
+          "hash": "FLzjyAc5Cs86wXIqZl82nQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/platform-specific/img/nuget-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/platform-specific/img/nuget-1.png"
         }
       },
       "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/platform-specific/ios.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/platform-specific/ios.html",
+          "hash": "9J/BMuiZIv7pzFFH7K0clw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/platform-specific/macos.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/platform-specific/macos.html",
+          "hash": "TO5wz5WEhHgMiR8CpLDNiQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/platform-specific/web.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/platform-specific/web.html",
+          "hash": "4jXV8fJhVYqrp93/6zHIKA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/platform-specific/windows-Install-nuget.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/platform-specific/windows-Install-nuget.html",
+          "hash": "aWwj0tzWZ+Y+XtF1Uj3qVg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/platform-specific/windows.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/platform-specific/windows.html",
+          "hash": "S5uUgI2U/wqTZGSlls6/rA=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -308,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/toc.html",
-          "hash": "+7bbC3ffHhzAKQhTW7uPhQ=="
+          "hash": "0Z+ZVUvM17YStGDceAFw2g=="
         }
       },
       "is_incremental": false,
@@ -320,10 +486,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/downloads/DevVer.html",
-          "hash": "Ehh8Egb8kxyCDrJsAWVwZQ=="
+          "hash": "jmDjh/O37F9D02gv6Z83ow=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -332,10 +498,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/downloads/GettingStarted.html",
-          "hash": "YNq13q2BZDCjEt186maKhA=="
+          "hash": "InZtLcQ0cCPsnefOHaZfHg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -377,10 +543,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/downloads/index.html",
-          "hash": "wqnv7ospe8YoPOAtOkkIUA=="
+          "hash": "HTRkB7jbYs0kDvYqXisaIg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -389,10 +555,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "yLgP5u+C+akkrhZkNmOb0Q=="
+          "hash": "ESiuvtLdin2YjHb/4FIhqQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -401,10 +567,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/learning/samples/Graphics2D_Sprite2D.html",
-          "hash": "aqxy0bVosmaTC/g6sFsEOQ=="
+          "hash": "/jXHqNguN2KYqshclk8zGQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -413,10 +579,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/learning/samples/Graphics2D_Text.html",
-          "hash": "vOK88j4+kT1q6RjQQS/c4w=="
+          "hash": "kF7sH15WeajwEOOZRHJVRA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -425,10 +591,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/learning/samples/Input_VirtualController.html",
-          "hash": "hRZLhOQikCLIVouNZuPrqQ=="
+          "hash": "abakkgMgUhaMKpSRyMK/PQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -437,10 +603,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/learning/samples/Lumino_Basic.html",
-          "hash": "Mmqf3jY8dNq3bMSJjq0wkw=="
+          "hash": "AHwUfciDQBJsVARUMQCLbw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -526,10 +692,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/learning/samples/index.html",
-          "hash": "VJEIUBAp76jp+htf5N2kCA=="
+          "hash": "/sN6+X109sOWbnnSa9lTrw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -538,7 +704,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/learning/toc.html",
-          "hash": "M395oUSpBsVdgA/TxOCo+A=="
+          "hash": "Ro9BIjnXZnmZsYgE9lRqNA=="
         }
       },
       "is_incremental": false,
@@ -550,10 +716,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/learning/tutorials/index.html",
-          "hash": "fS16ia9dsrLKr+4W15Pp9w=="
+          "hash": "ki8yr9JEt2xpAFw4M85efA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -562,10 +728,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/license/index.html",
-          "hash": "2lCQB/DAqieb1Q9CUT8L4g=="
+          "hash": "ckrxCFNIyT8Ce4D/lfetVw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -574,10 +740,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/supports/index.html",
-          "hash": "Cb9uQJwlBWKVpZFfuB1vtA=="
+          "hash": "hPIYXs8ccKuhrA7SLHZ4Pg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -597,10 +763,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "C57vWWRudDwoFiczxcBUng=="
+          "hash": "MDNv74/0JDjSZgwZwa6nrQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -623,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "U0opsIUDnJLDU+YtJj+EGg=="
+          "hash": "BGbql1YY3ma2cGXB2azaXQ=="
         }
       },
       "is_incremental": false,
@@ -633,31 +799,30 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build"
       },
       "processors": {
         "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build"
         }
       }
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing"
       },
       "processors": {}
