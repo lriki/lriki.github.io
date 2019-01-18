@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('structln_1_1_box.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>直方体を定義します。  
+<p>直方体を定義します。(axis-aligned bounding box)  
  <a href="structln_1_1_box.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_geometries_8hpp_source.html">Geometries.hpp</a>&gt;</code></p>
@@ -131,10 +131,30 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structln_1_1_box.html#a63b892c38237f53d6e4f26ee5bfc8bd9">Box</a> (float sizeXYZ)</td></tr>
 <tr class="memdesc:a63b892c38237f53d6e4f26ee5bfc8bd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">各軸のサイズを指定して正方形を作成します。 <br /></td></tr>
 <tr class="separator:a63b892c38237f53d6e4f26ee5bfc8bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0188b37491c539a52cf70db6da88ec20"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0188b37491c539a52cf70db6da88ec20"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structln_1_1_box.html#a0188b37491c539a52cf70db6da88ec20">Box</a> (const <a class="el" href="structln_1_1_vector3.html">Vector3</a> &amp;<a class="el" href="structln_1_1_box.html#a4cf1b599e7eb259348972ddbc6cebd7c">center</a>, float sizeXYZ)</td></tr>
+<tr class="memdesc:a0188b37491c539a52cf70db6da88ec20"><td class="mdescLeft">&#160;</td><td class="mdescRight">中心座標と各軸のサイズを指定して正方形を作成します。 <br /></td></tr>
+<tr class="separator:a0188b37491c539a52cf70db6da88ec20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa046590fb22d986a579edebb6fc51b34"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa046590fb22d986a579edebb6fc51b34"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structln_1_1_box.html#aa046590fb22d986a579edebb6fc51b34">Box</a> (const <a class="el" href="structln_1_1_vector3.html">Vector3</a> &amp;<a class="el" href="structln_1_1_box.html#a4cf1b599e7eb259348972ddbc6cebd7c">center</a>, float <a class="el" href="structln_1_1_box.html#a1f9cb1af630bbf9243a8415301fe706b">width</a>, float <a class="el" href="structln_1_1_box.html#a6e80887bc90cbbadb129bd1ecf22e4ce">height</a>, float <a class="el" href="structln_1_1_box.html#aaa1f8e966c9447f29329810f000dddab">depth</a>)</td></tr>
+<tr class="memdesc:aa046590fb22d986a579edebb6fc51b34"><td class="mdescLeft">&#160;</td><td class="mdescRight">中心座標と各軸のサイズを指定して正方形を作成します。 <br /></td></tr>
+<tr class="separator:aa046590fb22d986a579edebb6fc51b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa9e7d420dcaeac1320934ed97361eb3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa9e7d420dcaeac1320934ed97361eb3"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structln_1_1_box.html#afa9e7d420dcaeac1320934ed97361eb3">Box</a> (const <a class="el" href="structln_1_1_vector3.html">Vector3</a> &amp;min, const <a class="el" href="structln_1_1_vector3.html">Vector3</a> &amp;max)</td></tr>
 <tr class="memdesc:afa9e7d420dcaeac1320934ed97361eb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">最小値と最大値を指定してボックスを作成します。 <br /></td></tr>
 <tr class="separator:afa9e7d420dcaeac1320934ed97361eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa10eebbff21e205bd22e327b77ab6c1d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa10eebbff21e205bd22e327b77ab6c1d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structln_1_1_box.html#aa10eebbff21e205bd22e327b77ab6c1d">isEmpty</a> () const </td></tr>
+<tr class="memdesc:aa10eebbff21e205bd22e327b77ab6c1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">サイズが 0 以下であるかを判定します。 <br /></td></tr>
+<tr class="separator:aa10eebbff21e205bd22e327b77ab6c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37033702ee6ffe0b3d12df710c30de5c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a37033702ee6ffe0b3d12df710c30de5c"></a>
+<a class="el" href="structln_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structln_1_1_box.html#a37033702ee6ffe0b3d12df710c30de5c">minPoint</a> () const </td></tr>
+<tr class="memdesc:a37033702ee6ffe0b3d12df710c30de5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">境界の最小値を取得します。 <br /></td></tr>
+<tr class="separator:a37033702ee6ffe0b3d12df710c30de5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dbbf031c6e333fa368f46ce85f6de95"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8dbbf031c6e333fa368f46ce85f6de95"></a>
+<a class="el" href="structln_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structln_1_1_box.html#a8dbbf031c6e333fa368f46ce85f6de95">maxPoint</a> () const </td></tr>
+<tr class="memdesc:a8dbbf031c6e333fa368f46ce85f6de95"><td class="mdescLeft">&#160;</td><td class="mdescRight">境界と最大値を取得します。 <br /></td></tr>
+<tr class="separator:a8dbbf031c6e333fa368f46ce85f6de95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a229058b6301419be3fbaa0821a71f0c6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a229058b6301419be3fbaa0821a71f0c6"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structln_1_1_box.html#a229058b6301419be3fbaa0821a71f0c6">getMinMax</a> (<a class="el" href="structln_1_1_vector3.html">Vector3</a> *outMin, <a class="el" href="structln_1_1_vector3.html">Vector3</a> *outMax) const </td></tr>
 <tr class="memdesc:a229058b6301419be3fbaa0821a71f0c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">境界の最小値と最大値を取得します。 <br /></td></tr>
@@ -160,9 +180,9 @@ float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="str
 <tr class="separator:aaa1f8e966c9447f29329810f000dddab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>直方体を定義します。 </p>
+<div class="textblock"><p>直方体を定義します。(axis-aligned bounding box) </p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/Proj/GitHub/Lumino/include/LuminoCore/Math/<a class="el" href="_geometries_8hpp_source.html">Geometries.hpp</a></li>
+<li>D:/Proj/TH-10/Engine/Native/include/LuminoCore/Math/<a class="el" href="_geometries_8hpp_source.html">Geometries.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -170,7 +190,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="str
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceln.html">ln</a></li><li class="navelem"><a class="el" href="structln_1_1_box.html">Box</a></li>
-    <li class="footer">Generated on Sun Oct 21 2018 19:46:47 for Lumino by
+    <li class="footer">Generated on Fri Jan 18 2019 22:57:19 for Lumino by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

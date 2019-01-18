@@ -7,6 +7,7 @@ var structln_1_1_plane =
     [ "checkInside", "structln_1_1_plane.html#aac5cd305808062f0b591b8aa09c8e6d6", null ],
     [ "checkInside", "structln_1_1_plane.html#aeba4c3e8ed9ad114e5c382259bb3df85", null ],
     [ "checkInsideLower", "structln_1_1_plane.html#ac96359fa3b2b0b95e60765ad6e49b049", null ],
+    [ "getDistanceToPoint", "structln_1_1_plane.html#afa33c092d45c149cc980c535db5618ad", null ],
     [ "intersects", "structln_1_1_plane.html#abdfcec40ee525fa3dab1788a387c1179", null ],
     [ "intersects", "structln_1_1_plane.html#ae8e30c9b7a6923a3fac31705be01b1b6", null ],
     [ "normalize", "structln_1_1_plane.html#a323c1fefbdad1943727852ce15793a3a", null ],

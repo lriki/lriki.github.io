@@ -46,7 +46,7 @@ var classln_1_1_string =
     [ "toUInt8", "classln_1_1_string.html#acb9cc6d1f7ed3875576335b5377f979f", null ],
     [ "toUpper", "classln_1_1_string.html#a056f631fbbb35126e9247ba5a016926b", null ],
     [ "trim", "classln_1_1_string.html#af1eb25164b46e6c106f4c9a2894cc7b2", null ],
-    [ "tryToInt", "classln_1_1_string.html#a3f8e2d7e15439a6010c71b9150f8dd26", null ],
+    [ "tryToInt", "classln_1_1_string.html#a6c0771a172f53c651049ce77ae7582f7", null ],
     [ "tryToInt16", "classln_1_1_string.html#a3fbe7a3753d06816f4f3c443ea39ef51", null ],
     [ "tryToInt32", "classln_1_1_string.html#ac716c79905fb4145068e0945c7eb18f5", null ],
     [ "tryToInt64", "classln_1_1_string.html#a4531baa67f2f2fcb77010b5bf570a566", null ],

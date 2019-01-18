@@ -20,7 +20,7 @@ var searchData=
   ['deeppink',['DeepPink',['../structln_1_1_color32.html#a79a3540052fb4db62bfa20c60763d948',1,'ln::Color32::DeepPink()'],['../structln_1_1_color.html#a7c9b1100f2bc43a3f7f820b9cc3e486e',1,'ln::Color::DeepPink()']]],
   ['deepskyblue',['DeepSkyBlue',['../structln_1_1_color32.html#a5b60997a9bfaf427a98621e765711eb3',1,'ln::Color32::DeepSkyBlue()'],['../structln_1_1_color.html#a7b249944c7db8b8996c32d881e1118dd',1,'ln::Color::DeepSkyBlue()']]],
   ['depth',['depth',['../structln_1_1_box.html#aaa1f8e966c9447f29329810f000dddab',1,'ln::Box']]],
-  ['depthtestenabled',['depthTestEnabled',['../structln_1_1_depth_stencil_state_desc.html#a0e5f771a893653877bba2198cc67432e',1,'ln::DepthStencilStateDesc']]],
+  ['depthtestfunc',['depthTestFunc',['../structln_1_1_depth_stencil_state_desc.html#a1b4e8a6886a959fa1fbcf907b9492f57',1,'ln::DepthStencilStateDesc']]],
   ['depthwriteenabled',['depthWriteEnabled',['../structln_1_1_depth_stencil_state_desc.html#aed2f65fe5977bd8c116897189c0d4b2e',1,'ln::DepthStencilStateDesc']]],
   ['destinationblend',['destinationBlend',['../structln_1_1_render_target_blend_desc.html#aeb8181262d8e9991955cb7914801ceb6',1,'ln::RenderTargetBlendDesc']]],
   ['destinationblendalpha',['destinationBlendAlpha',['../structln_1_1_render_target_blend_desc.html#a7b4d40fbd93b757a915fa481143db0d6',1,'ln::RenderTargetBlendDesc']]],

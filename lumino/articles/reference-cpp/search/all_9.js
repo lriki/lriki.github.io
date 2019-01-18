@@ -14,5 +14,6 @@ var searchData=
   ['jsonreader',['JsonReader',['../classln_1_1_json_reader.html',1,'ln']]],
   ['jsonserializer',['JsonSerializer',['../classln_1_1_json_serializer.html',1,'ln']]],
   ['jsonvalue',['JsonValue',['../classln_1_1_json_value.html',1,'ln']]],
-  ['jsonwriter',['JsonWriter',['../classln_1_1_json_writer.html',1,'ln']]]
+  ['jsonwriter',['JsonWriter',['../classln_1_1_json_writer.html',1,'ln']]],
+  ['justify',['Justify',['../namespaceln.html#ab0d3b3fc5966ac118ed077983645a440a4b425d212a2e7b36c38703bfdcd57823',1,'ln']]]
 ];

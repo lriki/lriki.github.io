@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['name',['name',['../classln_1_1_text_encoding.html#a8c771b3c6bd89879c2812a4ae97e3fd7',1,'ln::TextEncoding']]],
+  ['name',['name',['../classln_1_1_text_encoding.html#a8c771b3c6bd89879c2812a4ae97e3fd7',1,'ln::TextEncoding::name()'],['../classln_1_1_shader_parameter.html#adbcd38f13521d4be089ca720937698f5',1,'ln::ShaderParameter::name()'],['../classln_1_1_shader_constant_buffer.html#a0ced25ae40d2cf4c2a26f90f5a24a576',1,'ln::ShaderConstantBuffer::name()'],['../classln_1_1_shader_technique.html#a3903e0e8699b2df979d53210827f2bea',1,'ln::ShaderTechnique::name()'],['../classln_1_1_shader_pass.html#a1bc38d6ffc333913024b32e8709543c1',1,'ln::ShaderPass::name()']]],
   ['native',['native',['../classln_1_1_path.html#a3fb29b32285d429fb8b2106eec8d7fb6',1,'ln::Path']]],
   ['nearequal',['nearEqual',['../classln_1_1_math.html#a89a425c7dae2ac508d055c13a5c8c3cf',1,'ln::Math']]],
   ['newline',['newLine',['../classln_1_1_string.html#a871fccca8f07f4c7f4301cb151acded6',1,'ln::String::newLine()'],['../classln_1_1_text_writer.html#a0e860e31fcf6573f14fb7dae87800574',1,'ln::TextWriter::newLine()']]],

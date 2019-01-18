@@ -254,9 +254,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:ad589e2d80a908e8341df3e76cc89bf32"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_string.html#ad589e2d80a908e8341df3e76cc89bf32">toUInt64</a> (int base=0) const </td></tr>
 <tr class="memdesc:ad589e2d80a908e8341df3e76cc89bf32"><td class="mdescLeft">&#160;</td><td class="mdescRight">この文字列を整数値に変換します。  <a href="#ad589e2d80a908e8341df3e76cc89bf32">More...</a><br /></td></tr>
 <tr class="separator:ad589e2d80a908e8341df3e76cc89bf32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f8e2d7e15439a6010c71b9150f8dd26"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_string.html#a3f8e2d7e15439a6010c71b9150f8dd26">tryToInt</a> (int8_t *outValue, int base=0) const </td></tr>
-<tr class="memdesc:a3f8e2d7e15439a6010c71b9150f8dd26"><td class="mdescLeft">&#160;</td><td class="mdescRight">この文字列を整数値に変換し、成否を返します。  <a href="#a3f8e2d7e15439a6010c71b9150f8dd26">More...</a><br /></td></tr>
-<tr class="separator:a3f8e2d7e15439a6010c71b9150f8dd26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c0771a172f53c651049ce77ae7582f7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_string.html#a6c0771a172f53c651049ce77ae7582f7">tryToInt</a> (int *outValue, int base=0) const </td></tr>
+<tr class="memdesc:a6c0771a172f53c651049ce77ae7582f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">この文字列を整数値に変換し、成否を返します。  <a href="#a6c0771a172f53c651049ce77ae7582f7">More...</a><br /></td></tr>
+<tr class="separator:a6c0771a172f53c651049ce77ae7582f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fbe7a3753d06816f4f3c443ea39ef51"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_string.html#a3fbe7a3753d06816f4f3c443ea39ef51">tryToInt16</a> (int16_t *outValue, int base=0) const </td></tr>
 <tr class="memdesc:a3fbe7a3753d06816f4f3c443ea39ef51"><td class="mdescLeft">&#160;</td><td class="mdescRight">この文字列を整数値に変換し、成否を返します。  <a href="#a3fbe7a3753d06816f4f3c443ea39ef51">More...</a><br /></td></tr>
 <tr class="separator:a3fbe7a3753d06816f4f3c443ea39ef51"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1712,14 +1712,14 @@ template&lt;typename... TArgs&gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a3f8e2d7e15439a6010c71b9150f8dd26"></a>
+<a class="anchor" id="a6c0771a172f53c651049ce77ae7582f7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool ln::String::tryToInt </td>
           <td>(</td>
-          <td class="paramtype">int8_t *&#160;</td>
+          <td class="paramtype">int *&#160;</td>
           <td class="paramname"><em>outValue</em>, </td>
         </tr>
         <tr>
@@ -2009,8 +2009,8 @@ template&lt;typename... TArgs&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/Proj/GitHub/Lumino/include/LuminoCore/Base/<a class="el" href="_string_8hpp_source.html">String.hpp</a></li>
-<li>D:/Proj/GitHub/Lumino/include/LuminoCore/Base/StringFormat.inl</li>
+<li>D:/Proj/TH-10/Engine/Native/include/LuminoCore/Base/<a class="el" href="_string_8hpp_source.html">String.hpp</a></li>
+<li>D:/Proj/TH-10/Engine/Native/include/LuminoCore/Base/StringFormat.inl</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -2018,7 +2018,7 @@ template&lt;typename... TArgs&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceln.html">ln</a></li><li class="navelem"><a class="el" href="classln_1_1_string.html">String</a></li>
-    <li class="footer">Generated on Sun Oct 21 2018 19:46:47 for Lumino by
+    <li class="footer">Generated on Fri Jan 18 2019 22:57:21 for Lumino by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

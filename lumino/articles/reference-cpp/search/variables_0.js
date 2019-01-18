@@ -1,6 +1,7 @@
 var searchData=
 [
   ['a',['a',['../structln_1_1_color32.html#a94671daada9eaa6e6cb3f238e2d404b3',1,'ln::Color32::a()'],['../structln_1_1_color.html#ab474791b9d106b5fd07159f59cef9410',1,'ln::Color::a()'],['../classln_1_1_h_s_v_color.html#ad157afd6d291f4b12bdb1ad57afb3c53',1,'ln::HSVColor::a()']]],
+  ['aliceblue',['AliceBlue',['../structln_1_1_color.html#aab8b4065fabc6d75f8ec8f8a2d4a3194',1,'ln::Color']]],
   ['antiquewhite',['AntiqueWhite',['../structln_1_1_color32.html#aa9d6e8382782b327789d4e75f9a77d89',1,'ln::Color32::AntiqueWhite()'],['../structln_1_1_color.html#a471cde4d32376348f10a26130969c25f',1,'ln::Color::AntiqueWhite()']]],
   ['any',['Any',['../classln_1_1_input_buttons.html#aa2449f4447d8de552e4605db4bbfa2b6',1,'ln::InputButtons']]],
   ['aqua',['Aqua',['../structln_1_1_color32.html#aa69835c25c9b940e237f583787055315',1,'ln::Color32::Aqua()'],['../structln_1_1_color.html#ae7aac5bda6622706cb069510fe83d294',1,'ln::Color::Aqua()']]],

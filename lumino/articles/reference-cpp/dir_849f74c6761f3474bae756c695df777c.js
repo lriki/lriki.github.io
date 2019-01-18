@@ -10,6 +10,7 @@ var dir_849f74c6761f3474bae756c695df777c =
     [ "IndexBuffer.hpp", "_index_buffer_8hpp_source.html", null ],
     [ "RenderState.hpp", "_render_state_8hpp_source.html", null ],
     [ "SamplerState.hpp", "_sampler_state_8hpp_source.html", null ],
+    [ "SwapChain.hpp", "_swap_chain_8hpp_source.html", null ],
     [ "Texture.hpp", "_texture_8hpp_source.html", null ],
     [ "VertexBuffer.hpp", "_vertex_buffer_8hpp_source.html", null ],
     [ "VertexDeclaration.hpp", "_vertex_declaration_8hpp_source.html", null ]

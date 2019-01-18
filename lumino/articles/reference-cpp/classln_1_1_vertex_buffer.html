@@ -109,6 +109,7 @@ $(document).ready(function(){initNavTree('classln_1_1_vertex_buffer.html','');})
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classln_1_1_vertex_buffer-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -152,10 +153,23 @@ void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_vertex_buffer.html#a54e8978d43f5b2b0f1e16d0fc6d870be">clear</a> ()</td></tr>
 <tr class="memdesc:a54e8978d43f5b2b0f1e16d0fc6d870be"><td class="mdescLeft">&#160;</td><td class="mdescRight">頂点バッファをクリアします。 <br /></td></tr>
 <tr class="separator:a54e8978d43f5b2b0f1e16d0fc6d870be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2f6371bae2e136037b6febbaeecd74c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2f6371bae2e136037b6febbaeecd74c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_vertex_buffer.html#ab2f6371bae2e136037b6febbaeecd74c">setResourceUsage</a> (<a class="el" href="namespaceln.html#a845d9db70318b4cc9e2b024c2bcf2e8f">GraphicsResourceUsage</a> usage)</td></tr>
+<tr class="memdesc:ab2f6371bae2e136037b6febbaeecd74c"><td class="mdescLeft">&#160;</td><td class="mdescRight">リソースの使用方法を変更します。(default: Static) <br /></td></tr>
+<tr class="separator:ab2f6371bae2e136037b6febbaeecd74c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad38cef4cb4fb380be9cfcd590aeca867"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad38cef4cb4fb380be9cfcd590aeca867"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_vertex_buffer.html#ad38cef4cb4fb380be9cfcd590aeca867">setResourcePool</a> (<a class="el" href="namespaceln.html#a70799a8dbb291f2dcc373e9a4f3ead49">GraphicsResourcePool</a> pool)</td></tr>
 <tr class="memdesc:ad38cef4cb4fb380be9cfcd590aeca867"><td class="mdescLeft">&#160;</td><td class="mdescRight">リソースの管理方法を変更します。(default: Managed) <br /></td></tr>
 <tr class="separator:ad38cef4cb4fb380be9cfcd590aeca867"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:af088686c9618c188f9c4500ce5ad23f4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classln_1_1_ref.html">Ref</a>&lt; <a class="el" href="classln_1_1_vertex_buffer.html">VertexBuffer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_vertex_buffer.html#af088686c9618c188f9c4500ce5ad23f4">create</a> (size_t bufferSize, <a class="el" href="namespaceln.html#a845d9db70318b4cc9e2b024c2bcf2e8f">GraphicsResourceUsage</a> usage)</td></tr>
+<tr class="memdesc:af088686c9618c188f9c4500ce5ad23f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">頂点バッファを作成します。  <a href="#af088686c9618c188f9c4500ce5ad23f4">More...</a><br /></td></tr>
+<tr class="separator:af088686c9618c188f9c4500ce5ad23f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa975ce91a70ca46a1ae542837ed0bb4d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classln_1_1_ref.html">Ref</a>&lt; <a class="el" href="classln_1_1_vertex_buffer.html">VertexBuffer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_vertex_buffer.html#aa975ce91a70ca46a1ae542837ed0bb4d">create</a> (size_t bufferSize, const void *initialData, <a class="el" href="namespaceln.html#a845d9db70318b4cc9e2b024c2bcf2e8f">GraphicsResourceUsage</a> usage)</td></tr>
+<tr class="memdesc:aa975ce91a70ca46a1ae542837ed0bb4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">頂点バッファを作成します。  <a href="#aa975ce91a70ca46a1ae542837ed0bb4d">More...</a><br /></td></tr>
+<tr class="separator:aa975ce91a70ca46a1ae542837ed0bb4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -169,6 +183,99 @@ Protected Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>頂点バッファのクラスです。 </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="af088686c9618c188f9c4500ce5ad23f4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classln_1_1_ref.html">Ref</a>&lt;<a class="el" href="classln_1_1_vertex_buffer.html">VertexBuffer</a>&gt; ln::VertexBuffer::create </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>bufferSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceln.html#a845d9db70318b4cc9e2b024c2bcf2e8f">GraphicsResourceUsage</a>&#160;</td>
+          <td class="paramname"><em>usage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>頂点バッファを作成します。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bufferSize</td><td>: 頂点バッファのサイズ (バイト単位) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usage</td><td>: リソースの使用方法 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa975ce91a70ca46a1ae542837ed0bb4d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classln_1_1_ref.html">Ref</a>&lt;<a class="el" href="classln_1_1_vertex_buffer.html">VertexBuffer</a>&gt; ln::VertexBuffer::create </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>bufferSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>initialData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceln.html#a845d9db70318b4cc9e2b024c2bcf2e8f">GraphicsResourceUsage</a>&#160;</td>
+          <td class="paramname"><em>usage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>頂点バッファを作成します。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">bufferSize</td><td>: 頂点バッファのサイズ (バイト単位) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">initialData</td><td>: 初期値として書き込む頂点データ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usage</td><td>: リソースの使用方法 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a9076930f7f7245294e5df2d180770e6c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -263,7 +370,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Proj/GitHub/Lumino/include/LuminoEngine/Graphics/<a class="el" href="_vertex_buffer_8hpp_source.html">VertexBuffer.hpp</a></li>
+<li>D:/Proj/TH-10/Engine/Native/include/LuminoEngine/Graphics/<a class="el" href="_vertex_buffer_8hpp_source.html">VertexBuffer.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -271,7 +378,7 @@ Protected Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceln.html">ln</a></li><li class="navelem"><a class="el" href="classln_1_1_vertex_buffer.html">VertexBuffer</a></li>
-    <li class="footer">Generated on Sun Oct 21 2018 19:46:47 for Lumino by
+    <li class="footer">Generated on Fri Jan 18 2019 22:57:21 for Lumino by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

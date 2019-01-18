@@ -7,6 +7,7 @@ var classln_1_1_byte_buffer =
     [ "ByteBuffer", "classln_1_1_byte_buffer.html#a7feea9a82a7558c63eb627bfb78e1159", null ],
     [ "~ByteBuffer", "classln_1_1_byte_buffer.html#a3088566d992535377450a5ecdcd2b8bc", null ],
     [ "assign", "classln_1_1_byte_buffer.html#af87b7fc25ae1358a8526ac3643f7bb14", null ],
+    [ "clear", "classln_1_1_byte_buffer.html#a9b59e54d5891d85eaa4de5f4ca4bcdf2", null ],
     [ "data", "classln_1_1_byte_buffer.html#a0f0a90aefceb71b5b9e06b05aaa27b82", null ],
     [ "data", "classln_1_1_byte_buffer.html#aa716efed53bb450148e4cdce85a983a6", null ],
     [ "fill", "classln_1_1_byte_buffer.html#adc8e286d2dcb6849809d89f990058e03", null ],

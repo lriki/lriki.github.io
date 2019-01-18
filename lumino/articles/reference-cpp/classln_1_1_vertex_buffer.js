@@ -7,5 +7,6 @@ var classln_1_1_vertex_buffer =
     [ "reserve", "classln_1_1_vertex_buffer.html#abd2d187316c8ac46924c8c57b47c985d", null ],
     [ "resize", "classln_1_1_vertex_buffer.html#ac9deb8ff42d4b954b6ea036c06e36d93", null ],
     [ "setResourcePool", "classln_1_1_vertex_buffer.html#ad38cef4cb4fb380be9cfcd590aeca867", null ],
+    [ "setResourceUsage", "classln_1_1_vertex_buffer.html#ab2f6371bae2e136037b6febbaeecd74c", null ],
     [ "size", "classln_1_1_vertex_buffer.html#aa6a2840c353e855918b5ca244c6bd1d8", null ]
 ];

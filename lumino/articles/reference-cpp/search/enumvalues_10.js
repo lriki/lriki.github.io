@@ -1,23 +1,4 @@
 var searchData=
 [
-  ['r16float',['R16Float',['../namespaceln.html#a780f5d3135751b0a27c34ab1b826b58da802f68a428b98949a742d8e333d836dd',1,'ln']]],
-  ['r16g16b16a16float',['R16G16B16A16Float',['../namespaceln.html#a780f5d3135751b0a27c34ab1b826b58dab6e7884e766c643e7c6599fd0ada1c31',1,'ln']]],
-  ['r32float',['R32Float',['../namespaceln.html#a780f5d3135751b0a27c34ab1b826b58dae8bf59c37f9f97cb4d0edf054a935ac0',1,'ln']]],
-  ['r32g32b32a32float',['R32G32B32A32Float',['../namespaceln.html#a780f5d3135751b0a27c34ab1b826b58da599e586e76ffc368d9b09a42c20b7fbd',1,'ln']]],
-  ['r32uint',['R32UInt',['../namespaceln.html#a780f5d3135751b0a27c34ab1b826b58dad96810bfbd751ee01508598b60290f6f',1,'ln']]],
-  ['rbracket',['RBracket',['../namespaceln.html#a1abfe1a53770d23e706d817dc8bd27bfac27efa0472cd29bf688de150ce920752',1,'ln']]],
-  ['read',['Read',['../namespaceln.html#a8049ff72bfe027867c62de44ea1ff404a7a1a5f3e79fdc91edf2f5ead9d66abb4',1,'ln::Read()'],['../namespaceln.html#ab94c5e235aef9483b5573dec85a1b5c7a7a1a5f3e79fdc91edf2f5ead9d66abb4',1,'ln::Read()']]],
-  ['readonly',['ReadOnly',['../namespaceln.html#a2a55e01b9a4fe6f615d4f02f46186208a131fb182a881796e7606ed6da27f1197',1,'ln']]],
-  ['readwrite',['ReadWrite',['../namespaceln.html#a8049ff72bfe027867c62de44ea1ff404a70a2a84088d405a2e3f1e3accaa16723',1,'ln']]],
-  ['recursive',['Recursive',['../namespaceln.html#a7c6e3da9ffc1dce2bb1bb1c8a220c142a556c3dd912453ae5cb3095cd5054e6f4',1,'ln']]],
-  ['removeemptyentries',['RemoveEmptyEntries',['../namespaceln.html#a7dd8e9e46a0151bab2482448d4e8cdfeaf848693a8ba86ca7d0888ce5a78d3966',1,'ln']]],
-  ['repeat',['Repeat',['../namespaceln.html#a5dcac3484d334bf1da8af69df4731a25a7020426cfb0a204051be4b3053d2acc8',1,'ln']]],
-  ['replace',['Replace',['../namespaceln.html#a3fbdaf6285666ac4a26890da41c8e1bca0ebe6df8a3ac338e0512acc741823fdb',1,'ln']]],
-  ['reversesubtract',['ReverseSubtract',['../namespaceln.html#a2e49d221798d5dea32f622e92c7f6387abd5458190996e76988cb2f27a820c685',1,'ln']]],
-  ['rgba32',['RGBA32',['../namespaceln.html#a780f5d3135751b0a27c34ab1b826b58dad9e8e4a9228ed56eceb29f0a1223b02b',1,'ln']]],
-  ['rgbx32',['RGBX32',['../namespaceln.html#a780f5d3135751b0a27c34ab1b826b58da9179ff335820ec30c021d3e1e8a5a2be',1,'ln']]],
-  ['right',['Right',['../namespaceln.html#a7c380bc21d5769cf06a0f16a2d45fbb4a92b09c7c48c520c3c55e497875da437c',1,'ln']]],
-  ['rightclick',['RightClick',['../namespaceln.html#a2567ce7073bb6330f8f8daf853f7928fa19c3f4a7f5cb77231a4000ca7c0e20f3',1,'ln']]],
-  ['rightdoubleclick',['RightDoubleClick',['../namespaceln.html#a2567ce7073bb6330f8f8daf853f7928fafe0b7b168fd139a61fdcaa7b248c5249',1,'ln']]],
-  ['running',['Running',['../namespaceln.html#af336145a12c4819cd1e76a2b8be2a253a5bda814c4aedb126839228f1a3d92f09',1,'ln']]]
+  ['quit',['Quit',['../namespaceln.html#ab9eb0500271d3d2f510adcedd1c3837aa0d82790b0612935992bd564a17ce37d6',1,'ln']]]
 ];

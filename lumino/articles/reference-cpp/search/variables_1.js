@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['b',['b',['../structln_1_1_color32.html#a60b5d41df793f26703bd290bf61e35c9',1,'ln::Color32::b()'],['../structln_1_1_color.html#a3bcabb886e2291eda51e589ca1cf1fa1',1,'ln::Color::b()'],['../classln_1_1_tone_f.html#a7ca7be0a4695e28df2bb4bbf6168f1ac',1,'ln::ToneF::b()']]],
+  ['b',['b',['../structln_1_1_color32.html#a60b5d41df793f26703bd290bf61e35c9',1,'ln::Color32::b()'],['../structln_1_1_color.html#a3bcabb886e2291eda51e589ca1cf1fa1',1,'ln::Color::b()'],['../structln_1_1_tone_f.html#a7ca7be0a4695e28df2bb4bbf6168f1ac',1,'ln::ToneF::b()']]],
   ['backface',['backFace',['../structln_1_1_depth_stencil_state_desc.html#a029950f6dabf75eb8f2dce3f53b96ac5',1,'ln::DepthStencilStateDesc']]],
   ['beige',['Beige',['../structln_1_1_color32.html#aa52f61c53241c96dd72844505fd8d474',1,'ln::Color32::Beige()'],['../structln_1_1_color.html#a3840dfd5aa26c2c8d7dadfd6e4d9311f',1,'ln::Color::Beige()']]],
   ['bisque',['Bisque',['../structln_1_1_color32.html#a05d9cba82e1b598bcdededcbf9c9b211',1,'ln::Color32::Bisque()'],['../structln_1_1_color.html#aec5a604a1792860bdedbe65eb47fc786',1,'ln::Color::Bisque()']]],
