@@ -87,7 +87,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
-      <li><a href="functions.html#index_a"><span>a</span></a></li>
+      <li><a href="functions.html#index__"><span>_</span></a></li>
+      <li><a href="functions_a.html#index_a"><span>a</span></a></li>
       <li class="current"><a href="functions_b.html#index_b"><span>b</span></a></li>
       <li><a href="functions_c.html#index_c"><span>c</span></a></li>
       <li><a href="functions_d.html#index_d"><span>d</span></a></li>
@@ -150,13 +151,16 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 
 <h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
 <li>b
-: <a class="el" href="structln_1_1_color32.html#a60b5d41df793f26703bd290bf61e35c9">ln::Color32</a>
-, <a class="el" href="structln_1_1_color.html#a3bcabb886e2291eda51e589ca1cf1fa1">ln::Color</a>
-, <a class="el" href="structln_1_1_tone_f.html#a7ca7be0a4695e28df2bb4bbf6168f1ac">ln::ToneF</a>
+: <a class="el" href="structln_1_1_color.html#a3bcabb886e2291eda51e589ca1cf1fa1">ln::Color</a>
+, <a class="el" href="structln_1_1_color_i.html#a644150cb1273fb7b859636fd8f3df260">ln::ColorI</a>
+, <a class="el" href="structln_1_1_color_tone.html#a5fc345ad777916821874213518a18f1d">ln::ColorTone</a>
 </li>
 <li>back()
 : <a class="el" href="classln_1_1_list.html#aa7b68b4dd4c25f972c9ae1462c984ae7">ln::List&lt; T &gt;</a>
 , <a class="el" href="classln_1_1_read_only_list.html#a712e524edbcb5dab5453b7e345940bf9">ln::ReadOnlyList&lt; TItem &gt;</a>
+</li>
+<li>backbuffer()
+: <a class="el" href="classln_1_1_swap_chain.html#ae4d2b8957a2876161d8beb939b35ef86">ln::SwapChain</a>
 </li>
 <li>backFace
 : <a class="el" href="structln_1_1_depth_stencil_state_desc.html#a029950f6dabf75eb8f2dce3f53b96ac5">ln::DepthStencilStateDesc</a>
@@ -167,8 +171,7 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 , <a class="el" href="class_ref_3_01_l_n___s_p_e_c_i_a_l_i_z_e_d___t_y_p_e_01_4.html#ae308a06f1abddc01616b0913881fd515">Ref&lt; LN_SPECIALIZED_TYPE &gt;</a>
 </li>
 <li>Beige
-: <a class="el" href="structln_1_1_color32.html#aa52f61c53241c96dd72844505fd8d474">ln::Color32</a>
-, <a class="el" href="structln_1_1_color.html#a3840dfd5aa26c2c8d7dadfd6e4d9311f">ln::Color</a>
+: <a class="el" href="structln_1_1_color.html#a3840dfd5aa26c2c8d7dadfd6e4d9311f">ln::Color</a>
 </li>
 <li>BinaryReader()
 : <a class="el" href="classln_1_1_binary_reader.html#a4d781f78343abc81373a3f8a30c33849">ln::BinaryReader</a>
@@ -177,16 +180,13 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 : <a class="el" href="classln_1_1_binary_writer.html#aec51f4576c351f594270aaf81f3755db">ln::BinaryWriter</a>
 </li>
 <li>Bisque
-: <a class="el" href="structln_1_1_color32.html#a05d9cba82e1b598bcdededcbf9c9b211">ln::Color32</a>
-, <a class="el" href="structln_1_1_color.html#aec5a604a1792860bdedbe65eb47fc786">ln::Color</a>
+: <a class="el" href="structln_1_1_color.html#aec5a604a1792860bdedbe65eb47fc786">ln::Color</a>
 </li>
 <li>Black
-: <a class="el" href="structln_1_1_color32.html#a95c7a9def3dc321eb878da72c7a167af">ln::Color32</a>
-, <a class="el" href="structln_1_1_color.html#afc556a15b13da3bcb605abac68251f73">ln::Color</a>
+: <a class="el" href="structln_1_1_color.html#afc556a15b13da3bcb605abac68251f73">ln::Color</a>
 </li>
 <li>BlanchedAlmond
-: <a class="el" href="structln_1_1_color32.html#aa4a6f4898e56ee152d14cfeef69a180b">ln::Color32</a>
-, <a class="el" href="structln_1_1_color.html#ae6cfddbf7b4a2629be166142c7a1d42c">ln::Color</a>
+: <a class="el" href="structln_1_1_color.html#ae6cfddbf7b4a2629be166142c7a1d42c">ln::Color</a>
 </li>
 <li>blendColor()
 : <a class="el" href="classln_1_1_visual_object.html#a1c7a8a3d530785e7abccbfae658868bf">ln::VisualObject</a>
@@ -203,13 +203,14 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 <li>blendOpAlpha
 : <a class="el" href="structln_1_1_render_target_blend_desc.html#ad36d5aedd0ad9e840e267ebc1f9ae425">ln::RenderTargetBlendDesc</a>
 </li>
+<li>blit()
+: <a class="el" href="classln_1_1_texture2_d.html#aa8810f96ad0e6ddf7e13e6383d107d3d">ln::Texture2D</a>
+</li>
 <li>Blue
-: <a class="el" href="structln_1_1_color32.html#aa1cc29b6126d19c43c2d738cc87edf95">ln::Color32</a>
-, <a class="el" href="structln_1_1_color.html#a8a45d0f9c5d0ab8231856a2418a5f399">ln::Color</a>
+: <a class="el" href="structln_1_1_color.html#a8a45d0f9c5d0ab8231856a2418a5f399">ln::Color</a>
 </li>
 <li>BlueViolet
-: <a class="el" href="structln_1_1_color32.html#a118c4296e22d2abf7b14e118f048e505">ln::Color32</a>
-, <a class="el" href="structln_1_1_color.html#aac2f2dde38c670c57aae45caa6bbb541">ln::Color</a>
+: <a class="el" href="structln_1_1_color.html#aac2f2dde38c670c57aae45caa6bbb541">ln::Color</a>
 </li>
 <li>boolValue()
 : <a class="el" href="classln_1_1_json_reader.html#ad106ce79e2da02a52c60b2d6853324b3">ln::JsonReader</a>
@@ -227,12 +228,10 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 : <a class="el" href="structln_1_1_box.html#a57a66606ea36efd7ff6d30e132ae2bb5">ln::Box</a>
 </li>
 <li>Brown
-: <a class="el" href="structln_1_1_color32.html#a93fc691a297c842ea8a070c19a47e423">ln::Color32</a>
-, <a class="el" href="structln_1_1_color.html#a457f9cd38aa83eda2a34a753ba3c87fe">ln::Color</a>
+: <a class="el" href="structln_1_1_color.html#a457f9cd38aa83eda2a34a753ba3c87fe">ln::Color</a>
 </li>
 <li>BurlyWood
-: <a class="el" href="structln_1_1_color32.html#a062eace6aa25cba915699084b63302f5">ln::Color32</a>
-, <a class="el" href="structln_1_1_color.html#a7b0ce446946e9acdaf7cb8d2fb5c464a">ln::Color</a>
+: <a class="el" href="structln_1_1_color.html#a7b0ce446946e9acdaf7cb8d2fb5c464a">ln::Color</a>
 </li>
 <li>ByteBuffer()
 : <a class="el" href="classln_1_1_byte_buffer.html#a32a5e0563c8a1c4ede10011ce7e9deca">ln::ByteBuffer</a>
@@ -249,7 +248,7 @@ $(document).ready(function(){initNavTree('functions_b.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Jan 18 2019 22:57:21 for Lumino by
+    <li class="footer">Generated on Tue Apr 30 2019 13:22:22 for Lumino by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

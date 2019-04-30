@@ -108,6 +108,8 @@ $(document).ready(function(){initNavTree('classln_1_1_animation_clip.html','');}
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classln_1_1_animation_clip-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ln::AnimationClip Class Reference</div>  </div>
@@ -118,13 +120,39 @@ $(document).ready(function(){initNavTree('classln_1_1_animation_clip.html','');}
  <a href="classln_1_1_animation_clip.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_animation_clip_8hpp_source.html">AnimationClip.hpp</a>&gt;</code></p>
-
-<p>Inherits ln::Object.</p>
+<div class="dynheader">
+Inheritance diagram for ln::AnimationClip:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="classln_1_1_animation_clip.png" usemap="#ln::AnimationClip_map" alt=""/>
+  <map id="ln::AnimationClip_map" name="ln::AnimationClip_map">
+<area href="classln_1_1_vmd_animation_clip.html" title="Vocaloid Motion Data (.vmd) ファイル " alt="ln::VmdAnimationClip" shape="rect" coords="0,56,130,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:af396a72f95685dcef45a3154b6c0065f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af396a72f95685dcef45a3154b6c0065f"></a>
+<a class="el" href="namespaceln.html#a8a73daf96edf406ad0576ea9615994b7">AnimationWrapMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_animation_clip.html#af396a72f95685dcef45a3154b6c0065f">wrapMode</a> () const </td></tr>
+<tr class="memdesc:af396a72f95685dcef45a3154b6c0065f"><td class="mdescLeft">&#160;</td><td class="mdescRight">アニメーションの繰り返しの動作を取得します。 <br /></td></tr>
+<tr class="separator:af396a72f95685dcef45a3154b6c0065f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a988b5abec22d82817df2ed4be8786d76"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a988b5abec22d82817df2ed4be8786d76"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_animation_clip.html#a988b5abec22d82817df2ed4be8786d76">setWrapMode</a> (<a class="el" href="namespaceln.html#a8a73daf96edf406ad0576ea9615994b7">AnimationWrapMode</a> mode)</td></tr>
+<tr class="memdesc:a988b5abec22d82817df2ed4be8786d76"><td class="mdescLeft">&#160;</td><td class="mdescRight">アニメーションの繰り返しの動作を取得します。(default: Loop) <br /></td></tr>
+<tr class="separator:a988b5abec22d82817df2ed4be8786d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a4647e6ed2cee7b8af922bbf6d1922e13"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4647e6ed2cee7b8af922bbf6d1922e13"></a>
+static <a class="el" href="classln_1_1_ref.html">Ref</a>&lt; <a class="el" href="classln_1_1_animation_clip.html">AnimationClip</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_animation_clip.html#a4647e6ed2cee7b8af922bbf6d1922e13">create</a> (const <a class="el" href="classln_1_1_string_ref.html">StringRef</a> &amp;targetPath, const std::initializer_list&lt; <a class="el" href="structln_1_1_animation_key_frame.html">AnimationKeyFrame</a> &gt; &amp;keyframes)</td></tr>
+<tr class="memdesc:a4647e6ed2cee7b8af922bbf6d1922e13"><td class="mdescLeft">&#160;</td><td class="mdescRight">ひとつの <a class="el" href="classln_1_1_animation_track.html" title="特定の型のアニメーションを、1つ以上のカーブの集合として表現します。 ">AnimationTrack</a> を持つ <a class="el" href="classln_1_1_animation_clip.html" title="オブジェクトやそのプロパティに影響を与えるアニメーションデータです。 ">AnimationClip</a> を作成します。 <br /></td></tr>
+<tr class="separator:a4647e6ed2cee7b8af922bbf6d1922e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>オブジェクトやそのプロパティに影響を与えるアニメーションデータです。 </p>
 <p>スキンメッシュアニメーションでは、「歩く」「走る」といった 1 モーションの単位です。 </p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Proj/TH-10/Engine/Native/include/LuminoEngine/Animation/<a class="el" href="_animation_clip_8hpp_source.html">AnimationClip.hpp</a></li>
+<li>D:/Proj/LN/Lumino/include/LuminoEngine/Animation/<a class="el" href="_animation_clip_8hpp_source.html">AnimationClip.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -132,7 +160,7 @@ $(document).ready(function(){initNavTree('classln_1_1_animation_clip.html','');}
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceln.html">ln</a></li><li class="navelem"><a class="el" href="classln_1_1_animation_clip.html">AnimationClip</a></li>
-    <li class="footer">Generated on Fri Jan 18 2019 22:57:19 for Lumino by
+    <li class="footer">Generated on Tue Apr 30 2019 13:22:21 for Lumino by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

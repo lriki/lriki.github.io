@@ -1,15 +1,19 @@
 var searchData=
 [
-  ['cadetblue',['CadetBlue',['../structln_1_1_color32.html#aeaa4c285f4e6dbe92c6ae75a1bf7f493',1,'ln::Color32::CadetBlue()'],['../structln_1_1_color.html#a721f175771978692a6825585e7a36e59',1,'ln::Color::CadetBlue()']]],
-  ['cancel',['Cancel',['../classln_1_1_input_buttons.html#aa4f3082edb529c81fd81fddfd5d142a3',1,'ln::InputButtons']]],
-  ['center',['center',['../structln_1_1_box.html#a4cf1b599e7eb259348972ddbc6cebd7c',1,'ln::Box::center()'],['../structln_1_1_oriented_box.html#a145ae12dcd9ea79b93ff69f96258b83f',1,'ln::OrientedBox::center()']]],
-  ['charsused',['CharsUsed',['../structln_1_1_encoding_conversion_result.html#a9cf7f5d6f9ec3b0c56cf5a332ab21cc4',1,'ln::EncodingConversionResult']]],
-  ['chartreuse',['Chartreuse',['../structln_1_1_color32.html#a0ebfd312546df84e6ddd5c2515e73d38',1,'ln::Color32::Chartreuse()'],['../structln_1_1_color.html#a2b5f6502f3f1a840e0d6ea94f2c856d7',1,'ln::Color::Chartreuse()']]],
-  ['chocolate',['Chocolate',['../structln_1_1_color32.html#a4c22b7d64d248a38ef6ca947aa24e00f',1,'ln::Color32::Chocolate()'],['../structln_1_1_color.html#a8e43ccfaadf4daee7379c45db007da23',1,'ln::Color::Chocolate()']]],
-  ['coral',['Coral',['../structln_1_1_color32.html#a997b286485dd4ce81411dab0f4062cdb',1,'ln::Color32::Coral()'],['../structln_1_1_color.html#ac3187e4b8d984b2fb7ebee7f1e0de382',1,'ln::Color::Coral()']]],
-  ['cornflowerblue',['CornflowerBlue',['../structln_1_1_color32.html#a53322e3c62a79990f778d78b55175efa',1,'ln::Color32::CornflowerBlue()'],['../structln_1_1_color.html#a1977610abde0c72157868aa9ea3fff93',1,'ln::Color::CornflowerBlue()']]],
-  ['cornsilk',['Cornsilk',['../structln_1_1_color32.html#a4c8c7fcfb506b7e3e3c6eca55eb43f98',1,'ln::Color32::Cornsilk()'],['../structln_1_1_color.html#a70aebaaed28c9a7d3ebd4dedff953eab',1,'ln::Color::Cornsilk()']]],
-  ['crimson',['Crimson',['../structln_1_1_color32.html#a4cc619dd767c0737a2ef10bec25766ea',1,'ln::Color32::Crimson()'],['../structln_1_1_color.html#ac5c291ffa6457f5801257b4180fbc3b9',1,'ln::Color::Crimson()']]],
-  ['cullmode',['cullMode',['../structln_1_1_rasterizer_state_desc.html#abb05e16101d94a9c5e0f2940fe45bfde',1,'ln::RasterizerStateDesc']]],
-  ['cyan',['Cyan',['../structln_1_1_color32.html#a11afd21515cfbfda10c619ff2832819b',1,'ln::Color32::Cyan()'],['../structln_1_1_color.html#a60ce4905d163172d99d035f869861483',1,'ln::Color::Cyan()']]]
+  ['b',['b',['../structln_1_1_color.html#a3bcabb886e2291eda51e589ca1cf1fa1',1,'ln::Color::b()'],['../structln_1_1_color_tone.html#a5fc345ad777916821874213518a18f1d',1,'ln::ColorTone::b()'],['../structln_1_1_color_i.html#a644150cb1273fb7b859636fd8f3df260',1,'ln::ColorI::b()']]],
+  ['backface',['backFace',['../structln_1_1_depth_stencil_state_desc.html#a029950f6dabf75eb8f2dce3f53b96ac5',1,'ln::DepthStencilStateDesc']]],
+  ['beige',['Beige',['../structln_1_1_color.html#a3840dfd5aa26c2c8d7dadfd6e4d9311f',1,'ln::Color']]],
+  ['bisque',['Bisque',['../structln_1_1_color.html#aec5a604a1792860bdedbe65eb47fc786',1,'ln::Color']]],
+  ['black',['Black',['../structln_1_1_color.html#afc556a15b13da3bcb605abac68251f73',1,'ln::Color']]],
+  ['blanchedalmond',['BlanchedAlmond',['../structln_1_1_color.html#ae6cfddbf7b4a2629be166142c7a1d42c',1,'ln::Color']]],
+  ['blendenable',['blendEnable',['../structln_1_1_render_target_blend_desc.html#a61fdca01e972fd193958c2a4aa2253ad',1,'ln::RenderTargetBlendDesc']]],
+  ['blendop',['blendOp',['../structln_1_1_render_target_blend_desc.html#a3098587997a5888286df1d1e1a8ce319',1,'ln::RenderTargetBlendDesc']]],
+  ['blendopalpha',['blendOpAlpha',['../structln_1_1_render_target_blend_desc.html#ad36d5aedd0ad9e840e267ebc1f9ae425',1,'ln::RenderTargetBlendDesc']]],
+  ['blue',['Blue',['../structln_1_1_color.html#a8a45d0f9c5d0ab8231856a2418a5f399',1,'ln::Color']]],
+  ['blueviolet',['BlueViolet',['../structln_1_1_color.html#aac2f2dde38c670c57aae45caa6bbb541',1,'ln::Color']]],
+  ['bottom',['bottom',['../structln_1_1_thickness.html#a374b1c2ea4201791484c30be2589f925',1,'ln::Thickness']]],
+  ['bottomleft',['bottomLeft',['../structln_1_1_corner_radius.html#a3ed126f03d7f3f8b102214d12c981160',1,'ln::CornerRadius']]],
+  ['bottomright',['bottomRight',['../structln_1_1_corner_radius.html#a4272f51bb7190a4d3ab6bcd182850203',1,'ln::CornerRadius']]],
+  ['brown',['Brown',['../structln_1_1_color.html#a457f9cd38aa83eda2a34a753ba3c87fe',1,'ln::Color']]],
+  ['burlywood',['BurlyWood',['../structln_1_1_color.html#a7b0ce446946e9acdaf7cb8d2fb5c464a',1,'ln::Color']]]
 ];

@@ -1,13 +1,8 @@
 var searchData=
 [
-  ['searchoption',['SearchOption',['../namespaceln.html#a7c6e3da9ffc1dce2bb1bb1c8a220c142',1,'ln']]],
-  ['seekorigin',['SeekOrigin',['../namespaceln.html#a423df6e64eb165adc83b05bc22ff5ea8',1,'ln']]],
-  ['shaderparameterclass',['ShaderParameterClass',['../namespaceln.html#a7904fdb3c64f7bf58b1f1a9a0442257a',1,'ln']]],
-  ['soundfadebehavior',['SoundFadeBehavior',['../namespaceln.html#aee2e3c4edc48a29b4b2cb65c1314f61d',1,'ln']]],
-  ['soundplayingstate',['SoundPlayingState',['../namespaceln.html#a93bf8e2bbfca892180a0aff5ca78b402',1,'ln']]],
-  ['specialfolder',['SpecialFolder',['../namespaceln.html#a9b974b6b966d450e769c1ef33b29692c',1,'ln']]],
-  ['specialfolderoption',['SpecialFolderOption',['../namespaceln.html#a24305f651912294bd5ed03ed4f7f4af5',1,'ln']]],
-  ['spritebasedirection',['SpriteBaseDirection',['../namespaceln.html#a7651b77de67baeb0d69a91323d98eb5b',1,'ln']]],
-  ['stencilop',['StencilOp',['../namespaceln.html#aec9576b9e980b3430652f4d7e8e24de1',1,'ln']]],
-  ['stringsplitoptions',['StringSplitOptions',['../namespaceln.html#a7dd8e9e46a0151bab2482448d4e8cdfe',1,'ln']]]
+  ['pixelformat',['PixelFormat',['../namespaceln.html#aa85d0e428daace209bf025a128116569',1,'ln']]],
+  ['platformeventtype',['PlatformEventType',['../namespaceln.html#ab9eb0500271d3d2f510adcedd1c3837a',1,'ln']]],
+  ['primitivetopology',['PrimitiveTopology',['../namespaceln.html#af6069dd935c0eebff10113998a319a2c',1,'ln']]],
+  ['processstatus',['ProcessStatus',['../namespaceln.html#af336145a12c4819cd1e76a2b8be2a253',1,'ln']]],
+  ['projectionmode',['ProjectionMode',['../namespaceln.html#a44c9fc48d642b27a09340415959d7b76',1,'ln']]]
 ];

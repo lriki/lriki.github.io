@@ -8,6 +8,8 @@ var classln_1_1_read_only_list =
     [ "end", "classln_1_1_read_only_list.html#a6cbed4a8cd7b3effdf8393c1834dc4d7", null ],
     [ "front", "classln_1_1_read_only_list.html#a30350d307f6b2df82f746337beadbdec", null ],
     [ "front", "classln_1_1_read_only_list.html#a4b87830f6a5148d50420e5f6b25e386b", null ],
+    [ "isEmpty", "classln_1_1_read_only_list.html#a1f2363a2c7d56535309744b28b51e004", null ],
     [ "operator[]", "classln_1_1_read_only_list.html#a18212134714ff50561e780e7f1313555", null ],
-    [ "operator[]", "classln_1_1_read_only_list.html#a903a6891a0c3a9f33be3902aaae4acc0", null ]
+    [ "operator[]", "classln_1_1_read_only_list.html#a903a6891a0c3a9f33be3902aaae4acc0", null ],
+    [ "size", "classln_1_1_read_only_list.html#a34b0368c14143e791c5bbf08c993c25c", null ]
 ];

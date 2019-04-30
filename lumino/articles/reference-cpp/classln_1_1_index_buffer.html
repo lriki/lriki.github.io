@@ -109,6 +109,7 @@ $(document).ready(function(){initNavTree('classln_1_1_index_buffer.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classln_1_1_index_buffer-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -150,7 +151,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:a46548a3698efdd269786d32ca7e6e8d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9ad63170fa340c7318d77060548aaaf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af9ad63170fa340c7318d77060548aaaf"></a>
 void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_index_buffer.html#af9ad63170fa340c7318d77060548aaaf">map</a> (<a class="el" href="namespaceln.html#ab94c5e235aef9483b5573dec85a1b5c7">MapMode</a> mode)</td></tr>
-<tr class="memdesc:af9ad63170fa340c7318d77060548aaaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">インデックスバッファが保持するデータにアクセスします。 <br /></td></tr>
+<tr class="memdesc:af9ad63170fa340c7318d77060548aaaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">インデックスバッファが保持するデータにアクセスします。このバッファが次の描画に使用されるとき、自動的に unmap されます。 <br /></td></tr>
 <tr class="separator:af9ad63170fa340c7318d77060548aaaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32239762bbd77ed7ea560bd32a28b952"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32239762bbd77ed7ea560bd32a28b952"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_index_buffer.html#a32239762bbd77ed7ea560bd32a28b952">clear</a> ()</td></tr>
@@ -181,19 +182,28 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memdesc:afd53698e0cb84d13266bd541fcf644ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">リソースの管理方法を変更します。(default: Managed) <br /></td></tr>
 <tr class="separator:afd53698e0cb84d13266bd541fcf644ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:abeb6f2a6a356b00b666e139657e9cd13"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classln_1_1_ref.html">Ref</a>&lt; <a class="el" href="classln_1_1_index_buffer.html">IndexBuffer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_index_buffer.html#abeb6f2a6a356b00b666e139657e9cd13">create</a> (int indexCount, <a class="el" href="namespaceln.html#aec22613e77917aab17bb8e48cbc95d05">IndexBufferFormat</a> <a class="el" href="classln_1_1_index_buffer.html#aabb88e777868794090d0975a1e30ad12">format</a>, <a class="el" href="namespaceln.html#a845d9db70318b4cc9e2b024c2bcf2e8f">GraphicsResourceUsage</a> usage=<a class="el" href="namespaceln.html#a845d9db70318b4cc9e2b024c2bcf2e8fa84a8921b25f505d0d2077aeb5db4bc16">GraphicsResourceUsage::Static</a>)</td></tr>
+<tr class="memdesc:abeb6f2a6a356b00b666e139657e9cd13"><td class="mdescLeft">&#160;</td><td class="mdescRight">インデックスバッファを作成します。  <a href="#abeb6f2a6a356b00b666e139657e9cd13">More...</a><br /></td></tr>
+<tr class="separator:abeb6f2a6a356b00b666e139657e9cd13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f341039c81a65a1ce0624588521cde4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classln_1_1_ref.html">Ref</a>&lt; <a class="el" href="classln_1_1_index_buffer.html">IndexBuffer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_index_buffer.html#a3f341039c81a65a1ce0624588521cde4">create</a> (int indexCount, <a class="el" href="namespaceln.html#aec22613e77917aab17bb8e48cbc95d05">IndexBufferFormat</a> <a class="el" href="classln_1_1_index_buffer.html#aabb88e777868794090d0975a1e30ad12">format</a>, const void *initialData, <a class="el" href="namespaceln.html#a845d9db70318b4cc9e2b024c2bcf2e8f">GraphicsResourceUsage</a> usage=<a class="el" href="namespaceln.html#a845d9db70318b4cc9e2b024c2bcf2e8fa84a8921b25f505d0d2077aeb5db4bc16">GraphicsResourceUsage::Static</a>)</td></tr>
+<tr class="memdesc:a3f341039c81a65a1ce0624588521cde4"><td class="mdescLeft">&#160;</td><td class="mdescRight">インデックスバッファを作成します。  <a href="#a3f341039c81a65a1ce0624588521cde4">More...</a><br /></td></tr>
+<tr class="separator:a3f341039c81a65a1ce0624588521cde4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a9a9bb29e3541e65e53c377841bf280f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_index_buffer.html#a9a9bb29e3541e65e53c377841bf280f3">initialize</a> (int indexCount, <a class="el" href="namespaceln.html#aec22613e77917aab17bb8e48cbc95d05">IndexBufferFormat</a> <a class="el" href="classln_1_1_index_buffer.html#aabb88e777868794090d0975a1e30ad12">format</a>, <a class="el" href="namespaceln.html#a845d9db70318b4cc9e2b024c2bcf2e8f">GraphicsResourceUsage</a> usage)</td></tr>
-<tr class="memdesc:a9a9bb29e3541e65e53c377841bf280f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">インデックスバッファを作成します。  <a href="#a9a9bb29e3541e65e53c377841bf280f3">More...</a><br /></td></tr>
-<tr class="separator:a9a9bb29e3541e65e53c377841bf280f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25668c114fc0797d79bfbbcc79dd19de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_index_buffer.html#a25668c114fc0797d79bfbbcc79dd19de">initialize</a> (int indexCount, <a class="el" href="namespaceln.html#aec22613e77917aab17bb8e48cbc95d05">IndexBufferFormat</a> <a class="el" href="classln_1_1_index_buffer.html#aabb88e777868794090d0975a1e30ad12">format</a>, const void *initialData, <a class="el" href="namespaceln.html#a845d9db70318b4cc9e2b024c2bcf2e8f">GraphicsResourceUsage</a> usage)</td></tr>
-<tr class="memdesc:a25668c114fc0797d79bfbbcc79dd19de"><td class="mdescLeft">&#160;</td><td class="mdescRight">インデックスバッファを作成します。  <a href="#a25668c114fc0797d79bfbbcc79dd19de">More...</a><br /></td></tr>
-<tr class="separator:a25668c114fc0797d79bfbbcc79dd19de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42572578126099aa4b831785453dc5ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_index_buffer.html#a42572578126099aa4b831785453dc5ad">init</a> (int indexCount, <a class="el" href="namespaceln.html#aec22613e77917aab17bb8e48cbc95d05">IndexBufferFormat</a> <a class="el" href="classln_1_1_index_buffer.html#aabb88e777868794090d0975a1e30ad12">format</a>, <a class="el" href="namespaceln.html#a845d9db70318b4cc9e2b024c2bcf2e8f">GraphicsResourceUsage</a> usage)</td></tr>
+<tr class="memdesc:a42572578126099aa4b831785453dc5ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">インデックスバッファを作成します。  <a href="#a42572578126099aa4b831785453dc5ad">More...</a><br /></td></tr>
+<tr class="separator:a42572578126099aa4b831785453dc5ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae44aa48c9efed82bd11bb0c032504a08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_index_buffer.html#ae44aa48c9efed82bd11bb0c032504a08">init</a> (int indexCount, <a class="el" href="namespaceln.html#aec22613e77917aab17bb8e48cbc95d05">IndexBufferFormat</a> <a class="el" href="classln_1_1_index_buffer.html#aabb88e777868794090d0975a1e30ad12">format</a>, const void *initialData, <a class="el" href="namespaceln.html#a845d9db70318b4cc9e2b024c2bcf2e8f">GraphicsResourceUsage</a> usage)</td></tr>
+<tr class="memdesc:ae44aa48c9efed82bd11bb0c032504a08"><td class="mdescLeft">&#160;</td><td class="mdescRight">インデックスバッファを作成します。  <a href="#ae44aa48c9efed82bd11bb0c032504a08">More...</a><br /></td></tr>
+<tr class="separator:ae44aa48c9efed82bd11bb0c032504a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>インデックスバッファのクラスです。 </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a9a9bb29e3541e65e53c377841bf280f3"></a>
+<a class="anchor" id="abeb6f2a6a356b00b666e139657e9cd13"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -201,7 +211,114 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ln::IndexBuffer::initialize </td>
+          <td class="memname">static <a class="el" href="classln_1_1_ref.html">Ref</a>&lt;<a class="el" href="classln_1_1_index_buffer.html">IndexBuffer</a>&gt; ln::IndexBuffer::create </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indexCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceln.html#aec22613e77917aab17bb8e48cbc95d05">IndexBufferFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceln.html#a845d9db70318b4cc9e2b024c2bcf2e8f">GraphicsResourceUsage</a>&#160;</td>
+          <td class="paramname"><em>usage</em> = <code><a class="el" href="namespaceln.html#a845d9db70318b4cc9e2b024c2bcf2e8fa84a8921b25f505d0d2077aeb5db4bc16">GraphicsResourceUsage::Static</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>インデックスバッファを作成します。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">indexCount</td><td>: インデックスの数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">format</td><td>: インデックスバッファのフォーマット </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usage</td><td>: リソースの使用方法 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a3f341039c81a65a1ce0624588521cde4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classln_1_1_ref.html">Ref</a>&lt;<a class="el" href="classln_1_1_index_buffer.html">IndexBuffer</a>&gt; ln::IndexBuffer::create </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indexCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceln.html#aec22613e77917aab17bb8e48cbc95d05">IndexBufferFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>initialData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceln.html#a845d9db70318b4cc9e2b024c2bcf2e8f">GraphicsResourceUsage</a>&#160;</td>
+          <td class="paramname"><em>usage</em> = <code><a class="el" href="namespaceln.html#a845d9db70318b4cc9e2b024c2bcf2e8fa84a8921b25f505d0d2077aeb5db4bc16">GraphicsResourceUsage::Static</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>インデックスバッファを作成します。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">indexCount</td><td>: インデックスの数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">format</td><td>: インデックスバッファのフォーマット </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">initialData</td><td>: 初期値として設定するインデックスデータ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">usage</td><td>: リソースの使用方法 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a42572578126099aa4b831785453dc5ad"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ln::IndexBuffer::init </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>indexCount</em>, </td>
@@ -243,7 +360,7 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a25668c114fc0797d79bfbbcc79dd19de"></a>
+<a class="anchor" id="ae44aa48c9efed82bd11bb0c032504a08"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -251,7 +368,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ln::IndexBuffer::initialize </td>
+          <td class="memname">void ln::IndexBuffer::init </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>indexCount</em>, </td>
@@ -301,7 +418,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Proj/TH-10/Engine/Native/include/LuminoEngine/Graphics/<a class="el" href="_index_buffer_8hpp_source.html">IndexBuffer.hpp</a></li>
+<li>D:/Proj/LN/Lumino/include/LuminoEngine/Graphics/<a class="el" href="_index_buffer_8hpp_source.html">IndexBuffer.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -309,7 +426,7 @@ Protected Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceln.html">ln</a></li><li class="navelem"><a class="el" href="classln_1_1_index_buffer.html">IndexBuffer</a></li>
-    <li class="footer">Generated on Fri Jan 18 2019 22:57:20 for Lumino by
+    <li class="footer">Generated on Tue Apr 30 2019 13:22:21 for Lumino by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

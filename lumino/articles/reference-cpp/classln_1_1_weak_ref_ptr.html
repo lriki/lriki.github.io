@@ -149,7 +149,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 class ln::WeakRefPtr&lt; T &gt;</h3>
 
 <p>監視しているオブジェクトにアクセスする場合は <a class="el" href="classln_1_1_weak_ref_ptr.html#aa98e3979921030f85d9089f7762a5c68" title="監視しているオブジェクトが削除されておらず、使用できるかを確認します。 ">isAlive()</a> と <a class="el" href="classln_1_1_weak_ref_ptr.html#aedb084716e9a10d9a4d520c0486bab33" title="監視しているオブジェクトへの Ref を取得します。 ">resolve()</a> を併用しないでください。 マルチスレッドプログラムで不正アクセスの危険があります。 次のコードは間違いです。 </p><div class="fragment"><div class="line">WeakRefPtr&lt;MyClass&gt; weak(obj);</div><div class="line"><span class="keywordflow">if</span> (weak.isAlive())</div><div class="line">    weak-&gt;resolve()-&gt;Func();</div></div><!-- fragment --><p> 正しいコードは次の通りです。 </p><div class="fragment"><div class="line">WeakRefPtr&lt;MyClass&gt; weak(obj);</div><div class="line">Ref&lt;MyClass&gt; ptr = weak.resolve();</div><div class="line"><span class="keywordflow">if</span> (ptr != <span class="keyword">nullptr</span>)</div><div class="line">    ptr-&gt;Func();</div></div><!-- fragment --> </div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Proj/TH-10/Engine/Native/include/LuminoEngine/Engine/<a class="el" href="_object_8hpp_source.html">Object.hpp</a></li>
+<li>D:/Proj/LN/Lumino/include/LuminoEngine/Engine/<a class="el" href="_object_8hpp_source.html">Object.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -157,7 +157,7 @@ class ln::WeakRefPtr&lt; T &gt;</h3>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceln.html">ln</a></li><li class="navelem"><a class="el" href="classln_1_1_weak_ref_ptr.html">WeakRefPtr</a></li>
-    <li class="footer">Generated on Fri Jan 18 2019 22:57:21 for Lumino by
+    <li class="footer">Generated on Tue Apr 30 2019 13:22:22 for Lumino by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

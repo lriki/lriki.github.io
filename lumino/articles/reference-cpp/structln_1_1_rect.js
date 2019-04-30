@@ -25,8 +25,6 @@ var structln_1_1_rect =
     [ "makeDeflate", "structln_1_1_rect.html#a21f374cff7651c602173c6c10dd28dfc", null ],
     [ "set", "structln_1_1_rect.html#ac9d580824aeb14fe7001cbc509ac34e5", null ],
     [ "set", "structln_1_1_rect.html#a3c057fa92f8c850bb4e021465777825b", null ],
-    [ "setLocation", "structln_1_1_rect.html#a6174473b9deb38c6c41b7db6e9ad9b9e", null ],
-    [ "setLocation", "structln_1_1_rect.html#a361491e7c3db66f45b23320e37b1a6fd", null ],
     [ "setSize", "structln_1_1_rect.html#a7720429910be60da727bc043c1356426", null ],
     [ "height", "structln_1_1_rect.html#ad61e3c1b092c135c73c1079510bbd90e", null ],
     [ "width", "structln_1_1_rect.html#a664dd9583b8d9af9c113330f6637a0ec", null ],

@@ -15,9 +15,9 @@ var dir_3b0d9ce11fdc6d4a85718940786be2b7 =
     [ "Optional.hpp", "_optional_8hpp_source.html", null ],
     [ "Platform.hpp", "_platform_8hpp_source.html", null ],
     [ "RefObject.hpp", "_ref_object_8hpp_source.html", null ],
+    [ "Result.hpp", "_result_8hpp_source.html", null ],
     [ "StlHelper.hpp", "_stl_helper_8hpp_source.html", null ],
     [ "String.hpp", "_string_8hpp_source.html", null ],
     [ "StringHelper.hpp", "_string_helper_8hpp_source.html", null ],
-    [ "Uuid.hpp", "_uuid_8hpp_source.html", null ],
-    [ "Variant.hpp", "_variant_8hpp_source.html", null ]
+    [ "Uuid.hpp", "_uuid_8hpp_source.html", null ]
 ];

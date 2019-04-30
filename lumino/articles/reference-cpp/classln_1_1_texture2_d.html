@@ -109,6 +109,8 @@ $(document).ready(function(){initNavTree('classln_1_1_texture2_d.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classln_1_1_texture2_d-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ln::Texture2D Class Reference</div>  </div>
@@ -132,14 +134,34 @@ Inheritance diagram for ln::Texture2D:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a463fe0222edab5e08e65f7035a4bfb5f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a463fe0222edab5e08e65f7035a4bfb5f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture2_d.html#a463fe0222edab5e08e65f7035a4bfb5f">setMipmapEnabled</a> (bool value)</td></tr>
+<tr class="memdesc:a463fe0222edab5e08e65f7035a4bfb5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mipmap の有無を設定します。(default: false) <br /></td></tr>
+<tr class="separator:a463fe0222edab5e08e65f7035a4bfb5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acee302051c7c722e9d25559d3398756a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acee302051c7c722e9d25559d3398756a"></a>
 Bitmap2D *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture2_d.html#acee302051c7c722e9d25559d3398756a">map</a> (<a class="el" href="namespaceln.html#ab94c5e235aef9483b5573dec85a1b5c7">MapMode</a> mode)</td></tr>
 <tr class="memdesc:acee302051c7c722e9d25559d3398756a"><td class="mdescLeft">&#160;</td><td class="mdescRight">テクスチャが保持するビットマップデータにアクセスします。 <br /></td></tr>
 <tr class="separator:acee302051c7c722e9d25559d3398756a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb72d58a5346e428c0eb12e3fffc5ab4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb72d58a5346e428c0eb12e3fffc5ab4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture2_d.html#adb72d58a5346e428c0eb12e3fffc5ab4">setResourceUsage</a> (<a class="el" href="namespaceln.html#a845d9db70318b4cc9e2b024c2bcf2e8f">GraphicsResourceUsage</a> usage)</td></tr>
+<tr class="memdesc:adb72d58a5346e428c0eb12e3fffc5ab4"><td class="mdescLeft">&#160;</td><td class="mdescRight">リソースの使用方法を変更します。(default: Static) <br /></td></tr>
+<tr class="separator:adb72d58a5346e428c0eb12e3fffc5ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35a7c0f07b9800e0a6efa5b9336427e6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a35a7c0f07b9800e0a6efa5b9336427e6"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture2_d.html#a35a7c0f07b9800e0a6efa5b9336427e6">setResourcePool</a> (<a class="el" href="namespaceln.html#a70799a8dbb291f2dcc373e9a4f3ead49">GraphicsResourcePool</a> pool)</td></tr>
 <tr class="memdesc:a35a7c0f07b9800e0a6efa5b9336427e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">リソースの管理方法を変更します。(default: Managed) <br /></td></tr>
 <tr class="separator:a35a7c0f07b9800e0a6efa5b9336427e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad52fd3796ff1ed67df149aa0913fdecc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad52fd3796ff1ed67df149aa0913fdecc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture2_d.html#ad52fd3796ff1ed67df149aa0913fdecc">clear</a> (const <a class="el" href="structln_1_1_color.html">Color</a> &amp;color)</td></tr>
+<tr class="memdesc:ad52fd3796ff1ed67df149aa0913fdecc"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定した色でテクスチャ全体をクリアします。 <br /></td></tr>
+<tr class="separator:ad52fd3796ff1ed67df149aa0913fdecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6dde613fc885e1f3f0b0741d1c36e64"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af6dde613fc885e1f3f0b0741d1c36e64"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture2_d.html#af6dde613fc885e1f3f0b0741d1c36e64">setPixel</a> (int x, int y, const <a class="el" href="structln_1_1_color.html">Color</a> &amp;color)</td></tr>
+<tr class="memdesc:af6dde613fc885e1f3f0b0741d1c36e64"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定した色でテクスチャ全体をクリアします。 <br /></td></tr>
+<tr class="separator:af6dde613fc885e1f3f0b0741d1c36e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8810f96ad0e6ddf7e13e6383d107d3d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa8810f96ad0e6ddf7e13e6383d107d3d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture2_d.html#aa8810f96ad0e6ddf7e13e6383d107d3d">blit</a> (int x, int y, <a class="el" href="classln_1_1_texture2_d.html">Texture2D</a> *srcTexture, int sx, int sy, int sw, int sh)</td></tr>
+<tr class="memdesc:aa8810f96ad0e6ddf7e13e6383d107d3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">別のテクスチャからこのテクスチャへ、ビットマップ転送を行います。 <br /></td></tr>
+<tr class="separator:aa8810f96ad0e6ddf7e13e6383d107d3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classln_1_1_texture"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classln_1_1_texture')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classln_1_1_texture.html">ln::Texture</a></td></tr>
 <tr class="memitem:a431e4cf54aa07f80a39859d8d4772aa7 inherit pub_methods_classln_1_1_texture"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a431e4cf54aa07f80a39859d8d4772aa7"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture.html#a431e4cf54aa07f80a39859d8d4772aa7">width</a> () const </td></tr>
@@ -153,19 +175,228 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <a class="el" href="namespaceln.html#a77c5e4a86d4b5b279f78763c25812014">TextureFormat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture.html#a076364e661f67ac6385e8bf475a769fb">format</a> () const </td></tr>
 <tr class="memdesc:a076364e661f67ac6385e8bf475a769fb inherit pub_methods_classln_1_1_texture"><td class="mdescLeft">&#160;</td><td class="mdescRight">テクスチャのピフォーマットを取得します。 <br /></td></tr>
 <tr class="separator:a076364e661f67ac6385e8bf475a769fb inherit pub_methods_classln_1_1_texture"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ceb06d50aa99759e5f63b1b10f6a587 inherit pub_methods_classln_1_1_texture"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ceb06d50aa99759e5f63b1b10f6a587"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture.html#a9ceb06d50aa99759e5f63b1b10f6a587">mipmap</a> () const </td></tr>
+<tr class="memdesc:a9ceb06d50aa99759e5f63b1b10f6a587 inherit pub_methods_classln_1_1_texture"><td class="mdescLeft">&#160;</td><td class="mdescRight">ミップマップの有無を取得します。 <br /></td></tr>
+<tr class="separator:a9ceb06d50aa99759e5f63b1b10f6a587 inherit pub_methods_classln_1_1_texture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a647e121ae1d3d0861638275b0b38fe9c inherit pub_methods_classln_1_1_texture"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a647e121ae1d3d0861638275b0b38fe9c"></a>
-<a class="el" href="namespaceln.html#a7904fdb3c64f7bf58b1f1a9a0442257aa7cbedaaf994e33f0a870b9a5e8624ef5">SamplerState</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture.html#a647e121ae1d3d0861638275b0b38fe9c">samplerState</a> () const </td></tr>
-<tr class="memdesc:a647e121ae1d3d0861638275b0b38fe9c inherit pub_methods_classln_1_1_texture"><td class="mdescLeft">&#160;</td><td class="mdescRight">このテクスチャに関連付けられている SamplerState を取得します。 <br /></td></tr>
+<a class="el" href="classln_1_1_sampler_state.html">SamplerState</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture.html#a647e121ae1d3d0861638275b0b38fe9c">samplerState</a> () const </td></tr>
+<tr class="memdesc:a647e121ae1d3d0861638275b0b38fe9c inherit pub_methods_classln_1_1_texture"><td class="mdescLeft">&#160;</td><td class="mdescRight">このテクスチャに関連付けられている <a class="el" href="classln_1_1_sampler_state.html" title="サンプラーステートのクラスです。 ">SamplerState</a> を取得します。 <br /></td></tr>
 <tr class="separator:a647e121ae1d3d0861638275b0b38fe9c inherit pub_methods_classln_1_1_texture"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe34349a85b0a8f160ef27ed47727c7d inherit pub_methods_classln_1_1_texture"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe34349a85b0a8f160ef27ed47727c7d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture.html#afe34349a85b0a8f160ef27ed47727c7d">setSamplerState</a> (<a class="el" href="namespaceln.html#a7904fdb3c64f7bf58b1f1a9a0442257aa7cbedaaf994e33f0a870b9a5e8624ef5">SamplerState</a> *value)</td></tr>
-<tr class="memdesc:afe34349a85b0a8f160ef27ed47727c7d inherit pub_methods_classln_1_1_texture"><td class="mdescLeft">&#160;</td><td class="mdescRight">このテクスチャに関連付ける SamplerState を設定します。 <br /></td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture.html#afe34349a85b0a8f160ef27ed47727c7d">setSamplerState</a> (<a class="el" href="classln_1_1_sampler_state.html">SamplerState</a> *value)</td></tr>
+<tr class="memdesc:afe34349a85b0a8f160ef27ed47727c7d inherit pub_methods_classln_1_1_texture"><td class="mdescLeft">&#160;</td><td class="mdescRight">このテクスチャに関連付ける <a class="el" href="classln_1_1_sampler_state.html" title="サンプラーステートのクラスです。 ">SamplerState</a> を設定します。 <br /></td></tr>
 <tr class="separator:afe34349a85b0a8f160ef27ed47727c7d inherit pub_methods_classln_1_1_texture"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a80d013b55f9141c8354be6646d714758"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classln_1_1_ref.html">Ref</a>&lt; <a class="el" href="classln_1_1_texture2_d.html">Texture2D</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture2_d.html#a80d013b55f9141c8354be6646d714758">create</a> (int <a class="el" href="classln_1_1_texture.html#a431e4cf54aa07f80a39859d8d4772aa7">width</a>, int <a class="el" href="classln_1_1_texture.html#aaec5cae3df1264fb93f098aa46197bbb">height</a>)</td></tr>
+<tr class="memdesc:a80d013b55f9141c8354be6646d714758"><td class="mdescLeft">&#160;</td><td class="mdescRight">テクスチャを作成します。ピクセルフォーマットは RGBA8 です。  <a href="#a80d013b55f9141c8354be6646d714758">More...</a><br /></td></tr>
+<tr class="separator:a80d013b55f9141c8354be6646d714758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc5d7bf67aa6359802fd11cb25991443"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classln_1_1_ref.html">Ref</a>&lt; <a class="el" href="classln_1_1_texture2_d.html">Texture2D</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture2_d.html#afc5d7bf67aa6359802fd11cb25991443">create</a> (int <a class="el" href="classln_1_1_texture.html#a431e4cf54aa07f80a39859d8d4772aa7">width</a>, int <a class="el" href="classln_1_1_texture.html#aaec5cae3df1264fb93f098aa46197bbb">height</a>, <a class="el" href="namespaceln.html#a77c5e4a86d4b5b279f78763c25812014">TextureFormat</a> <a class="el" href="classln_1_1_texture.html#a076364e661f67ac6385e8bf475a769fb">format</a>)</td></tr>
+<tr class="memdesc:afc5d7bf67aa6359802fd11cb25991443"><td class="mdescLeft">&#160;</td><td class="mdescRight">テクスチャを作成します。  <a href="#afc5d7bf67aa6359802fd11cb25991443">More...</a><br /></td></tr>
+<tr class="separator:afc5d7bf67aa6359802fd11cb25991443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ad9a5c427f624138325c208a25aeb32db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture2_d.html#ad9a5c427f624138325c208a25aeb32db">init</a> (int <a class="el" href="classln_1_1_texture.html#a431e4cf54aa07f80a39859d8d4772aa7">width</a>, int <a class="el" href="classln_1_1_texture.html#aaec5cae3df1264fb93f098aa46197bbb">height</a>)</td></tr>
+<tr class="memdesc:ad9a5c427f624138325c208a25aeb32db"><td class="mdescLeft">&#160;</td><td class="mdescRight">テクスチャを作成します。ピクセルフォーマットは RGBA8 です。  <a href="#ad9a5c427f624138325c208a25aeb32db">More...</a><br /></td></tr>
+<tr class="separator:ad9a5c427f624138325c208a25aeb32db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8249a1c465fb252768ccf4116fd8eb2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture2_d.html#a8249a1c465fb252768ccf4116fd8eb2e">init</a> (int <a class="el" href="classln_1_1_texture.html#a431e4cf54aa07f80a39859d8d4772aa7">width</a>, int <a class="el" href="classln_1_1_texture.html#aaec5cae3df1264fb93f098aa46197bbb">height</a>, <a class="el" href="namespaceln.html#a77c5e4a86d4b5b279f78763c25812014">TextureFormat</a> <a class="el" href="classln_1_1_texture.html#a076364e661f67ac6385e8bf475a769fb">format</a>)</td></tr>
+<tr class="memdesc:a8249a1c465fb252768ccf4116fd8eb2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">テクスチャを作成します。  <a href="#a8249a1c465fb252768ccf4116fd8eb2e">More...</a><br /></td></tr>
+<tr class="separator:a8249a1c465fb252768ccf4116fd8eb2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>2D テクスチャのクラスです。 </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Proj/TH-10/Engine/Native/include/LuminoEngine/Graphics/<a class="el" href="_texture_8hpp_source.html">Texture.hpp</a></li>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a80d013b55f9141c8354be6646d714758"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classln_1_1_ref.html">Ref</a>&lt;<a class="el" href="classln_1_1_texture2_d.html">Texture2D</a>&gt; ln::Texture2D::create </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>テクスチャを作成します。ピクセルフォーマットは RGBA8 です。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">width</td><td>: 幅 (px 単位) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">height</td><td>: 高さ (px 単位) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="afc5d7bf67aa6359802fd11cb25991443"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classln_1_1_ref.html">Ref</a>&lt;<a class="el" href="classln_1_1_texture2_d.html">Texture2D</a>&gt; ln::Texture2D::create </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceln.html#a77c5e4a86d4b5b279f78763c25812014">TextureFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>テクスチャを作成します。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">width</td><td>: 幅 (px 単位) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">height</td><td>: 高さ (px 単位) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">format</td><td>: ピクセルフォーマット </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad9a5c427f624138325c208a25aeb32db"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ln::Texture2D::init </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>テクスチャを作成します。ピクセルフォーマットは RGBA8 です。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">width</td><td>: 幅 (px 単位) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">height</td><td>: 高さ (px 単位) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8249a1c465fb252768ccf4116fd8eb2e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ln::Texture2D::init </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceln.html#a77c5e4a86d4b5b279f78763c25812014">TextureFormat</a>&#160;</td>
+          <td class="paramname"><em>format</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>テクスチャを作成します。 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">width</td><td>: 幅 (px 単位) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">height</td><td>: 高さ (px 単位) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">format</td><td>: ピクセルフォーマット </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>D:/Proj/LN/Lumino/include/LuminoEngine/Graphics/<a class="el" href="_texture_8hpp_source.html">Texture.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -173,7 +404,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceln.html">ln</a></li><li class="navelem"><a class="el" href="classln_1_1_texture2_d.html">Texture2D</a></li>
-    <li class="footer">Generated on Fri Jan 18 2019 22:57:21 for Lumino by
+    <li class="footer">Generated on Tue Apr 30 2019 13:22:22 for Lumino by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

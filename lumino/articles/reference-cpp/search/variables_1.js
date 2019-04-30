@@ -1,19 +1,13 @@
 var searchData=
 [
-  ['b',['b',['../structln_1_1_color32.html#a60b5d41df793f26703bd290bf61e35c9',1,'ln::Color32::b()'],['../structln_1_1_color.html#a3bcabb886e2291eda51e589ca1cf1fa1',1,'ln::Color::b()'],['../structln_1_1_tone_f.html#a7ca7be0a4695e28df2bb4bbf6168f1ac',1,'ln::ToneF::b()']]],
-  ['backface',['backFace',['../structln_1_1_depth_stencil_state_desc.html#a029950f6dabf75eb8f2dce3f53b96ac5',1,'ln::DepthStencilStateDesc']]],
-  ['beige',['Beige',['../structln_1_1_color32.html#aa52f61c53241c96dd72844505fd8d474',1,'ln::Color32::Beige()'],['../structln_1_1_color.html#a3840dfd5aa26c2c8d7dadfd6e4d9311f',1,'ln::Color::Beige()']]],
-  ['bisque',['Bisque',['../structln_1_1_color32.html#a05d9cba82e1b598bcdededcbf9c9b211',1,'ln::Color32::Bisque()'],['../structln_1_1_color.html#aec5a604a1792860bdedbe65eb47fc786',1,'ln::Color::Bisque()']]],
-  ['black',['Black',['../structln_1_1_color32.html#a95c7a9def3dc321eb878da72c7a167af',1,'ln::Color32::Black()'],['../structln_1_1_color.html#afc556a15b13da3bcb605abac68251f73',1,'ln::Color::Black()']]],
-  ['blanchedalmond',['BlanchedAlmond',['../structln_1_1_color32.html#aa4a6f4898e56ee152d14cfeef69a180b',1,'ln::Color32::BlanchedAlmond()'],['../structln_1_1_color.html#ae6cfddbf7b4a2629be166142c7a1d42c',1,'ln::Color::BlanchedAlmond()']]],
-  ['blendenable',['blendEnable',['../structln_1_1_render_target_blend_desc.html#a61fdca01e972fd193958c2a4aa2253ad',1,'ln::RenderTargetBlendDesc']]],
-  ['blendop',['blendOp',['../structln_1_1_render_target_blend_desc.html#a3098587997a5888286df1d1e1a8ce319',1,'ln::RenderTargetBlendDesc']]],
-  ['blendopalpha',['blendOpAlpha',['../structln_1_1_render_target_blend_desc.html#ad36d5aedd0ad9e840e267ebc1f9ae425',1,'ln::RenderTargetBlendDesc']]],
-  ['blue',['Blue',['../structln_1_1_color32.html#aa1cc29b6126d19c43c2d738cc87edf95',1,'ln::Color32::Blue()'],['../structln_1_1_color.html#a8a45d0f9c5d0ab8231856a2418a5f399',1,'ln::Color::Blue()']]],
-  ['blueviolet',['BlueViolet',['../structln_1_1_color32.html#a118c4296e22d2abf7b14e118f048e505',1,'ln::Color32::BlueViolet()'],['../structln_1_1_color.html#aac2f2dde38c670c57aae45caa6bbb541',1,'ln::Color::BlueViolet()']]],
-  ['bottom',['bottom',['../structln_1_1_thickness.html#a374b1c2ea4201791484c30be2589f925',1,'ln::Thickness']]],
-  ['bottomleft',['bottomLeft',['../structln_1_1_corner_radius.html#a3ed126f03d7f3f8b102214d12c981160',1,'ln::CornerRadius']]],
-  ['bottomright',['bottomRight',['../structln_1_1_corner_radius.html#a4272f51bb7190a4d3ab6bcd182850203',1,'ln::CornerRadius']]],
-  ['brown',['Brown',['../structln_1_1_color32.html#a93fc691a297c842ea8a070c19a47e423',1,'ln::Color32::Brown()'],['../structln_1_1_color.html#a457f9cd38aa83eda2a34a753ba3c87fe',1,'ln::Color::Brown()']]],
-  ['burlywood',['BurlyWood',['../structln_1_1_color32.html#a062eace6aa25cba915699084b63302f5',1,'ln::Color32::BurlyWood()'],['../structln_1_1_color.html#a7b0ce446946e9acdaf7cb8d2fb5c464a',1,'ln::Color::BurlyWood()']]]
+  ['a',['a',['../structln_1_1_color.html#ab474791b9d106b5fd07159f59cef9410',1,'ln::Color::a()'],['../structln_1_1_color_i.html#abb03ffe9ab106c63674684401ca9b596',1,'ln::ColorI::a()']]],
+  ['aliceblue',['AliceBlue',['../structln_1_1_color.html#aab8b4065fabc6d75f8ec8f8a2d4a3194',1,'ln::Color']]],
+  ['antiquewhite',['AntiqueWhite',['../structln_1_1_color.html#a471cde4d32376348f10a26130969c25f',1,'ln::Color']]],
+  ['any',['Any',['../classln_1_1_input_buttons.html#aa2449f4447d8de552e4605db4bbfa2b6',1,'ln::InputButtons']]],
+  ['aqua',['Aqua',['../structln_1_1_color.html#ae7aac5bda6622706cb069510fe83d294',1,'ln::Color']]],
+  ['aquamarine',['Aquamarine',['../structln_1_1_color.html#ad2fafca53e6cf4294041ca82453f6f6d',1,'ln::Color']]],
+  ['axisx',['axisX',['../structln_1_1_oriented_box.html#a24bdf766226bbf5aabb3f0e942720960',1,'ln::OrientedBox']]],
+  ['axisy',['axisY',['../structln_1_1_oriented_box.html#aee81aa18c68c63848a5c09862c889f15',1,'ln::OrientedBox']]],
+  ['axisz',['axisZ',['../structln_1_1_oriented_box.html#a98d58ecddc39f5c321f1155cb0645379',1,'ln::OrientedBox']]],
+  ['azure',['Azure',['../structln_1_1_color.html#a4e373da7ddbfbe32be164ce2559b5149',1,'ln::Color']]]
 ];

@@ -13,5 +13,5 @@ var dir_849f74c6761f3474bae756c695df777c =
     [ "SwapChain.hpp", "_swap_chain_8hpp_source.html", null ],
     [ "Texture.hpp", "_texture_8hpp_source.html", null ],
     [ "VertexBuffer.hpp", "_vertex_buffer_8hpp_source.html", null ],
-    [ "VertexDeclaration.hpp", "_vertex_declaration_8hpp_source.html", null ]
+    [ "VertexLayout.hpp", "_vertex_layout_8hpp_source.html", null ]
 ];

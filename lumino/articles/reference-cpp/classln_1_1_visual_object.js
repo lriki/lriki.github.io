@@ -16,8 +16,8 @@ var classln_1_1_visual_object =
     [ "setDepthWriteEnabled", "classln_1_1_visual_object.html#af2ab1499600b4d3e03be1cf5302d3bf3", null ],
     [ "setOpacity", "classln_1_1_visual_object.html#afa8ea437ecbf9944a0b1c3c2d74e2080", null ],
     [ "setShadingModel", "classln_1_1_visual_object.html#a7a463cf68091631332ad53bc2caa3f89", null ],
-    [ "setTone", "classln_1_1_visual_object.html#a783821b22fc918d2f25a8d87f5408b50", null ],
+    [ "setTone", "classln_1_1_visual_object.html#a36e81621c4d2a2f91c924b8fa2f8968f", null ],
     [ "setVisible", "classln_1_1_visual_object.html#ad75f993923e6f54dc3c39955ea1830e9", null ],
     [ "shadingModel", "classln_1_1_visual_object.html#a50aece94699cba8ec640b08b080ecd86", null ],
-    [ "tone", "classln_1_1_visual_object.html#a00f7f2e28ac91b481995b6f163ca324f", null ]
+    [ "tone", "classln_1_1_visual_object.html#a6155039d0e9073bab6ca487f62fd3bca", null ]
 ];

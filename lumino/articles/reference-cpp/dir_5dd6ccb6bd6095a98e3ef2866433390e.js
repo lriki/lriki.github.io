@@ -13,5 +13,7 @@ var dir_5dd6ccb6bd6095a98e3ef2866433390e =
     [ "UIRenderView.hpp", "_u_i_render_view_8hpp_source.html", null ],
     [ "UISprite.hpp", "_u_i_sprite_8hpp_source.html", null ],
     [ "UIStyle.hpp", "_u_i_style_8hpp_source.html", null ],
-    [ "UIViewport.hpp", "_u_i_viewport_8hpp_source.html", null ]
+    [ "UITextBlock.hpp", "_u_i_text_block_8hpp_source.html", null ],
+    [ "UIViewport.hpp", "_u_i_viewport_8hpp_source.html", null ],
+    [ "UIWindow.hpp", "_u_i_window_8hpp_source.html", null ]
 ];

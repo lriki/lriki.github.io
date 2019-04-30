@@ -4,6 +4,7 @@ var dir_ecef0f273c861f047f8f880a7e76b74f =
     [ "BinaryWriter.hpp", "_binary_writer_8hpp_source.html", null ],
     [ "CommandLineParser.hpp", "_command_line_parser_8hpp_source.html", null ],
     [ "Common.hpp", "_lumino_core_2_i_o_2_common_8hpp_source.html", null ],
+    [ "Console.hpp", "_console_8hpp_source.html", null ],
     [ "FileInfo.hpp", "_file_info_8hpp_source.html", null ],
     [ "FileStream.hpp", "_file_stream_8hpp_source.html", null ],
     [ "FileSystem.hpp", "_file_system_8hpp_source.html", null ],

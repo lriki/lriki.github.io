@@ -1,6 +1,6 @@
 var classln_1_1_scene =
 [
-    [ "initialize", "classln_1_1_scene.html#a80f83d38fd7ed2c87baa7f4457b7c827", null ],
+    [ "init", "classln_1_1_scene.html#a7893e28f40c180b39e6e7d001d381382", null ],
     [ "onActivated", "classln_1_1_scene.html#afef6ad482cbb9f6f915e2e6d70f06aeb", null ],
     [ "onClosed", "classln_1_1_scene.html#a76204648d63d65cd6ac97a75d45fc55d", null ],
     [ "onCreated", "classln_1_1_scene.html#a76381bbe727b150d753cf37e402ceb38", null ],

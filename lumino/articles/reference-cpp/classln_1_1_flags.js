@@ -5,5 +5,6 @@ var classln_1_1_flags =
     [ "operator bool", "classln_1_1_flags.html#a8631f8a823f1cab3ad1287d2277daf02", null ],
     [ "operator!", "classln_1_1_flags.html#a628bfdc93dc21745d73ff1816bc19450", null ],
     [ "set", "classln_1_1_flags.html#a1a15b491779dcdf87b983bba61f7528b", null ],
+    [ "set", "classln_1_1_flags.html#a892d1b8cfe91138d2a45bfb23d66211d", null ],
     [ "unset", "classln_1_1_flags.html#af99fea40f732c5dc73918eae1577ddd3", null ]
 ];

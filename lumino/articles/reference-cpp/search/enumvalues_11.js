@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['r16float',['R16Float',['../namespaceln.html#a77c5e4a86d4b5b279f78763c25812014a802f68a428b98949a742d8e333d836dd',1,'ln']]],
-  ['r16g16b16a16float',['R16G16B16A16Float',['../namespaceln.html#a77c5e4a86d4b5b279f78763c25812014ab6e7884e766c643e7c6599fd0ada1c31',1,'ln']]],
-  ['r32float',['R32Float',['../namespaceln.html#a77c5e4a86d4b5b279f78763c25812014ae8bf59c37f9f97cb4d0edf054a935ac0',1,'ln']]],
-  ['r32g32b32a32float',['R32G32B32A32Float',['../namespaceln.html#a77c5e4a86d4b5b279f78763c25812014a599e586e76ffc368d9b09a42c20b7fbd',1,'ln']]],
-  ['r32uint',['R32UInt',['../namespaceln.html#a77c5e4a86d4b5b279f78763c25812014ad96810bfbd751ee01508598b60290f6f',1,'ln']]],
+  ['r16f',['R16F',['../namespaceln.html#a77c5e4a86d4b5b279f78763c25812014a8dfbaada0d68227f5c299c2aa637df68',1,'ln']]],
+  ['r32f',['R32F',['../namespaceln.html#a77c5e4a86d4b5b279f78763c25812014aca70b53fb0610461a2327973614a76ce',1,'ln']]],
+  ['r32u',['R32U',['../namespaceln.html#a77c5e4a86d4b5b279f78763c25812014a1abc5f5fb2b624a3d58785933b27ffc6',1,'ln']]],
   ['rbracket',['RBracket',['../namespaceln.html#a1abfe1a53770d23e706d817dc8bd27bfac27efa0472cd29bf688de150ce920752',1,'ln']]],
   ['read',['Read',['../namespaceln.html#a8049ff72bfe027867c62de44ea1ff404a7a1a5f3e79fdc91edf2f5ead9d66abb4',1,'ln::Read()'],['../namespaceln.html#ab94c5e235aef9483b5573dec85a1b5c7a7a1a5f3e79fdc91edf2f5ead9d66abb4',1,'ln::Read()']]],
   ['readonly',['ReadOnly',['../namespaceln.html#a2a55e01b9a4fe6f615d4f02f46186208a131fb182a881796e7606ed6da27f1197',1,'ln']]],
@@ -13,13 +11,17 @@ var searchData=
   ['removeemptyentries',['RemoveEmptyEntries',['../namespaceln.html#a7dd8e9e46a0151bab2482448d4e8cdfeaf848693a8ba86ca7d0888ce5a78d3966',1,'ln']]],
   ['repeat',['Repeat',['../namespaceln.html#a5dcac3484d334bf1da8af69df4731a25a7020426cfb0a204051be4b3053d2acc8',1,'ln']]],
   ['replace',['Replace',['../namespaceln.html#aec9576b9e980b3430652f4d7e8e24de1a0ebe6df8a3ac338e0512acc741823fdb',1,'ln']]],
+  ['reversehorizontal',['ReverseHorizontal',['../namespaceln.html#a5a824f76764b3edc3213c0f6b8e65797ac3b9e126f88f9f8df2fd2be6e8a32559',1,'ln']]],
   ['reversesubtract',['ReverseSubtract',['../namespaceln.html#a8570669cb6fe3111a054520ce2061bccabd5458190996e76988cb2f27a820c685',1,'ln']]],
-  ['rgb24',['RGB24',['../namespaceln.html#a77c5e4a86d4b5b279f78763c25812014a08415b81fed4feed7d982c9919ac08ee',1,'ln']]],
-  ['rgba32',['RGBA32',['../namespaceln.html#a77c5e4a86d4b5b279f78763c25812014ad9e8e4a9228ed56eceb29f0a1223b02b',1,'ln']]],
-  ['right',['Right',['../namespaceln.html#ab0d3b3fc5966ac118ed077983645a440a92b09c7c48c520c3c55e497875da437c',1,'ln::Right()'],['../namespaceln.html#a7c380bc21d5769cf06a0f16a2d45fbb4a92b09c7c48c520c3c55e497875da437c',1,'ln::Right()']]],
+  ['reversevertical',['ReverseVertical',['../namespaceln.html#a5a824f76764b3edc3213c0f6b8e65797a0ffc124cf46fbd9cdc3b9c4b04230de0',1,'ln']]],
+  ['rgb8',['RGB8',['../namespaceln.html#aa85d0e428daace209bf025a128116569a165c6379d01617e12de274a3952efa63',1,'ln::RGB8()'],['../namespaceln.html#a77c5e4a86d4b5b279f78763c25812014a165c6379d01617e12de274a3952efa63',1,'ln::RGB8()']]],
+  ['rgba16f',['RGBA16F',['../namespaceln.html#a77c5e4a86d4b5b279f78763c25812014aa29d843695056f9c171a9eb702d6910a',1,'ln']]],
+  ['rgba32f',['RGBA32F',['../namespaceln.html#aa85d0e428daace209bf025a128116569a703a7a81e586669c930e3dcaf3e8c428',1,'ln::RGBA32F()'],['../namespaceln.html#a77c5e4a86d4b5b279f78763c25812014a703a7a81e586669c930e3dcaf3e8c428',1,'ln::RGBA32F()']]],
+  ['rgba8',['RGBA8',['../namespaceln.html#aa85d0e428daace209bf025a128116569ab4b279046a02077466fa26cabb00c642',1,'ln::RGBA8()'],['../namespaceln.html#a77c5e4a86d4b5b279f78763c25812014ab4b279046a02077466fa26cabb00c642',1,'ln::RGBA8()']]],
+  ['right',['Right',['../namespaceln.html#ab0d3b3fc5966ac118ed077983645a440a92b09c7c48c520c3c55e497875da437c',1,'ln::Right()'],['../namespaceln.html#a7c380bc21d5769cf06a0f16a2d45fbb4a92b09c7c48c520c3c55e497875da437c',1,'ln::Right()'],['../namespaceln.html#a21590b3aaf22e5b5d86a7339ed253ecea92b09c7c48c520c3c55e497875da437c',1,'ln::Right()']]],
   ['rightclick',['RightClick',['../namespaceln.html#a2567ce7073bb6330f8f8daf853f7928fa19c3f4a7f5cb77231a4000ca7c0e20f3',1,'ln']]],
   ['rightdoubleclick',['RightDoubleClick',['../namespaceln.html#a2567ce7073bb6330f8f8daf853f7928fafe0b7b168fd139a61fdcaa7b248c5249',1,'ln']]],
   ['roty',['RotY',['../namespaceln.html#a46b8c87ae7e2d7005225eaaa2f7a613ea3bf2bbb5aed73183fe04a25bc85c9ff6',1,'ln']]],
   ['roundtrip',['RoundTrip',['../namespaceln.html#a8a73daf96edf406ad0576ea9615994b7a8e49f140604368868a40752010ffca3e',1,'ln']]],
-  ['running',['Running',['../namespaceln.html#af336145a12c4819cd1e76a2b8be2a253a5bda814c4aedb126839228f1a3d92f09',1,'ln']]]
+  ['running',['Running',['../namespaceln.html#af336145a12c4819cd1e76a2b8be2a253a5bda814c4aedb126839228f1a3d92f09',1,'ln::Running()'],['../namespaceln.html#ac951ece7ba881be2a346f290787ebb43a5bda814c4aedb126839228f1a3d92f09',1,'ln::Running()']]]
 ];

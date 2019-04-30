@@ -82,7 +82,14 @@
 <li>通常テクスチャについては、GPU へ転送するテクスチャデータを上下反転することで、最終的な描画結果に差が出ないようにします。</li>
 <li>レンダーターゲットテクスチャについては、シェーダコンパイラがテクスチャサンプリング時にテクスチャ座標の Y値 を反転するコードを挿入します。</li>
 </ul>
-</article>
+<h2 id="シェーダコードにおける行列の演算方法">シェーダコードにおける行列の演算方法</h2>
+<p>Bad:</p>
+<pre><code>pos = proj * view * model * float4(inPosition, 1.0);
+</code></pre><p>Good:</p>
+<pre><code>pos = mul(float4(inPosition, 1.0), model);
+pos = mul(pos, view);
+pos = mul(pos, proj);
+</code></pre></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
@@ -102,7 +109,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright © 2017-2018 lriki
+            Copyright © 2017-2019 lriki
             
           </div>
         </div>

@@ -5,5 +5,6 @@ var searchData=
   ['blendstatedesc',['BlendStateDesc',['../structln_1_1_blend_state_desc.html',1,'ln']]],
   ['box',['Box',['../structln_1_1_box.html',1,'ln']]],
   ['boxcollisionshape',['BoxCollisionShape',['../classln_1_1_box_collision_shape.html',1,'ln']]],
+  ['boxcollisionshape2d',['BoxCollisionShape2D',['../classln_1_1_box_collision_shape2_d.html',1,'ln']]],
   ['bytebuffer',['ByteBuffer',['../classln_1_1_byte_buffer.html',1,'ln']]]
 ];

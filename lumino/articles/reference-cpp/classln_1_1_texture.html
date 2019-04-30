@@ -125,9 +125,9 @@ Inheritance diagram for ln::Texture:</div>
  <div class="center">
   <img src="classln_1_1_texture.png" usemap="#ln::Texture_map" alt=""/>
   <map id="ln::Texture_map" name="ln::Texture_map">
-<area href="classln_1_1_graphics_resource.html" title="Graphics 機能に関係するリソースのベースクラスです。 " alt="ln::GraphicsResource" shape="rect" coords="71,0,204,24"/>
-<area href="classln_1_1_texture2_d.html" title="2D テクスチャのクラスです。 " alt="ln::Texture2D" shape="rect" coords="0,112,133,136"/>
-<area href="classln_1_1_texture3_d.html" title="3D テクスチャのクラスです。 " alt="ln::Texture3D" shape="rect" coords="143,112,276,136"/>
+<area href="classln_1_1_graphics_resource.html" title="Graphics 機能に関係するリソースのベースクラスです。 " alt="ln::GraphicsResource" shape="rect" coords="78,0,225,24"/>
+<area href="classln_1_1_render_target_texture.html" title="レンダーターゲットテクスチャのクラスです。 " alt="ln::RenderTargetTexture" shape="rect" coords="0,112,147,136"/>
+<area href="classln_1_1_texture2_d.html" title="2D テクスチャのクラスです。 " alt="ln::Texture2D" shape="rect" coords="157,112,304,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -145,19 +145,23 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <a class="el" href="namespaceln.html#a77c5e4a86d4b5b279f78763c25812014">TextureFormat</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture.html#a076364e661f67ac6385e8bf475a769fb">format</a> () const </td></tr>
 <tr class="memdesc:a076364e661f67ac6385e8bf475a769fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">テクスチャのピフォーマットを取得します。 <br /></td></tr>
 <tr class="separator:a076364e661f67ac6385e8bf475a769fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ceb06d50aa99759e5f63b1b10f6a587"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ceb06d50aa99759e5f63b1b10f6a587"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture.html#a9ceb06d50aa99759e5f63b1b10f6a587">mipmap</a> () const </td></tr>
+<tr class="memdesc:a9ceb06d50aa99759e5f63b1b10f6a587"><td class="mdescLeft">&#160;</td><td class="mdescRight">ミップマップの有無を取得します。 <br /></td></tr>
+<tr class="separator:a9ceb06d50aa99759e5f63b1b10f6a587"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a647e121ae1d3d0861638275b0b38fe9c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a647e121ae1d3d0861638275b0b38fe9c"></a>
-<a class="el" href="namespaceln.html#a7904fdb3c64f7bf58b1f1a9a0442257aa7cbedaaf994e33f0a870b9a5e8624ef5">SamplerState</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture.html#a647e121ae1d3d0861638275b0b38fe9c">samplerState</a> () const </td></tr>
-<tr class="memdesc:a647e121ae1d3d0861638275b0b38fe9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">このテクスチャに関連付けられている SamplerState を取得します。 <br /></td></tr>
+<a class="el" href="classln_1_1_sampler_state.html">SamplerState</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture.html#a647e121ae1d3d0861638275b0b38fe9c">samplerState</a> () const </td></tr>
+<tr class="memdesc:a647e121ae1d3d0861638275b0b38fe9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">このテクスチャに関連付けられている <a class="el" href="classln_1_1_sampler_state.html" title="サンプラーステートのクラスです。 ">SamplerState</a> を取得します。 <br /></td></tr>
 <tr class="separator:a647e121ae1d3d0861638275b0b38fe9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe34349a85b0a8f160ef27ed47727c7d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe34349a85b0a8f160ef27ed47727c7d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture.html#afe34349a85b0a8f160ef27ed47727c7d">setSamplerState</a> (<a class="el" href="namespaceln.html#a7904fdb3c64f7bf58b1f1a9a0442257aa7cbedaaf994e33f0a870b9a5e8624ef5">SamplerState</a> *value)</td></tr>
-<tr class="memdesc:afe34349a85b0a8f160ef27ed47727c7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">このテクスチャに関連付ける SamplerState を設定します。 <br /></td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classln_1_1_texture.html#afe34349a85b0a8f160ef27ed47727c7d">setSamplerState</a> (<a class="el" href="classln_1_1_sampler_state.html">SamplerState</a> *value)</td></tr>
+<tr class="memdesc:afe34349a85b0a8f160ef27ed47727c7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">このテクスチャに関連付ける <a class="el" href="classln_1_1_sampler_state.html" title="サンプラーステートのクラスです。 ">SamplerState</a> を設定します。 <br /></td></tr>
 <tr class="separator:afe34349a85b0a8f160ef27ed47727c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>テクスチャのベースクラスです。 </p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Proj/TH-10/Engine/Native/include/LuminoEngine/Graphics/<a class="el" href="_texture_8hpp_source.html">Texture.hpp</a></li>
+<li>D:/Proj/LN/Lumino/include/LuminoEngine/Graphics/<a class="el" href="_texture_8hpp_source.html">Texture.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -165,7 +169,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceln.html">ln</a></li><li class="navelem"><a class="el" href="classln_1_1_texture.html">Texture</a></li>
-    <li class="footer">Generated on Fri Jan 18 2019 22:57:21 for Lumino by
+    <li class="footer">Generated on Tue Apr 30 2019 13:22:22 for Lumino by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

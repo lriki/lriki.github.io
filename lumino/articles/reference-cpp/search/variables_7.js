@@ -1,7 +1,11 @@
 var searchData=
 [
-  ['h',['H',['../classln_1_1_h_s_v_color.html#a53cb8772519dad1710e237b3877971f3',1,'ln::HSVColor']]],
-  ['height',['height',['../structln_1_1_box.html#a6e80887bc90cbbadb129bd1ecf22e4ce',1,'ln::Box::height()'],['../structln_1_1_size.html#a620b5b228aa518ffc7e29e78ee8dd507',1,'ln::Size::height()'],['../structln_1_1_rect.html#ad61e3c1b092c135c73c1079510bbd90e',1,'ln::Rect::height()']]],
-  ['honeydew',['Honeydew',['../structln_1_1_color32.html#a4073029847e18adfddeb118dff55a737',1,'ln::Color32::Honeydew()'],['../structln_1_1_color.html#afa7d114c284507c815641821cd248bd2',1,'ln::Color::Honeydew()']]],
-  ['hotpink',['HotPink',['../structln_1_1_color32.html#a88f7854012bf3d321c79caded5fa76e1',1,'ln::Color32::HotPink()'],['../structln_1_1_color.html#a8cccbb283ba348a1ef81df04334e9523',1,'ln::Color::HotPink()']]]
+  ['g',['g',['../structln_1_1_color.html#a74fd558bdc5f42585170310edcc71bf0',1,'ln::Color::g()'],['../structln_1_1_color_tone.html#a2ebffff3b5112770e65a40e2e7f8eee4',1,'ln::ColorTone::g()'],['../structln_1_1_color_i.html#a2748ea88adb3335b9f78f7118f35b6be',1,'ln::ColorI::g()']]],
+  ['gainsboro',['Gainsboro',['../structln_1_1_color.html#a11601417c276f45254b6113be6d51971',1,'ln::Color']]],
+  ['ghostwhite',['GhostWhite',['../structln_1_1_color.html#a222d55f48ea3ce958ff96f3d575d4bf1',1,'ln::Color']]],
+  ['gold',['Gold',['../structln_1_1_color.html#a4e141abd12dab9c851018ae6afd4c3b2',1,'ln::Color']]],
+  ['goldenrod',['Goldenrod',['../structln_1_1_color.html#a80e44ce78f58beb13f0e718462224105',1,'ln::Color']]],
+  ['gray',['Gray',['../structln_1_1_color.html#a491d25fd82fc39bcaa237e19001834c8',1,'ln::Color']]],
+  ['green',['Green',['../structln_1_1_color.html#a91fabecddeb0ac4b2aa40b15ed43d1b9',1,'ln::Color']]],
+  ['greenyellow',['GreenYellow',['../structln_1_1_color.html#a7474da0cb0cce78b9373554c4bbcb174',1,'ln::Color']]]
 ];

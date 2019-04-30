@@ -18,6 +18,7 @@ var searchData=
   ['stop',['stop',['../namespaceln.html#aee2e3c4edc48a29b4b2cb65c1314f61daef399b2d446bb37b7c32ad2cc1b6045b',1,'ln']]],
   ['stopped',['Stopped',['../namespaceln.html#a93bf8e2bbfca892180a0aff5ca78b402ac23e2b09ebe6bf4cb5e2a9abe85c0be2',1,'ln']]],
   ['stopreset',['StopReset',['../namespaceln.html#aee2e3c4edc48a29b4b2cb65c1314f61da0991903db10580c68a3b1af74222e2e1',1,'ln']]],
+  ['stretch',['Stretch',['../namespaceln.html#a8116f1fe664ecd07f4bb3970400c83dfafbb09a82eafab60150d0996e8fe46560',1,'ln::Stretch()'],['../namespaceln.html#a20d8514a52d80465af2a27db9ed99b3bafbb09a82eafab60150d0996e8fe46560',1,'ln::Stretch()'],['../namespaceln.html#a21590b3aaf22e5b5d86a7339ed253eceafbb09a82eafab60150d0996e8fe46560',1,'ln::Stretch()']]],
   ['string',['String',['../namespaceln.html#a08e87265e0ffb621489385faeb2bcbc7a27118326006d3829667a400ad23d5d98',1,'ln']]],
   ['subtract',['Subtract',['../namespaceln.html#a8570669cb6fe3111a054520ce2061bcca1d9baf077ee87921f57a8fe42d510b65',1,'ln::Subtract()'],['../namespaceln.html#ab453d7e604c377c267761cf5cf100ce4a1d9baf077ee87921f57a8fe42d510b65',1,'ln::Subtract()']]]
 ];

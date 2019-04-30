@@ -1,12 +1,17 @@
 var searchData=
 [
-  ['unitx',['UnitX',['../structln_1_1_vector2.html#a066ea4081bad389920448e1a5963f36d',1,'ln::Vector2::UnitX()'],['../structln_1_1_vector3.html#aac9710c10828723825b5a5b76f75fc1a',1,'ln::Vector3::UnitX()']]],
-  ['unity',['UnitY',['../structln_1_1_vector2.html#af72229bbccdad42050e5ff77da40c9f0',1,'ln::Vector2::UnitY()'],['../structln_1_1_vector3.html#ae8b0eb9007c9a991856baf882286cfbe',1,'ln::Vector3::UnitY()']]],
-  ['unitz',['UnitZ',['../structln_1_1_vector3.html#a0efc891c5dc7c92aa74b0a4cfccc1d40',1,'ln::Vector3']]],
-  ['up',['Up',['../classln_1_1_input_buttons.html#a20920cf505714a735ea159d4dc164029',1,'ln::InputButtons']]],
-  ['usage',['Usage',['../structln_1_1_vertex_element.html#aa5cb5cd0e1fede796378c3130af94e64',1,'ln::VertexElement']]],
-  ['usageindex',['UsageIndex',['../structln_1_1_vertex_element.html#a35eb6b8c0b4bb7bf91cb946a37b69dbf',1,'ln::VertexElement']]],
-  ['usedbytecount',['usedByteCount',['../structln_1_1_text_decode_result.html#a3aabebd74442f281f5a4339c81483da6',1,'ln::TextDecodeResult']]],
-  ['useddefaultchar',['UsedDefaultChar',['../structln_1_1_encoding_conversion_result.html#a2a3a6782a1726486b002aaf2204e387a',1,'ln::EncodingConversionResult']]],
-  ['usedelementcount',['usedElementCount',['../structln_1_1_text_encode_result.html#acd92ed1db76a4ec9591d9509a21d990d',1,'ln::TextEncodeResult']]]
+  ['tan',['Tan',['../structln_1_1_color.html#a6bcfd9f932afa206924b6e1e0414b999',1,'ln::Color']]],
+  ['teal',['Teal',['../structln_1_1_color.html#ab8205e1ccc61a54d1cc076beb7f0f0a3',1,'ln::Color']]],
+  ['thistle',['Thistle',['../structln_1_1_color.html#a95372bd19d216b6fb5ab057e70ff71c8',1,'ln::Color']]],
+  ['time',['time',['../structln_1_1_animation_key_frame.html#a80d36bda0e6058f84d78a4829c9c841a',1,'ln::AnimationKeyFrame']]],
+  ['tomato',['Tomato',['../structln_1_1_color.html#a804ec266f34ab1be9817e7afc021e848',1,'ln::Color']]],
+  ['top',['top',['../structln_1_1_thickness.html#a4a4947174d935e017b1d2e899e9d01e7',1,'ln::Thickness']]],
+  ['topleft',['topLeft',['../structln_1_1_corner_radius.html#a0f58f534863f55cf5002264a333c5e6f',1,'ln::CornerRadius']]],
+  ['topright',['topRight',['../structln_1_1_corner_radius.html#a9130e1cd94ae54f4b89fb39ba1548acc',1,'ln::CornerRadius']]],
+  ['translation',['translation',['../structln_1_1_attitude_transform.html#a62d855da5e7317aa7a0b0df644feab81',1,'ln::AttitudeTransform']]],
+  ['transparency',['Transparency',['../structln_1_1_color.html#afd0806dd4de19a5f7c3b202c28c060ab',1,'ln::Color']]],
+  ['transparencywhite',['TransparencyWhite',['../structln_1_1_color.html#af975aef4dee62b1cbdbc5c8c7ddab8cb',1,'ln::Color']]],
+  ['transparent',['Transparent',['../structln_1_1_color.html#aec87ea491cb8497b42cfca4535fc2f95',1,'ln::Color']]],
+  ['turquoise',['Turquoise',['../structln_1_1_color.html#a2d82602ff13e166aa716dc6b21683081',1,'ln::Color']]],
+  ['type',['Type',['../structln_1_1_vertex_element.html#ab979844a17ffdca9a79195504c3ab8b5',1,'ln::VertexElement']]]
 ];

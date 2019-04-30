@@ -2,11 +2,17 @@ var hierarchy =
 [
     [ "ln::AmbientLight", "classln_1_1_ambient_light.html", null ],
     [ "ln::AmbientLightComponent", "classln_1_1_ambient_light_component.html", null ],
-    [ "ln::AnimationClip", "classln_1_1_animation_clip.html", null ],
+    [ "ln::Animation", "classln_1_1_animation.html", null ],
+    [ "ln::AnimationClip", "classln_1_1_animation_clip.html", [
+      [ "ln::VmdAnimationClip", "classln_1_1_vmd_animation_clip.html", null ]
+    ] ],
+    [ "ln::AnimationController", "classln_1_1_animation_controller.html", null ],
     [ "ln::AnimationCurve", "classln_1_1_animation_curve.html", [
       [ "ln::KeyFrameAnimationCurve", "classln_1_1_key_frame_animation_curve.html", null ]
     ] ],
     [ "ln::AnimationKeyFrame", "structln_1_1_animation_key_frame.html", null ],
+    [ "ln::AnimationLayer", "classln_1_1_animation_layer.html", null ],
+    [ "ln::AnimationState", "classln_1_1_animation_state.html", null ],
     [ "ln::AnimationTrack", "classln_1_1_animation_track.html", [
       [ "ln::ColorAnimationTrack", "classln_1_1_color_animation_track.html", null ],
       [ "ln::ScalarAnimationTrack", "classln_1_1_scalar_animation_track.html", null ],
@@ -25,8 +31,14 @@ var hierarchy =
       [ "ln::PlaneCollisionShape", "classln_1_1_plane_collision_shape.html", null ],
       [ "ln::SphereCollisionShape", "classln_1_1_sphere_collision_shape.html", null ]
     ] ],
+    [ "ln::CollisionShape2D", "classln_1_1_collision_shape2_d.html", [
+      [ "ln::BoxCollisionShape2D", "classln_1_1_box_collision_shape2_d.html", null ],
+      [ "ln::EdgeCollisionShape2D", "classln_1_1_edge_collision_shape2_d.html", null ]
+    ] ],
     [ "ln::Color", "structln_1_1_color.html", null ],
-    [ "ln::Color32", "structln_1_1_color32.html", null ],
+    [ "ln::ColorI", "structln_1_1_color_i.html", null ],
+    [ "ln::ColorTone", "structln_1_1_color_tone.html", null ],
+    [ "ln::Console", "classln_1_1_console.html", null ],
     [ "ln::CornerRadius", "structln_1_1_corner_radius.html", null ],
     [ "ln::CRCHash", "classln_1_1_c_r_c_hash.html", null ],
     [ "ln::DepthStencilStateDesc", "structln_1_1_depth_stencil_state_desc.html", null ],
@@ -63,17 +75,21 @@ var hierarchy =
     [ "ln::Flags< RigidBodyLimitFlags >", "classln_1_1_flags.html", null ],
     [ "ln::GlobalLogger", "classln_1_1_global_logger.html", null ],
     [ "ln::GraphicsResource", "classln_1_1_graphics_resource.html", [
+      [ "ln::DepthBuffer", "classln_1_1_depth_buffer.html", null ],
       [ "ln::IndexBuffer", "classln_1_1_index_buffer.html", null ],
+      [ "ln::SamplerState", "classln_1_1_sampler_state.html", null ],
       [ "ln::Shader", "classln_1_1_shader.html", null ],
+      [ "ln::SwapChain", "classln_1_1_swap_chain.html", null ],
       [ "ln::Texture", "classln_1_1_texture.html", [
-        [ "ln::Texture2D", "classln_1_1_texture2_d.html", null ],
-        [ "ln::Texture3D", "classln_1_1_texture3_d.html", null ]
+        [ "ln::RenderTargetTexture", "classln_1_1_render_target_texture.html", null ],
+        [ "ln::Texture2D", "classln_1_1_texture2_d.html", null ]
       ] ],
-      [ "ln::VertexBuffer", "classln_1_1_vertex_buffer.html", null ]
+      [ "ln::VertexBuffer", "classln_1_1_vertex_buffer.html", null ],
+      [ "ln::VertexLayout", "classln_1_1_vertex_layout.html", null ]
     ] ],
     [ "ln::HemisphereLight", "classln_1_1_hemisphere_light.html", null ],
     [ "ln::HemisphereLightComponent", "classln_1_1_hemisphere_light_component.html", null ],
-    [ "ln::HSVColor", "classln_1_1_h_s_v_color.html", null ],
+    [ "ln::IAnimationTargetObject", "classln_1_1_i_animation_target_object.html", null ],
     [ "ln::Input", "classln_1_1_input.html", null ],
     [ "ln::InputButtons", "classln_1_1_input_buttons.html", null ],
     [ "ln::InputGesture", "classln_1_1_input_gesture.html", [
@@ -97,6 +113,7 @@ var hierarchy =
     [ "ln::OrientedBox", "structln_1_1_oriented_box.html", null ],
     [ "ln::Path", "classln_1_1_path.html", null ],
     [ "ln::PhongMaterial", "classln_1_1_phong_material.html", null ],
+    [ "ln::Physics2D", "classln_1_1_physics2_d.html", null ],
     [ "ln::Plane", "structln_1_1_plane.html", null ],
     [ "ln::PlatformSupport", "classln_1_1_platform_support.html", null ],
     [ "ln::Point", "structln_1_1_point.html", null ],
@@ -109,20 +126,22 @@ var hierarchy =
     [ "ln::Rect", "structln_1_1_rect.html", null ],
     [ "ln::Ref< T >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< AnimationContext >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< AnimationControllerCore >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< AudioDestinationNode >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< AudioGainNode >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< AudioNode >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< AudioSourceNode >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< Bitmap2D >", "classln_1_1_ref.html", null ],
-    [ "ln::Ref< Bitmap3D >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< Camera >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< CameraComponent >", "classln_1_1_ref.html", null ],
-    [ "ln::Ref< DepthBuffer >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< DiagnosticsManager >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::AmbientLightComponent >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< ln::AnimationClip >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< ln::AnimationController >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::AnimationCurve >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::AnimationTrack >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::ByteBuffer >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< ln::DepthBuffer >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::DirectionalLightComponent >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::HemisphereLightComponent >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::IndexBuffer >", "classln_1_1_ref.html", null ],
@@ -131,37 +150,51 @@ var hierarchy =
     [ "ln::Ref< ln::List< ln::Ref< Component > > >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::List< ln::Ref< ln::ShaderPass > > >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::List< ln::Ref< ln::ShaderTechnique > > >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< ln::List< ln::Ref< SpriteFrame > > >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::List< ln::Ref< WorldObject > > >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< ln::List< ln::String > >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::List< Variant > >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::Material >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::PointLightComponent >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::RefObject >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< ln::RenderTargetTexture >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< ln::SamplerState >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::Shader >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::SpotLightComponent >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::Stream >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::StreamReader >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::StreamWriter >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< ln::SwapChain >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::TextEncoding >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< ln::Texture >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< ln::TriggerBody2D >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< ln::VertexLayout >", "classln_1_1_ref.html", null ],
     [ "Ref< LN_SPECIALIZED_TYPE >", "class_ref_3_01_l_n___s_p_e_c_i_a_l_i_z_e_d___t_y_p_e_01_4.html", null ],
+    [ "ln::Ref< PhysicsObject2D >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< PhysicsWorld >", "classln_1_1_ref.html", null ],
-    [ "ln::Ref< RenderTargetTexture >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< PhysicsWorld2D >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< PropertyAccessor >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< RenderViewPoint >", "classln_1_1_ref.html", null ],
-    [ "ln::Ref< SamplerState >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< RigidBody >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< RigidBody2D >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< SkinnedMeshComponent >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< SkinnedMeshModel >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< SpriteComponent >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< SpriteFrameSet >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< StaticMeshComponent >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< StaticMeshModel >", "classln_1_1_ref.html", null ],
-    [ "ln::Ref< SwapChain >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< Task >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< TilemapComponent >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< TilemapModel >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< Tileset >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< UIElement >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< UILayoutPanel >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< UIRenderingContext >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< UIRenderView >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< UIStyle >", "classln_1_1_ref.html", null ],
-    [ "ln::Ref< VertexDeclaration >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< VisualComponent >", "classln_1_1_ref.html", null ],
     [ "ln::Ref< World >", "classln_1_1_ref.html", null ],
+    [ "ln::Ref< WorldObject >", "classln_1_1_ref.html", null ],
     [ "ln::RefObject", "classln_1_1_ref_object.html", [
       [ "ln::BinaryReader", "classln_1_1_binary_reader.html", null ],
       [ "ln::BinaryWriter", "classln_1_1_binary_writer.html", null ],
@@ -193,6 +226,9 @@ var hierarchy =
         [ "ln::StreamWriter", "classln_1_1_stream_writer.html", null ],
         [ "ln::StringWriter", "classln_1_1_string_writer.html", null ]
       ] ],
+      [ "ln::ReadOnlyList< AnimationTrackInstance >", "classln_1_1_read_only_list.html", [
+        [ "ln::List< AnimationTrackInstance >", "classln_1_1_list.html", null ]
+      ] ],
       [ "ln::ReadOnlyList< AudioNode * >", "classln_1_1_read_only_list.html", [
         [ "ln::List< AudioNode * >", "classln_1_1_list.html", null ]
       ] ],
@@ -223,6 +259,15 @@ var hierarchy =
       [ "ln::ReadOnlyList< ln::Ref< DiagnosticsItem > >", "classln_1_1_read_only_list.html", [
         [ "ln::List< ln::Ref< DiagnosticsItem > >", "classln_1_1_list.html", null ]
       ] ],
+      [ "ln::ReadOnlyList< ln::Ref< ln::AnimationLayer > >", "classln_1_1_read_only_list.html", [
+        [ "ln::List< ln::Ref< ln::AnimationLayer > >", "classln_1_1_list.html", null ]
+      ] ],
+      [ "ln::ReadOnlyList< ln::Ref< ln::AnimationState > >", "classln_1_1_read_only_list.html", [
+        [ "ln::List< ln::Ref< ln::AnimationState > >", "classln_1_1_list.html", null ]
+      ] ],
+      [ "ln::ReadOnlyList< ln::Ref< ln::AnimationTrack > >", "classln_1_1_read_only_list.html", [
+        [ "ln::List< ln::Ref< ln::AnimationTrack > >", "classln_1_1_list.html", null ]
+      ] ],
       [ "ln::ReadOnlyList< ln::Ref< ln::CommandLineCommand > >", "classln_1_1_read_only_list.html", [
         [ "ln::List< ln::Ref< ln::CommandLineCommand > >", "classln_1_1_list.html", null ]
       ] ],
@@ -247,17 +292,23 @@ var hierarchy =
       [ "ln::ReadOnlyList< ln::Ref< PhysicsObject > >", "classln_1_1_read_only_list.html", [
         [ "ln::List< ln::Ref< PhysicsObject > >", "classln_1_1_list.html", null ]
       ] ],
+      [ "ln::ReadOnlyList< ln::Ref< PhysicsObject2D > >", "classln_1_1_read_only_list.html", [
+        [ "ln::List< ln::Ref< PhysicsObject2D > >", "classln_1_1_list.html", null ]
+      ] ],
+      [ "ln::ReadOnlyList< ln::Ref< PropertyInfo > >", "classln_1_1_read_only_list.html", [
+        [ "ln::List< ln::Ref< PropertyInfo > >", "classln_1_1_list.html", null ]
+      ] ],
       [ "ln::ReadOnlyList< ln::Ref< RenderView > >", "classln_1_1_read_only_list.html", [
         [ "ln::List< ln::Ref< RenderView > >", "classln_1_1_list.html", null ]
+      ] ],
+      [ "ln::ReadOnlyList< ln::Ref< SkinnedMeshBone > >", "classln_1_1_read_only_list.html", [
+        [ "ln::List< ln::Ref< SkinnedMeshBone > >", "classln_1_1_list.html", null ]
       ] ],
       [ "ln::ReadOnlyList< ln::Ref< TilemapLayer > >", "classln_1_1_read_only_list.html", [
         [ "ln::List< ln::Ref< TilemapLayer > >", "classln_1_1_list.html", null ]
       ] ],
       [ "ln::ReadOnlyList< ln::Ref< UIElement > >", "classln_1_1_read_only_list.html", [
         [ "ln::List< ln::Ref< UIElement > >", "classln_1_1_list.html", null ]
-      ] ],
-      [ "ln::ReadOnlyList< ln::Ref< WorldObject > >", "classln_1_1_read_only_list.html", [
-        [ "ln::List< ln::Ref< WorldObject > >", "classln_1_1_list.html", null ]
       ] ],
       [ "ln::ReadOnlyList< ln::ShaderParameter * >", "classln_1_1_read_only_list.html", [
         [ "ln::List< ln::ShaderParameter * >", "classln_1_1_list.html", null ]
@@ -280,14 +331,23 @@ var hierarchy =
       [ "ln::ReadOnlyList< MeshSection >", "classln_1_1_read_only_list.html", [
         [ "ln::List< MeshSection >", "classln_1_1_list.html", null ]
       ] ],
-      [ "ln::ReadOnlyList< PropertyInfo * >", "classln_1_1_read_only_list.html", [
-        [ "ln::List< PropertyInfo * >", "classln_1_1_list.html", null ]
+      [ "ln::ReadOnlyList< PhysicsObject2D * >", "classln_1_1_read_only_list.html", [
+        [ "ln::List< PhysicsObject2D * >", "classln_1_1_list.html", null ]
+      ] ],
+      [ "ln::ReadOnlyList< SkinnedMeshBone * >", "classln_1_1_read_only_list.html", [
+        [ "ln::List< SkinnedMeshBone * >", "classln_1_1_list.html", null ]
+      ] ],
+      [ "ln::ReadOnlyList< std::shared_ptr< std::thread > >", "classln_1_1_read_only_list.html", [
+        [ "ln::List< std::shared_ptr< std::thread > >", "classln_1_1_list.html", null ]
       ] ],
       [ "ln::ReadOnlyList< T >", "classln_1_1_read_only_list.html", [
         [ "ln::List< T >", "classln_1_1_list.html", null ]
       ] ],
       [ "ln::ReadOnlyList< TilesetSlot >", "classln_1_1_read_only_list.html", [
         [ "ln::List< TilesetSlot >", "classln_1_1_list.html", null ]
+      ] ],
+      [ "ln::ReadOnlyList< WorldObject * >", "classln_1_1_read_only_list.html", [
+        [ "ln::List< WorldObject * >", "classln_1_1_list.html", null ]
       ] ]
     ] ],
     [ "ln::RefObjectHelper", "classln_1_1_ref_object_helper.html", null ],
@@ -311,7 +371,7 @@ var hierarchy =
     [ "ln::TextEncoder", "classln_1_1_text_encoder.html", null ],
     [ "ln::TextEncodeResult", "structln_1_1_text_encode_result.html", null ],
     [ "ln::Thickness", "structln_1_1_thickness.html", null ],
-    [ "ln::ToneF", "structln_1_1_tone_f.html", null ],
+    [ "ln::TriggerBody2D", "classln_1_1_trigger_body2_d.html", null ],
     [ "ln::UIDragDropEventArgs", "classln_1_1_u_i_drag_drop_event_args.html", null ],
     [ "ln::UIKeyEventArgs", "classln_1_1_u_i_key_event_args.html", null ],
     [ "ln::UIMouseEventArgs", "classln_1_1_u_i_mouse_event_args.html", null ],
@@ -322,7 +382,9 @@ var hierarchy =
     [ "ln::Vector4", "structln_1_1_vector4.html", null ],
     [ "ln::VertexElement", "structln_1_1_vertex_element.html", null ],
     [ "ln::ViewFrustum", "structln_1_1_view_frustum.html", null ],
-    [ "ln::VisualObject", "classln_1_1_visual_object.html", null ],
+    [ "ln::VisualObject", "classln_1_1_visual_object.html", [
+      [ "ln::Sprite", "classln_1_1_sprite.html", null ]
+    ] ],
     [ "ln::WeakRefPtr< T >", "classln_1_1_weak_ref_ptr.html", null ],
     [ "ln::WeakRefPtr< Object >", "classln_1_1_weak_ref_ptr.html", null ]
 ];
