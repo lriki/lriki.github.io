@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "Readme.html",
-          "hash": "5WrrKaA7kOcK+n51ncjINg=="
+          "hash": "2f25xfQy3dbSFMk3aaQgMQ=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "hGWPLruu5WQEsWkSQskDwA=="
+          "hash": "RXHyXujiljrf7HUb1DwsxA=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/development/index.html",
-          "hash": "m93RRdfOA2go9BnXnq7hCQ=="
+          "hash": "r/d/lLE7hxPnBOJv8Coseg=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Base/CompoundFormatString.html",
-          "hash": "4s3TUwqyQALzwd5YfWXkTQ=="
+          "hash": "12XtOOhSSPz75tCgGuk71A=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Base/ErrorHandling.html",
-          "hash": "e3OKpBSGYRcZnNoqOLd7iA=="
+          "hash": "XpHXX21RUtxbBwUHMuyEdg=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Base/MemoryManagement.html",
-          "hash": "brZp/+OEflMQpYeRrD8dcw=="
+          "hash": "zNb32Xt3jhkcPDuyiezH3Q=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Base/String.html",
-          "hash": "l3EGoxbn7SjRiN3I2AEP6A=="
+          "hash": "2WuajBOk9WZXvUXiPPLvJQ=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Base_Logging.html",
-          "hash": "EltNd9HJuXf/Wj1B82IZ/g=="
+          "hash": "DWEsP05Wgt0fKTdUNI18lQ=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Engine_ObjectCreation.html",
-          "hash": "dFLSkzSg1WZW9kQxDpnFGg=="
+          "hash": "IvLKOUCdQ7dxbo89XDwgdQ=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/GettingStarted/Index.html",
-          "hash": "Be5I2S827sz/akRzbWGQ9Q=="
+          "hash": "t4srLWOmjHXjeZC1lNTcig=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,19 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/GettingStarted/download.html",
-          "hash": "nQc7CxwS5wG/CLNAwQqDSA=="
+          "hash": "+GKy1zwPi0yTBlr1QySQTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/GettingStarted/getting-started-ruby.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/GettingStarted/getting-started-ruby.html",
+          "hash": "QDN8kXxzrW5dVrIYzWy8Mw=="
         }
       },
       "is_incremental": false,
@@ -141,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/GettingStarted/getting-started-web.html",
-          "hash": "NCAasRIMv+EGXsf1IWbU8A=="
+          "hash": "HYvH1jlh/G6xFFORDK+TGg=="
         }
       },
       "is_incremental": false,
@@ -156,7 +168,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/GettingStarted/getting-started-windows.html",
-          "hash": "Uthhs/5mdy2vVbQmt/RPlQ=="
+          "hash": "VHN5jg4AgFffBHbIk46pHA=="
         }
       },
       "is_incremental": false,
@@ -168,7 +180,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/GettingStarted/getting-started.html",
-          "hash": "fzrkFWC8Mlt1bPIs/KJCZA=="
+          "hash": "LXKrYVJ4wxHT59LNvPKAng=="
         }
       },
       "is_incremental": false,
@@ -202,7 +214,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/GettingStarted/preparing-development-environment-macos.html",
-          "hash": "jgBoUeSLc6GEqzOzwsxqAw=="
+          "hash": "gjV4E0fcbijm8SM/yZY7sQ=="
         }
       },
       "is_incremental": false,
@@ -214,7 +226,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/GettingStarted/preparing-development-environment-windows.html",
-          "hash": "9mG4qmCtio1APxlScPJqQA=="
+          "hash": "w3U43/i83Phm5NVVHFWPOg=="
         }
       },
       "is_incremental": false,
@@ -226,7 +238,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/GettingStarted/requirements.html",
-          "hash": "pZioG0Fl3Y70sB2MtaTs6A=="
+          "hash": "mvF9tfj9Crc4+qWY4mAWzQ=="
         }
       },
       "is_incremental": false,
@@ -238,7 +250,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/IO/CommandLineParser.html",
-          "hash": "Pwb/myfONAW9c+b0grnQsw=="
+          "hash": "M9ihVOGhjkQxeVJ82bcM6A=="
         }
       },
       "is_incremental": false,
@@ -250,7 +262,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/IO/FileReadWrite.html",
-          "hash": "XF/KePNq2BpkPSuG6JD5oQ=="
+          "hash": "RNRbBTEOV8mAKnfz5QU+ow=="
         }
       },
       "is_incremental": false,
@@ -262,7 +274,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/IO/FileSystem.html",
-          "hash": "mNu00yPnyQpARbzZbOvpeQ=="
+          "hash": "jUh3WJrLK1BqBN74RLWNog=="
         }
       },
       "is_incremental": false,
@@ -274,7 +286,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Input_VirtualController.html",
-          "hash": "c4JI7iBiuwduJSHOiPdN7g=="
+          "hash": "xVinHjqrMDlrgfzdQZBuiQ=="
         }
       },
       "is_incremental": false,
@@ -286,7 +298,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Math/Index.html",
-          "hash": "OWyEvhkxP/Hw07M0t7kQAg=="
+          "hash": "1N6lrArGkGuoPFvFYK38mw=="
         }
       },
       "is_incremental": false,
@@ -298,7 +310,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Math/Matrix.html",
-          "hash": "2oQeEsWgYQkQZTv7O8w8Ug=="
+          "hash": "RYWtgR7fi1Jy32id22+xHg=="
         }
       },
       "is_incremental": false,
@@ -310,7 +322,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Math/Quaternion.html",
-          "hash": "OnTlxrO9WeB2FahCtLIBAQ=="
+          "hash": "PLTbkBAfj0MCP/YzYx5VSQ=="
         }
       },
       "is_incremental": false,
@@ -322,7 +334,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Math/Utilities.html",
-          "hash": "dmYFcf1DuAPVw8EI5pBuPQ=="
+          "hash": "S9Ghx5i7flN/RWwhSj9ZcA=="
         }
       },
       "is_incremental": false,
@@ -334,7 +346,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Math/Vector.html",
-          "hash": "xHs62GdTUxTTOOFqPpKenQ=="
+          "hash": "Xoy/KO0Hun/IKrv/ooPLng=="
         }
       },
       "is_incremental": false,
@@ -346,7 +358,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Serialization.html",
-          "hash": "ffBE5Uy6DH39pd15SksVFQ=="
+          "hash": "Kd2YDtSsIMhGDyXwYpPmaw=="
         }
       },
       "is_incremental": false,
@@ -358,7 +370,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Shader.html",
-          "hash": "42TY5kenukQKv9eBnEdVeQ=="
+          "hash": "pJ5I/JbbEb7uAhYdnsqnog=="
         }
       },
       "is_incremental": false,
@@ -370,7 +382,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Shader/HLSL.html",
-          "hash": "DIOvIKxPItPzUlITtto/Xg=="
+          "hash": "6N8PZMU4ClazHOEz3ASpJg=="
         }
       },
       "is_incremental": false,
@@ -382,7 +394,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Shader/LuminoAndHLSL.html",
-          "hash": "icsSbUepziKP0Wg6LuchGA=="
+          "hash": "WxUd4Y0LZeq90UkAH6nNPA=="
         }
       },
       "is_incremental": false,
@@ -394,7 +406,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Shader/ShaderBackendCompatibility.html",
-          "hash": "qfhwj8+pU+pF/OYwv58kFw=="
+          "hash": "hu6MJfOxSHwcvJRf1a6XhQ=="
         }
       },
       "is_incremental": false,
@@ -406,7 +418,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Shader/ShaderOverview.html",
-          "hash": "In1fGThuB3zwC7erptSRkg=="
+          "hash": "whPBeurjWF2hW55OMxKIhQ=="
         }
       },
       "is_incremental": false,
@@ -421,7 +433,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Shader/ShaderUsing.html",
-          "hash": "89yb9uAm/GDYfNGZFFT7kw=="
+          "hash": "N6UqcToebuwdS7C5gyKK/A=="
         }
       },
       "is_incremental": false,
@@ -433,7 +445,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/Tools/CliTool.html",
-          "hash": "sJiwEmVhiZwb8eOqb2kbKg=="
+          "hash": "XYRzv0AqN1Ui2aw38x31QA=="
         }
       },
       "is_incremental": false,
@@ -445,7 +457,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/UI_LayoutSystem.html",
-          "hash": "6aG+73vmN0T2PDakGnR3FA=="
+          "hash": "E+NVpLpJA2OmT1DagxFkBA=="
         }
       },
       "is_incremental": false,
@@ -457,7 +469,501 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/index.html",
-          "hash": "MCK4l8PaeYRf+UussBj8Mg=="
+          "hash": "49FODEXqbLy2Z4DDES4y0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/basics.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/basics.html",
+          "hash": "N+FYNhCMpxKBroO/CkoN4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/debug.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/debug.html",
+          "hash": "4dKf2yeKy2B+MAWPa9v8lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/display-sprites.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/display-sprites.html",
+          "hash": "Ws0DXcYksmV9V1CUjoW6Aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/1-introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/1-introduction.html",
+          "hash": "vnAiH1xpQC+QtnMPZkM+Cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/10-gameover.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/10-gameover.html",
+          "hash": "eVWCuZbAPZRYQ6Xb1rQzeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/11-sound.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/11-sound.html",
+          "hash": "NQKLUKl+sLfiDCBmzwo/rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/12-release.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/12-release.html",
+          "hash": "k3PJ0hAQu4qsn/L8ldq4Dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/2-texture-and-sprite.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/2-texture-and-sprite.html",
+          "hash": "Pf3XOjfyCyrevAzu+SS+jQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/3-world-building.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/3-world-building.html",
+          "hash": "hGGEMY8n/fXBtPKzDgsj4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/4-player.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/4-player.html",
+          "hash": "d1d8r/QQWI0Z9CQne2sgYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/5-physics.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/5-physics.html",
+          "hash": "wu4rddQdX0R4RKyaqiC1eQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/6-physics-moving.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/6-physics-moving.html",
+          "hash": "ooS8035GAVrjzXPiVeVaXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/7-animation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/7-animation.html",
+          "hash": "v2yUHtk95NJyJStLdBujlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/8-collecting-items.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/8-collecting-items.html",
+          "hash": "AyQGnfStR+pNCCao9pCTLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/9-scoring-ui.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/9-scoring-ui.html",
+          "hash": "3BZn5uvtZsQfycvodABLgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/animation-1.gif",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/animation-1.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/animation-2.gif",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/animation-2.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/collecting-items-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/collecting-items-1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/collecting-items-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/collecting-items-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/collecting-items-3.gif",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/collecting-items-3.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/introduction-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/introduction-1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/objects.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/objects.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/physics-1.gif",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/physics-1.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/physics-2.gif",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/physics-2.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/physics-moving-1.gif",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/physics-moving-1.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/physics-moving-2.gif",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/physics-moving-2.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/physics-moving-3.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/physics-moving-3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/physics-moving-4.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/physics-moving-4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/player-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/player-1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/player-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/player-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/player-3.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/player-3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/player-4.gif",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/player-4.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/texture-and-sprite-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/texture-and-sprite-1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/texture-and-sprite-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/texture-and-sprite-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/world-building-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/world-building-1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/world-building-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/world-building-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/world-building-3.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/world-building-3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/world-building-4.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/world-building-4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/world-building-5.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/world-building-5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/world-building-6.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/img/world-building-6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/graphics.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/graphics.html",
+          "hash": "OzBYP6cfRkwUuRAlmlgpmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/index.html",
+          "hash": "+w2c2noJ464kza+TLtrXwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/runnning-game.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/runnning-game.html",
+          "hash": "/SdBsV+tHBbvMmrFO0Q7hA=="
         }
       },
       "is_incremental": false,
@@ -469,7 +975,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/platform-specific/android.html",
-          "hash": "IG/Bd/+UFJTeFvSFxq7wWQ=="
+          "hash": "B/bqd8n8C1FX10dcvUXAsg=="
         }
       },
       "is_incremental": false,
@@ -492,7 +998,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/platform-specific/ios.html",
-          "hash": "yddqBq9VwdhN2hZHongaYA=="
+          "hash": "VE0G4xRbtqyWxC9NVL3XQw=="
         }
       },
       "is_incremental": false,
@@ -504,7 +1010,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/platform-specific/macos.html",
-          "hash": "iKfF/JF14TFI4ldlvS9MTw=="
+          "hash": "tdpyMuMhqqLbJSG08WyV5Q=="
         }
       },
       "is_incremental": false,
@@ -516,7 +1022,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/platform-specific/web.html",
-          "hash": "q/NgbfrIid0UlcuEDbH0yQ=="
+          "hash": "X8ZYw11L12yeoGDvFIXkUQ=="
         }
       },
       "is_incremental": false,
@@ -528,7 +1034,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/platform-specific/windows-Install-nuget.html",
-          "hash": "iwK2ZX88ugrC81dSH0VQSQ=="
+          "hash": "92j+frmBF+IL+UZ0iMMWTQ=="
         }
       },
       "is_incremental": false,
@@ -540,7 +1046,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/platform-specific/windows.html",
-          "hash": "HvLbKrbV1MXP21equEjejQ=="
+          "hash": "RPePkTy9by7fDThN3Zagew=="
         }
       },
       "is_incremental": false,
@@ -552,7 +1058,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/programming-guide/cpp.html",
-          "hash": "RBTv+KFFbJ78qOOP+idoLQ=="
+          "hash": "rxSHZ1Kpt3FIKu2Uw9nrxA=="
         }
       },
       "is_incremental": false,
@@ -564,7 +1070,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/programming-guide/index.html",
-          "hash": "qqghz3oZwFA9zmvyQyhqBQ=="
+          "hash": "UTWOVpqYuvMPcpCtpckoZw=="
         }
       },
       "is_incremental": false,
@@ -579,501 +1085,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/toc.html",
-          "hash": "66V3oIloyxAn25ZiuymI7g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/tutorial/basics.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/tutorial/basics.html",
-          "hash": "Z9d/g4I/M+TqaZs1hwTOjg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/tutorial/debug.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/tutorial/debug.html",
-          "hash": "ypDZ5YnzWPxbrspni2wR+Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/tutorial/display-sprites.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/tutorial/display-sprites.html",
-          "hash": "bNUBefIN8IyzDiYbx7vclQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/1-introduction.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/1-introduction.html",
-          "hash": "deDOjMTpubYpGTty/LI6xw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/10-gameover.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/10-gameover.html",
-          "hash": "vc4v2RlZi4PnqgTC2/3kRQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/11-sound.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/11-sound.html",
-          "hash": "JrE1ET/pp/YSVIWRgLvxgw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/12-release.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/12-release.html",
-          "hash": "DaA8TU66mJQqKfAwueZ40g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/2-texture-and-sprite.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/2-texture-and-sprite.html",
-          "hash": "P0t8wCrD0+2UCQCAUsI+ow=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/3-world-building.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/3-world-building.html",
-          "hash": "yS1fkEAtZHl6wts65Jbo7g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/4-player.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/4-player.html",
-          "hash": "OXG90uw8VrDBCJiznMfEgw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/5-physics.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/5-physics.html",
-          "hash": "hZ/Dnry4hS1aKjqPfisI7A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/6-physics-moving.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/6-physics-moving.html",
-          "hash": "YFjVvGIg+R8kZUI/eOeBzg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/7-animation.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/7-animation.html",
-          "hash": "aNRRMuLJbJHc+GUgiGI1wA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/8-collecting-items.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/8-collecting-items.html",
-          "hash": "3rH9y1qswBv0D8LhmZFPgw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/9-scoring-ui.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/9-scoring-ui.html",
-          "hash": "MSRtlHm0f9JE6BAL0TL2tw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/animation-1.gif",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/animation-1.gif"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/animation-2.gif",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/animation-2.gif"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/collecting-items-1.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/collecting-items-1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/collecting-items-2.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/collecting-items-2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/collecting-items-3.gif",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/collecting-items-3.gif"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/introduction-1.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/introduction-1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/objects.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/objects.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/physics-1.gif",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/physics-1.gif"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/physics-2.gif",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/physics-2.gif"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/physics-moving-1.gif",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/physics-moving-1.gif"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/physics-moving-2.gif",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/physics-moving-2.gif"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/physics-moving-3.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/physics-moving-3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/physics-moving-4.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/physics-moving-4.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/player-1.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/player-1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/player-2.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/player-2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/player-3.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/player-3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/player-4.gif",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/player-4.gif"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/texture-and-sprite-1.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/texture-and-sprite-1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/texture-and-sprite-2.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/texture-and-sprite-2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/world-building-1.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/world-building-1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/world-building-2.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/world-building-2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/world-building-3.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/world-building-3.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/world-building-4.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/world-building-4.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/world-building-5.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/world-building-5.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/documents/tutorial/first-2d-game/img/world-building-6.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/documents/tutorial/first-2d-game/img/world-building-6.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/tutorial/graphics.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/tutorial/graphics.html",
-          "hash": "Jhgy3pBAY6Kw3sncu0fZ1w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/tutorial/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/tutorial/index.html",
-          "hash": "qEyNNCq5QQeeVuZyaSUsRQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/tutorial/runnning-game.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/tutorial/runnning-game.html",
-          "hash": "Dk3n1AfChIENKvCKUit9AQ=="
+          "hash": "SovxqwYXJYEmcFQhZyMyaA=="
         }
       },
       "is_incremental": false,
@@ -1085,7 +1097,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/downloads/DevVer.html",
-          "hash": "RHNGzPZqPm4HmSQlRsAYrg=="
+          "hash": "Bn+K+3AwzZt54qWJh3/5QA=="
         }
       },
       "is_incremental": false,
@@ -1097,7 +1109,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/downloads/GettingStarted.html",
-          "hash": "9esfTyijfNL1IkwKF776xw=="
+          "hash": "3BOpUTQaAZ2/uLmU882KPg=="
         }
       },
       "is_incremental": false,
@@ -1142,7 +1154,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/downloads/index.html",
-          "hash": "7x/oH9Pg9veNFqd55JyRZw=="
+          "hash": "1Fkvn0949rTcRIfthu+pfA=="
         }
       },
       "is_incremental": false,
@@ -1154,7 +1166,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "CO+SS7gXZZYAfCkOhKzRkQ=="
+          "hash": "ShbtlGH8fz8WGn1I6M3V/A=="
         }
       },
       "is_incremental": false,
@@ -1166,7 +1178,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/learning/samples/Graphics2D_Sprite2D.html",
-          "hash": "OKaHCCc1RKbnju0cyJS7eA=="
+          "hash": "GtJPeje5CIXnD/xkERsL4g=="
         }
       },
       "is_incremental": false,
@@ -1178,7 +1190,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/learning/samples/Graphics2D_Text.html",
-          "hash": "RLyP6QaP54vJAWdr5XeUDQ=="
+          "hash": "sxe9VJaX4R0/s07sQan6wA=="
         }
       },
       "is_incremental": false,
@@ -1190,7 +1202,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/learning/samples/Input_VirtualController.html",
-          "hash": "cYQU0tSYCVG2V6LrSDGC8A=="
+          "hash": "ejHpDsaOHJnDJhJFkcEa8w=="
         }
       },
       "is_incremental": false,
@@ -1202,7 +1214,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/learning/samples/Lumino_Basic.html",
-          "hash": "OUbQDmVxGeHWMoKk2TW6hg=="
+          "hash": "jAroXteduQZQEgtgY4shdg=="
         }
       },
       "is_incremental": false,
@@ -1291,7 +1303,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/learning/samples/index.html",
-          "hash": "bOjAC1TOYHyVT/kGH6SMnQ=="
+          "hash": "k88OF9IHFWyaKMxHEVLPkQ=="
         }
       },
       "is_incremental": false,
@@ -1315,7 +1327,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/learning/tutorials/index.html",
-          "hash": "4rIxlq2COWnnfqBL373BmQ=="
+          "hash": "NKkNhlQQjk4KuU/Qw0/3Ww=="
         }
       },
       "is_incremental": false,
@@ -1327,7 +1339,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/license/index.html",
-          "hash": "gP0WuI3d/jWdmTgwb6S8mg=="
+          "hash": "kzrUQuqBPOEMcpdJ4HPMMA=="
         }
       },
       "is_incremental": false,
@@ -1339,7 +1351,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/supports/index.html",
-          "hash": "0utPQfpw6YVdeJ6hbBUzTA=="
+          "hash": "rVSrNclixzJl+g1vKxKgQg=="
         }
       },
       "is_incremental": false,
@@ -1362,7 +1374,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "vAv/fXtkhkSc6JgOmXkD6Q=="
+          "hash": "ekeuTZpjYfuWUBmSv2tcKA=="
         }
       },
       "is_incremental": false,
@@ -1416,7 +1428,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 75,
+          "total_file_count": 76,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
