@@ -49,7 +49,7 @@
         
           <div id="navbar-revision-box" class="navbar-revision-box">
             <div class="container">
-              Showing the latest document under development - 9f21a29f9ca58153cc27b58ac0d3f5e91d6f88b8
+              Showing the latest document under development - 851cd438e9e6f810e9311458e0b266efa3771ff4
         
             </div>
           </div>
@@ -76,7 +76,28 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="ruby-で-lumino-をはじめる">Ruby で Lumino をはじめる</h1>
 
-</article>
+<h2 id="必要な環境">必要な環境</h2>
+<div class="WARNING"><h5>Warning</h5><p>現在 Ruby パッケージは Windows でのみ利用できます。</p>
+</div>
+<h3 id="windows">Windows</h3>
+<p><a href="https://rubyinstaller.org/">RubyInstaller</a> などで Ruby をインストールしてください。</p>
+<p>推奨バージョンは 2.6 以降です。</p>
+<h2 id="インストール">インストール</h2>
+<div class="WARNING"><h5>Warning</h5><p>安定版はまだリリースされていません。</p>
+</div>
+<p><a href="download.html#現在開発中の最新ビルド">ダウンロードページの「現在開発中の最新ビルド」</a> から「LuminoEngine-RubyGemPackage.zip」をダウンロードします。</p>
+<pre><code>gem install lumino --pre
+</code></pre><h2 id="最初のプログラム">最初のプログラム</h2>
+<pre><code class="lang-ruby">require &#39;lumino&#39;
+include Lumino
+
+texture1 = Texture2D.load(&quot;画像.png&quot;)
+sprite1 = Sprite.new(texture1, 2, 2)
+
+while Engine.update do
+
+end
+</code></pre></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
