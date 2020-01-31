@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Android &#12450;&#12503;&#12522;&#12398;&#38283;&#30330; | Lumino website </title>
+    <title>&#30011;&#20687;&#12434;&#34920;&#31034;&#12377;&#12427; | Lumino website </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Android &#12450;&#12503;&#12522;&#12398;&#38283;&#30330; | Lumino website ">
+    <meta name="title" content="&#30011;&#20687;&#12434;&#34920;&#31034;&#12377;&#12427; | Lumino website ">
     <meta name="generator" content="docfx 2.45.1.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -74,11 +74,66 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="android-アプリの開発">Android アプリの開発</h1>
+<h1 id="画像を表示する">画像を表示する</h1>
 
-<p>Android アプリのビルドは Android Studio 上から行います。</p>
-<p>Lumino プロジェクトフォルダの <code>Projects/LuminoApp.Android</code> フォルダ内に Android Studio のプロジェクトが作成されていますので、このプロジェクトを Android Studio で開いてください。</p>
-</article>
+<p>画像を表示するには スプライト という機能を使う方法が最も簡単です。
+ここでは 2D 空間に スプライト を配置する Sprite2D オブジェクトについて説明します。</p>
+<h2 id="画像を表示する-1">画像を表示する</h2>
+<p><img src="img/Graphics2D_Sprite2D_1.png" alt=""></p>
+<pre><code class="lang-cpp">#include &lt;Lumino.h&gt;
+using namespace ln;
+
+void Main()
+{
+    Engine::initialize();
+
+    // 画像を読み込み、スプライトオブジェクトを作成する
+    auto sprite = Sprite2D::create(&quot;SampleAssets/Scene1.jpg&quot;);
+
+    while (Engine::update())
+    {
+    }
+}
+</code></pre><h2 id="部分的に表示する">部分的に表示する</h2>
+<p><img src="img/Graphics2D_Sprite2D_2.png" alt=""></p>
+<pre><code class="lang-cpp">#include &lt;Lumino.h&gt;
+using namespace ln;
+
+void Main()
+{
+    Engine::initialize();
+
+    auto sprite = Sprite2D::create(&quot;SampleAssets/Scene1.jpg&quot;);
+
+    // 切り出す領域を指定する
+    sprite-&gt;SetSrc(Rect(100, 200, 200, 100));
+
+    while (Engine::update())
+    {
+    }
+}
+</code></pre><h2 id="基準位置を指定する">基準位置を指定する</h2>
+<p><img src="img/Graphics2D_Sprite2D_3.png" alt=""></p>
+<p>Lumino は「アンカーポイント」という名前で基準位置を表します。</p>
+<p>設定には setAnchorPoint() を使用します。</p>
+<pre><code class="lang-cpp">LN_SAMPLE_MAIN(Graphics2D, Sprite2D, AnchorPoint)
+{
+    Engine::initialize();
+
+    auto sprite = Sprite2D::create(&quot;SampleAssets/Scene1.jpg&quot;);
+
+    // 画像の中央を基準とする
+    sprite-&gt;setAnchorPoint(0.5, 0.5);
+
+    // 表示位置を画面中央にする
+    auto size = Engine::getMainViewport()-&gt;getViewSize();
+    sprite-&gt;setPosition(size.width / 2, size.height / 2);
+
+    while (Engine::update())
+    {
+    }
+}
+</code></pre></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

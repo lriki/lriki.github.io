@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Android &#12450;&#12503;&#12522;&#12398;&#38283;&#30330; | Lumino website </title>
+    <title>C++ &#12391; Lumino &#12434;&#12399;&#12376;&#12417;&#12427; | Lumino website </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Android &#12450;&#12503;&#12522;&#12398;&#38283;&#30330; | Lumino website ">
+    <meta name="title" content="C++ &#12391; Lumino &#12434;&#12399;&#12376;&#12417;&#12427; | Lumino website ">
     <meta name="generator" content="docfx 2.45.1.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -74,10 +74,34 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="android-アプリの開発">Android アプリの開発</h1>
+<h1 id="c-で-lumino-をはじめる">C++ で Lumino をはじめる</h1>
 
-<p>Android アプリのビルドは Android Studio 上から行います。</p>
-<p>Lumino プロジェクトフォルダの <code>Projects/LuminoApp.Android</code> フォルダ内に Android Studio のプロジェクトが作成されていますので、このプロジェクトを Android Studio で開いてください。</p>
+<h2 id="開発環境の準備を行う">開発環境の準備を行う</h2>
+<ul>
+<li><a href="preparing-development-environment-windows.html">開発環境の準備を行う (Windows で開発を行う場合)</a></li>
+<li><a href="preparing-development-environment-macos.html">開発環境の準備を行う (macOS で開発を行う場合)</a></li>
+</ul>
+<h2 id="プロジェクトを作成する">プロジェクトを作成する</h2>
+<p>ターミナル（コマンドプロンプト）を開いて次のコマンドを入力します。</p>
+<pre><code class="lang-sh">lumino-cli init HelloLumino
+</code></pre><ul>
+<li><code>HelloLumino</code> の部分はプロジェクト名です。</li>
+<li>カレントディレクトリの下に HelloLumino というディレクトリが作成され、その中に必要なファイルが作成されます。</li>
+</ul>
+<p>続いて作成されたディレクトリに移動しておきます。</p>
+<pre><code class="lang-sh">cd HelloLumino
+</code></pre><h2 id="プロジェクトを実行する">プロジェクトを実行する</h2>
+<p>Lumino のプロジェクトディレクトリ(.lnproj ファイルのあるディレクトリ)で次のコマンドを入力します。</p>
+<pre><code class="lang-sh">lumino-cli run
+</code></pre><p>動作中のプラットフォーム向けのアプリがビルド・実行され、ウィンドウが表示されます。</p>
+<p>その他のプラットフォーム固有の情報は以下のページを参照してください。</p>
+<ul>
+<li><a href="../platform-specific/windows.html">Windows アプリ</a></li>
+<li><a href="../platform-specific/macos.html">macOS アプリ</a></li>
+<li><a href="../platform-specific/ios.html">iOS アプリ</a></li>
+<li><a href="../platform-specific/android.html">Android アプリ</a></li>
+<li><a href="../platform-specific/web.html">Web アプリ</a></li>
+</ul>
 </article>
           </div>
           
