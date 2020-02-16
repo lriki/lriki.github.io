@@ -49,7 +49,7 @@
         
           <div id="navbar-revision-box" class="navbar-revision-box">
             <div class="container">
-              Showing the latest document under development - 3abd0a43e4720dfdcb82aca218c54d6376f66f49
+              Showing the latest document under development - 73f80e18a37d30292ac2ddbf4db10c019bc3ce9d
         
             </div>
           </div>
@@ -84,16 +84,16 @@
 <h2 id="最小のプログラム">最小のプログラム</h2>
 <p>「最初のプログラム」で見たように、Lumino でアプリを開発するには Application クラスの実装から始めます。</p>
 <p>空のウィンドウを表示するだけの最小限のプログラムは、次のようになります。</p>
-<div class="tabGroup" id="tabgroup_MpeyDcVphO">
+<div class="tabGroup" id="tabgroup_M3Sl-asvur">
 <ul role="tablist">
 <li role="presentation">
-<a href="#tabpanel_MpeyDcVphO_lang-cpp" role="tab" aria-controls="tabpanel_MpeyDcVphO_lang-cpp" data-tab="lang-cpp" tabindex="0" aria-selected="true">C++</a>
+<a href="#tabpanel_M3Sl-asvur_lang-cpp" role="tab" aria-controls="tabpanel_M3Sl-asvur_lang-cpp" data-tab="lang-cpp" tabindex="0" aria-selected="true">C++</a>
 </li>
 <li role="presentation">
-<a href="#tabpanel_MpeyDcVphO_lang-ruby" role="tab" aria-controls="tabpanel_MpeyDcVphO_lang-ruby" data-tab="lang-ruby" tabindex="-1">Ruby</a>
+<a href="#tabpanel_M3Sl-asvur_lang-ruby" role="tab" aria-controls="tabpanel_M3Sl-asvur_lang-ruby" data-tab="lang-ruby" tabindex="-1">Ruby</a>
 </li>
 </ul>
-<section id="tabpanel_MpeyDcVphO_lang-cpp" role="tabpanel" data-tab="lang-cpp">
+<section id="tabpanel_M3Sl-asvur_lang-cpp" role="tabpanel" data-tab="lang-cpp">
 <pre><code class="lang-cpp">#include &lt;Lumino.hpp&gt;
 
 class App : public Application
@@ -102,7 +102,7 @@ class App : public Application
 
 LUMINO_APP(App);
 </code></pre></section>
-<section id="tabpanel_MpeyDcVphO_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
+<section id="tabpanel_M3Sl-asvur_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
 <pre><code class="lang-ruby">require &#39;lumino&#39;
 
 class App &lt; Application
@@ -113,7 +113,7 @@ App.new.run
 </div>
 <p>実行して、ウィンドウを表示してみましょう。</p>
 <p><img src="img/basic-1.png" alt=""></p>
-<p>この時点でできることは、クローズボタンや Esc キーでウィンドウを閉じるだけです。</p>
+<p>この時点でできることは、クローズボタンなどでウィンドウを閉じるだけです。</p>
 <p>文字を表示したり、ユーザー入力を受けてインタラクションを実現するためにはこの App クラスにいくつかのメソッドを実装する必要があります。</p>
 <h2 id="初期化と更新">初期化と更新</h2>
 <p>小さな Lumino アプリケーションを作成するための基本的なタスクは次の2つです。</p>
@@ -122,16 +122,16 @@ App.new.run
 <li>プログラムが動き出したら、繰り返し変数を変更する</li>
 </ul>
 <p>これらを行うために、次のように 2 つのメソッド定義を追加します。</p>
-<div class="tabGroup" id="tabgroup_MpeyDcVphO-1">
+<div class="tabGroup" id="tabgroup_M3Sl-asvur-1">
 <ul role="tablist">
 <li role="presentation">
-<a href="#tabpanel_MpeyDcVphO-1_lang-cpp" role="tab" aria-controls="tabpanel_MpeyDcVphO-1_lang-cpp" data-tab="lang-cpp" tabindex="0" aria-selected="true">C++</a>
+<a href="#tabpanel_M3Sl-asvur-1_lang-cpp" role="tab" aria-controls="tabpanel_M3Sl-asvur-1_lang-cpp" data-tab="lang-cpp" tabindex="0" aria-selected="true">C++</a>
 </li>
 <li role="presentation">
-<a href="#tabpanel_MpeyDcVphO-1_lang-ruby" role="tab" aria-controls="tabpanel_MpeyDcVphO-1_lang-ruby" data-tab="lang-ruby" tabindex="-1">Ruby</a>
+<a href="#tabpanel_M3Sl-asvur-1_lang-ruby" role="tab" aria-controls="tabpanel_M3Sl-asvur-1_lang-ruby" data-tab="lang-ruby" tabindex="-1">Ruby</a>
 </li>
 </ul>
-<section id="tabpanel_MpeyDcVphO-1_lang-cpp" role="tabpanel" data-tab="lang-cpp">
+<section id="tabpanel_M3Sl-asvur-1_lang-cpp" role="tabpanel" data-tab="lang-cpp">
 <pre><code class="lang-cpp">#include &lt;Lumino.hpp&gt;
 
 class App : public Application
@@ -147,7 +147,7 @@ class App : public Application
 
 LUMINO_APP(App);
 </code></pre></section>
-<section id="tabpanel_MpeyDcVphO-1_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
+<section id="tabpanel_M3Sl-asvur-1_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
 <pre><code class="lang-ruby">require &#39;lumino&#39;
 
 class App &lt; Application
@@ -168,16 +168,16 @@ App.new.run
 <h2 id="hello-lumino">Hello, Lumino!</h2>
 <p>ウィンドウに文字列を表示してみましょう。</p>
 <p>テキストや数値を画面に表示するには、Lumino の デバッグようの機能である、Debug クラスの print() メソッドを使うと簡単にできます。</p>
-<div class="tabGroup" id="tabgroup_MpeyDcVphO-2">
+<div class="tabGroup" id="tabgroup_M3Sl-asvur-2">
 <ul role="tablist">
 <li role="presentation">
-<a href="#tabpanel_MpeyDcVphO-2_lang-cpp" role="tab" aria-controls="tabpanel_MpeyDcVphO-2_lang-cpp" data-tab="lang-cpp" tabindex="0" aria-selected="true">C++</a>
+<a href="#tabpanel_M3Sl-asvur-2_lang-cpp" role="tab" aria-controls="tabpanel_M3Sl-asvur-2_lang-cpp" data-tab="lang-cpp" tabindex="0" aria-selected="true">C++</a>
 </li>
 <li role="presentation">
-<a href="#tabpanel_MpeyDcVphO-2_lang-ruby" role="tab" aria-controls="tabpanel_MpeyDcVphO-2_lang-ruby" data-tab="lang-ruby" tabindex="-1">Ruby</a>
+<a href="#tabpanel_M3Sl-asvur-2_lang-ruby" role="tab" aria-controls="tabpanel_M3Sl-asvur-2_lang-ruby" data-tab="lang-ruby" tabindex="-1">Ruby</a>
 </li>
 </ul>
-<section id="tabpanel_MpeyDcVphO-2_lang-cpp" role="tabpanel" data-tab="lang-cpp">
+<section id="tabpanel_M3Sl-asvur-2_lang-cpp" role="tabpanel" data-tab="lang-cpp">
 <pre><code class="lang-cpp">#include &lt;Lumino.hpp&gt;
 
 class App : public Application
@@ -194,7 +194,7 @@ class App : public Application
 
 LUMINO_APP(App);
 </code></pre></section>
-<section id="tabpanel_MpeyDcVphO-2_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
+<section id="tabpanel_M3Sl-asvur-2_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
 <pre><code class="lang-ruby">ruby
 </code></pre></section>
 </div>
@@ -202,16 +202,16 @@ LUMINO_APP(App);
 <p><img src="img/basic-2.png" alt=""></p>
 <h2 id="文字列を表示し続ける">文字列を表示し続ける</h2>
 <p>次は onUpdate で文字列を表示してみます。</p>
-<div class="tabGroup" id="tabgroup_MpeyDcVphO-3">
+<div class="tabGroup" id="tabgroup_M3Sl-asvur-3">
 <ul role="tablist">
 <li role="presentation">
-<a href="#tabpanel_MpeyDcVphO-3_lang-cpp" role="tab" aria-controls="tabpanel_MpeyDcVphO-3_lang-cpp" data-tab="lang-cpp" tabindex="0" aria-selected="true">C++</a>
+<a href="#tabpanel_M3Sl-asvur-3_lang-cpp" role="tab" aria-controls="tabpanel_M3Sl-asvur-3_lang-cpp" data-tab="lang-cpp" tabindex="0" aria-selected="true">C++</a>
 </li>
 <li role="presentation">
-<a href="#tabpanel_MpeyDcVphO-3_lang-ruby" role="tab" aria-controls="tabpanel_MpeyDcVphO-3_lang-ruby" data-tab="lang-ruby" tabindex="-1">Ruby</a>
+<a href="#tabpanel_M3Sl-asvur-3_lang-ruby" role="tab" aria-controls="tabpanel_M3Sl-asvur-3_lang-ruby" data-tab="lang-ruby" tabindex="-1">Ruby</a>
 </li>
 </ul>
-<section id="tabpanel_MpeyDcVphO-3_lang-cpp" role="tabpanel" data-tab="lang-cpp">
+<section id="tabpanel_M3Sl-asvur-3_lang-cpp" role="tabpanel" data-tab="lang-cpp">
 <pre><code class="lang-cpp">#include &lt;Lumino.hpp&gt;
 
 class App : public Application
@@ -228,25 +228,25 @@ class App : public Application
 
 LUMINO_APP(App);
 </code></pre></section>
-<section id="tabpanel_MpeyDcVphO-3_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
+<section id="tabpanel_M3Sl-asvur-3_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
 <pre><code class="lang-ruby">ruby
 </code></pre></section>
 </div>
 <p><code>Engine::time()</code> は アプリケーションの起動からの経過時間を返します。これを利用して、onUpdate() がどのくらいの頻度で実行されているのかを確認してみます。</p>
 <p><img src="img/basic-3.png" alt=""></p>
 <p>実行してみると、画面からあふれるほどのテキストが表示されてしまいました。</p>
-<p>繰り返し実行されているのはわかりましたが、今は過去の情報にはあまり関心はありません。</p>
+<p>繰り返し実行されているのはわかりましたが、今は過去の情報は不要です。</p>
 <p><code>Debug::print()</code> は第一引数に数値を指定することで、テキストの表示時間をコントロールできます。次のように修正して、実行してみましょう。</p>
-<div class="tabGroup" id="tabgroup_MpeyDcVphO-4">
+<div class="tabGroup" id="tabgroup_M3Sl-asvur-4">
 <ul role="tablist">
 <li role="presentation">
-<a href="#tabpanel_MpeyDcVphO-4_lang-cpp" role="tab" aria-controls="tabpanel_MpeyDcVphO-4_lang-cpp" data-tab="lang-cpp" tabindex="0" aria-selected="true">C++</a>
+<a href="#tabpanel_M3Sl-asvur-4_lang-cpp" role="tab" aria-controls="tabpanel_M3Sl-asvur-4_lang-cpp" data-tab="lang-cpp" tabindex="0" aria-selected="true">C++</a>
 </li>
 <li role="presentation">
-<a href="#tabpanel_MpeyDcVphO-4_lang-ruby" role="tab" aria-controls="tabpanel_MpeyDcVphO-4_lang-ruby" data-tab="lang-ruby" tabindex="-1">Ruby</a>
+<a href="#tabpanel_M3Sl-asvur-4_lang-ruby" role="tab" aria-controls="tabpanel_M3Sl-asvur-4_lang-ruby" data-tab="lang-ruby" tabindex="-1">Ruby</a>
 </li>
 </ul>
-<section id="tabpanel_MpeyDcVphO-4_lang-cpp" role="tabpanel" data-tab="lang-cpp">
+<section id="tabpanel_M3Sl-asvur-4_lang-cpp" role="tabpanel" data-tab="lang-cpp">
 <pre><code class="lang-cpp">#include &lt;Lumino.hpp&gt;
 
 class App : public Application
@@ -263,7 +263,7 @@ class App : public Application
 
 LUMINO_APP(App);
 </code></pre></section>
-<section id="tabpanel_MpeyDcVphO-4_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
+<section id="tabpanel_M3Sl-asvur-4_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
 <pre><code class="lang-ruby">ruby
 </code></pre></section>
 </div>
