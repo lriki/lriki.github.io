@@ -46,13 +46,6 @@
               </form>
             </div>
           </div>
-        
-          <div id="navbar-revision-box" class="navbar-revision-box">
-            <div class="container">
-              Showing the latest document under development - 73f80e18a37d30292ac2ddbf4db10c019bc3ce9d
-        
-            </div>
-          </div>
         </nav>
         
         <div class="subnav navbar navbar-default">
@@ -78,8 +71,8 @@
 
 <h2 id="必要な環境">必要な環境</h2>
 <ul>
-<li>Windows 10 64bit</li>
-<li>Ruby 2.6+</li>
+<li>Windows 10 (64bit)</li>
+<li>Ruby 2.6+ (64bit)</li>
 </ul>
 <h2 id="ruby環境をセットアップする">Ruby環境をセットアップする</h2>
 <h3 id="windows">Windows</h3>
@@ -93,20 +86,31 @@
 </ol>
 <h2 id="gem-をインストールする">gem をインストールする</h2>
 <p>コマンドラインで次のコマンドを実行します。</p>
-<pre><code>gem install lumino
-</code></pre><h2 id="最初のプログラム">最初のプログラム</h2>
-<pre><code class="lang-ruby">require &#39;lumino&#39;
+<pre><code class="lang-sh">gem install lumino
+</code></pre><h2 id="プロジェクトを作成する">プロジェクトを作成する</h2>
+<p>任意のディレクトリで、次のコマンドを実行します。</p>
+<pre><code class="lang-sh">lumino-rb new hello
+</code></pre><p><code>hello</code> というディレクトリが作成され、その中に <code>main.rb</code> というファイルが作成されます。</p>
+<h2 id="最初のプログラム">最初のプログラム</h2>
+<p><code>main.rb</code> には次のようなプログラムが書かれています。</p>
+<pre><code class="lang-ruby">require &quot;lumino&quot;
 
 class App &lt; Application
   def on_init
-    texture = Texture2D.load_emoji(&quot;🌱&quot;)
-    sprite1 = Sprite.new(texture)
-    self.world.add(sprite1)
+    text = UITextBlock.new(&quot;Hello, Lumino!&quot;)
   end
 end
 
 App.new.run
-</code></pre></article>
+</code></pre><p>このまま、次のコマンドで実行してみましょう。</p>
+<pre><code class="lang-sh">ruby main.rb
+</code></pre><p><img src="img/first-program.png" alt=""></p>
+<p>中央に &quot;Hello, Lumino!&quot; と書かれたウィンドウが表示されましたか？</p>
+<p>これで Lumino を使うための準備が整いました。次は <a href="../first-tutorial/1-basic.html">チュートリアル</a> に進みましょう！</p>
+<div class="NOTE"><h5>Note</h5><p>Lumino はソースファイルだけではなくアセットの管理やデプロイのサポートなど、ゲームを開発するための一連の作業を <code>プロジェクト</code> という単位で管理します。</p>
+<p>Lumino を使うだけであれば <code>lumino-rb</code> コマンドのステップを省略して手動でソースファイルを作成することも可能ですが、作品の配布まで考える場合はプロジェクトの作成を推奨します。</p>
+</div>
+</article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
@@ -126,7 +130,7 @@ App.new.run
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright © 2017-2019 lriki
+            Copyright © 2017-2020 lriki
             
           </div>
         </div>

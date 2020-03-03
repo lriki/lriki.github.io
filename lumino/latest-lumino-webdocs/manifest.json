@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "Readme.html",
-          "hash": "b8nnaH/prnRQGsUjdREAiQ=="
+          "hash": "iGpnA+pULml1XVz3cpBexQ=="
         }
       },
       "is_incremental": false,
@@ -21,67 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "EDK2RZ6i41QOesvYME0DaQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/Base_Logging.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/Base_Logging.html",
-          "hash": "LoiRpbRHV9N6CyFQs2lRGg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/Engine_ObjectCreation.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/Engine_ObjectCreation.html",
-          "hash": "rbqMzuADbh2D/PNqDdnYJw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/Serialization.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/Serialization.html",
-          "hash": "8pvBraBz43H1wEyDJVQiyw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/Shader.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/Shader.html",
-          "hash": "aocZNnyE/v1q1JfiN0P3Yw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/UI_LayoutSystem.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/UI_LayoutSystem.html",
-          "hash": "SWsytAMcnwu/9TDFKU98Hg=="
+          "hash": "eB7tMqB1S6rbwkXqSwkSgw=="
         }
       },
       "is_incremental": false,
@@ -96,7 +36,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/first-tutorial/1-basic.html",
-          "hash": "eTP98NqDeim66tYCKYiotg=="
+          "hash": "VrNyQipIQDFpfYNMAjBxOA=="
         }
       },
       "is_incremental": false,
@@ -107,11 +47,11 @@
         "InvalidYamlHeader"
       ],
       "type": "Conceptual",
-      "source_relative_path": "articles/documents/first-tutorial/10-input.md",
+      "source_relative_path": "articles/documents/first-tutorial/10-gui.md",
       "output": {
         ".html": {
-          "relative_path": "articles/documents/first-tutorial/10-input.html",
-          "hash": "fAQtt2Lilb67L5SSk3N0Bw=="
+          "relative_path": "articles/documents/first-tutorial/10-gui.html",
+          "hash": "Z1B3BmbHWc7YSOZbxErT4g=="
         }
       },
       "is_incremental": false,
@@ -119,11 +59,26 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/documents/first-tutorial/11-audio.md",
+      "source_relative_path": "articles/documents/first-tutorial/11-font.md",
       "output": {
         ".html": {
-          "relative_path": "articles/documents/first-tutorial/11-audio.html",
-          "hash": "HbBi56rJR2VVQXp0NEdUpQ=="
+          "relative_path": "articles/documents/first-tutorial/11-font.html",
+          "hash": "Mi+pITs7WtE5sxFMaAQwLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidYamlHeader"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/first-tutorial/12-input.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/first-tutorial/12-input.html",
+          "hash": "FUl+2gXLYXk0uSW+qrnGSw=="
         }
       },
       "is_incremental": false,
@@ -131,11 +86,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/documents/first-tutorial/12-effect.md",
+      "source_relative_path": "articles/documents/first-tutorial/13-audio.md",
       "output": {
         ".html": {
-          "relative_path": "articles/documents/first-tutorial/12-effect.html",
-          "hash": "GOyEea27D1MRDwejoKovSg=="
+          "relative_path": "articles/documents/first-tutorial/13-audio.html",
+          "hash": "l5vnGcERkIhH1Uz/P8b8Xg=="
         }
       },
       "is_incremental": false,
@@ -143,11 +98,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/documents/first-tutorial/13-physics.md",
+      "source_relative_path": "articles/documents/first-tutorial/14-effect.md",
       "output": {
         ".html": {
-          "relative_path": "articles/documents/first-tutorial/13-physics.html",
-          "hash": "hOUWJ0bzjmACed3ikebUjw=="
+          "relative_path": "articles/documents/first-tutorial/14-effect.html",
+          "hash": "ZoBREVZLNxz1+DJG5WFN2Q=="
         }
       },
       "is_incremental": false,
@@ -155,11 +110,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/documents/first-tutorial/14-assets.md",
+      "source_relative_path": "articles/documents/first-tutorial/15-physics.md",
       "output": {
         ".html": {
-          "relative_path": "articles/documents/first-tutorial/14-assets.html",
-          "hash": "pFxPJ6/DyxkLsQqIs9hfRw=="
+          "relative_path": "articles/documents/first-tutorial/15-physics.html",
+          "hash": "zkq2ePpNZo0e86rcxNkbDg=="
         }
       },
       "is_incremental": false,
@@ -167,11 +122,23 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/documents/first-tutorial/15-publish.md",
+      "source_relative_path": "articles/documents/first-tutorial/16-assets.md",
       "output": {
         ".html": {
-          "relative_path": "articles/documents/first-tutorial/15-publish.html",
-          "hash": "7CFk4mLLtmkdxDjDLQSCvA=="
+          "relative_path": "articles/documents/first-tutorial/16-assets.html",
+          "hash": "wUhbnjYyl8zLDaAMU8PwkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/first-tutorial/17-publish.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/first-tutorial/17-publish.html",
+          "hash": "j84YPsBGmOm16QW0CRcv9A=="
         }
       },
       "is_incremental": false,
@@ -186,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/first-tutorial/2-graphics-basic.html",
-          "hash": "nI/AjsqhYuT+QWOcbgmajw=="
+          "hash": "VxN/ERebnpBo8lv3yapi/w=="
         }
       },
       "is_incremental": false,
@@ -201,61 +168,19 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/first-tutorial/3-object.html",
-          "hash": "kuJSWLdR5YlLZ3JsG7pTRQ=="
+          "hash": "9lDOiycXJ70qlFWgOGx0pg=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "articles/documents/first-tutorial/4-shapes.md",
       "output": {
         ".html": {
           "relative_path": "articles/documents/first-tutorial/4-shapes.html",
-          "hash": "4OX4Na9/bA0R9/4OwE4qQQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/first-tutorial/5-light.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/first-tutorial/5-light.html",
-          "hash": "6izfUwiVDWSjtQp47uYZyA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/first-tutorial/6-image.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/first-tutorial/6-image.html",
-          "hash": "b6LA8xvfFgODHHvAq4cm+w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/first-tutorial/7-material.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/first-tutorial/7-material.html",
-          "hash": "F3ujFxLXStOqFGBnnp+rQQ=="
+          "hash": "Zk07FXTWLyffKL6atRAsgw=="
         }
       },
       "is_incremental": false,
@@ -266,11 +191,11 @@
         "InvalidYamlHeader"
       ],
       "type": "Conceptual",
-      "source_relative_path": "articles/documents/first-tutorial/8-gui.md",
+      "source_relative_path": "articles/documents/first-tutorial/5-image.md",
       "output": {
         ".html": {
-          "relative_path": "articles/documents/first-tutorial/8-gui.html",
-          "hash": "ucIaVfkvpbvVYOPT8bUBhg=="
+          "relative_path": "articles/documents/first-tutorial/5-image.html",
+          "hash": "J7ZpyGEQqsqeIANOmtAy5Q=="
         }
       },
       "is_incremental": false,
@@ -278,11 +203,47 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/documents/first-tutorial/9-font.md",
+      "source_relative_path": "articles/documents/first-tutorial/6-render-settings.md",
       "output": {
         ".html": {
-          "relative_path": "articles/documents/first-tutorial/9-font.html",
-          "hash": "SzEkHRT2Tw1/wRFXWcFWIA=="
+          "relative_path": "articles/documents/first-tutorial/6-render-settings.html",
+          "hash": "nKEJbZJY+cgt/tifETHprg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/first-tutorial/7-animation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/first-tutorial/7-animation.html",
+          "hash": "QBGPxOyCZ6xr/J8k/ArGoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/first-tutorial/8-light.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/first-tutorial/8-light.html",
+          "hash": "0wLMqO4Scly/8WzXHFUbwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/first-tutorial/9-material.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/first-tutorial/9-material.html",
+          "hash": "N6ECT7D9XhlYb1OiVGtT2Q=="
         }
       },
       "is_incremental": false,
@@ -521,6 +482,50 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "articles/documents/first-tutorial/img/image-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/first-tutorial/img/image-1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/first-tutorial/img/image-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/first-tutorial/img/image-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/first-tutorial/img/image-3.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/first-tutorial/img/image-3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/first-tutorial/img/image-4.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/first-tutorial/img/image-4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "articles/documents/first-tutorial/img/input-1.gif",
       "output": {
         "resource": {
@@ -586,12 +591,23 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "articles/documents/first-tutorial/img/shapes-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/first-tutorial/img/shapes-1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/documents/getting-started/Index.md",
       "output": {
         ".html": {
           "relative_path": "articles/documents/getting-started/Index.html",
-          "hash": "yCJjcjVEehNfwuRWppVvWg=="
+          "hash": "gP/TPcxSpydt8KSp68YZZA=="
         }
       },
       "is_incremental": false,
@@ -603,7 +619,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/getting-started/download.html",
-          "hash": "y/QlndfLI4dQjy1cmkOuwA=="
+          "hash": "MVoppuTHcMF+SjkX+hpt2Q=="
         }
       },
       "is_incremental": false,
@@ -615,7 +631,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/getting-started/getting-started-native.html",
-          "hash": "pBp2hLpZihel89raO5jPKA=="
+          "hash": "STCeIQ/nUQ5arychIvFRnQ=="
         }
       },
       "is_incremental": false,
@@ -627,34 +643,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/getting-started/getting-started-ruby.html",
-          "hash": "0BGn/hHrc5vArLMyC7pT4Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/getting-started/getting-started-web.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/getting-started/getting-started-web.html",
-          "hash": "4QMBk+jUNlnvbMdO10e70w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/getting-started/getting-started-windows.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/getting-started/getting-started-windows.html",
-          "hash": "1iu2RDtNYEHNGpxq2XjQCg=="
+          "hash": "t7JVkUbqR4fQdC71MyZSFA=="
         }
       },
       "is_incremental": false,
@@ -666,7 +655,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/getting-started/getting-started.html",
-          "hash": "abC/2uYYuc/BF/Z7mue1fA=="
+          "hash": "YVhMDDABi4k4FS7qWctPSg=="
         }
       },
       "is_incremental": false,
@@ -707,6 +696,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "articles/documents/getting-started/img/first-program.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/documents/getting-started/img/first-program.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "articles/documents/getting-started/img/getting-started-web-1.png",
       "output": {
         "resource": {
@@ -729,47 +729,506 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/documents/getting-started/preparing-development-environment-macos.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/getting-started/preparing-development-environment-macos.html",
-          "hash": "ywdtUfb/gZzPWmOdWrhitQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/getting-started/preparing-development-environment-windows.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/getting-started/preparing-development-environment-windows.html",
-          "hash": "7qyUCmEEMPqDjNB9BAD6bA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "articles/documents/getting-started/requirements.md",
       "output": {
         ".html": {
           "relative_path": "articles/documents/getting-started/requirements.html",
-          "hash": "6iJ+TwjASq9sBtJoBVgotA=="
+          "hash": "ukbjGlKceKqKhOkCYBvQTA=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "articles/documents/index.md",
       "output": {
         ".html": {
           "relative_path": "articles/documents/index.html",
-          "hash": "/ifiTX56fEvN/xBEHEnEuA=="
+          "hash": "ZUzKyU412y6lVZS5pZcF4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/Base/CompoundFormatString.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/Base/CompoundFormatString.html",
+          "hash": "YZ6C4+3wn6NfBwFgOrH7xA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/Base/ErrorHandling.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/Base/ErrorHandling.html",
+          "hash": "If1HXqNdEh6QF8lpo3d1/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/Base/MemoryManagement.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/Base/MemoryManagement.html",
+          "hash": "CXBSDC7Zb62X9bkVpYZbpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/Base/String.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/Base/String.html",
+          "hash": "8U3+fu/L4dnH0UYfdp+XJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/Base_Logging.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/Base_Logging.html",
+          "hash": "N+XdyM/qMDLvUdo5IwIraw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/IO/CommandLineParser.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/IO/CommandLineParser.html",
+          "hash": "EvFItCE2DOg3TnLIQBYVuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/IO/FileReadWrite.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/IO/FileReadWrite.html",
+          "hash": "K6h8OzKUWYcZ21rjanIOQQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/IO/FileSystem.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/IO/FileSystem.html",
+          "hash": "t0XLLUaTr/LvV0zJiKy/zQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/Math/Index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/Math/Index.html",
+          "hash": "VXW+TQLQk/qGTGJt1SEr8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/Math/Matrix.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/Math/Matrix.html",
+          "hash": "G/W6IWs64uT05gmIev7EUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/Math/Quaternion.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/Math/Quaternion.html",
+          "hash": "iruxIpxa4xdZWKWnB91qKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/Math/Utilities.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/Math/Utilities.html",
+          "hash": "V5gzJkG9UiyfFO2NPotrWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/Math/Vector.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/Math/Vector.html",
+          "hash": "8nWd4r6kt/uc+Rm7xs3nPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/Serialization.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/Serialization.html",
+          "hash": "tpfxZ/5soVoZUjMsAolC9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/Shader/HLSL.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/Shader/HLSL.html",
+          "hash": "eo8Ifi94B4SXOdvEu3xUQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/Shader/LuminoAndHLSL.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/Shader/LuminoAndHLSL.html",
+          "hash": "2U8lEqF2+/sl2vN98t4AWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/Shader/ShaderBackendCompatibility.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/Shader/ShaderBackendCompatibility.html",
+          "hash": "qbuJrGR3PU7+q6tBwAs8ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/Shader/ShaderOverview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/Shader/ShaderOverview.html",
+          "hash": "bitLBetvaqtJQWMC3wdWPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/Shader/ShaderUsing.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/Shader/ShaderUsing.html",
+          "hash": "QpXnwOzmi85DPo5CEscp6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/Tools/CliTool.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/Tools/CliTool.html",
+          "hash": "FAUTxXwRL74S23LfaofTjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/index.html",
+          "hash": "zVvn/B9qvgruoSlxrLpTsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/platform-specific/windows-Install-nuget.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/platform-specific/windows-Install-nuget.html",
+          "hash": "KSfa7pUWnQWXT8RhNyVoYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/programming-guide/cpp.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/programming-guide/cpp.html",
+          "hash": "vOZWFAAn3IdSRUAmxsqFAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/programming-guide/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/programming-guide/index.html",
+          "hash": "5kXdXH+wj9rAIbc8voonYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/basics.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/basics.html",
+          "hash": "5iYkX059bJULo2hWxRUoZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/debug.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/debug.html",
+          "hash": "QPW3D5JBf9/e4pelCiq4Lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/display-sprites.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/display-sprites.html",
+          "hash": "MX0bvtNzTOy9E3S1EkHUhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/1-introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/1-introduction.html",
+          "hash": "avG5hXemd5yrm0UWUvFbGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/10-gameover.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/10-gameover.html",
+          "hash": "+a8FO5CSTF8lgs7fCo3Z5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/11-sound.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/11-sound.html",
+          "hash": "hH1rvzRDaTA+StJRXUK4iQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/12-release.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/12-release.html",
+          "hash": "WRtAGZNv2aMqGQ/KMUUf+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/2-texture-and-sprite.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/2-texture-and-sprite.html",
+          "hash": "c/i9f/7kEvyAsw0J0k7oRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/3-world-building.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/3-world-building.html",
+          "hash": "Sajp0GKeIedSixxV4/2sYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/4-player.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/4-player.html",
+          "hash": "gCG7vsNtBDkyzHUufzz32g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/5-physics.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/5-physics.html",
+          "hash": "oQOb4zOLBoiEmsCtd9YzvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/6-physics-moving.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/6-physics-moving.html",
+          "hash": "x3ydcaQqUEnxTOlUAjPdGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/7-animation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/7-animation.html",
+          "hash": "i81n9sTf31RXqRW3Sq5rsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/8-collecting-items.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/8-collecting-items.html",
+          "hash": "Q/uXfSKlQYDUn7V9yArIMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/first-2d-game/9-scoring-ui.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/first-2d-game/9-scoring-ui.html",
+          "hash": "ibFdZDrF4sfyDGFzSrM5Kg=="
         }
       },
       "is_incremental": false,
@@ -1052,11 +1511,47 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/graphics.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/graphics.html",
+          "hash": "7byq2tlj1xRX/DCzgyYbwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/index.html",
+          "hash": "ZuFuzGfKCuJlWE8SxAJ0qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/documents/old-docs/tutorial/runnning-game.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/documents/old-docs/tutorial/runnning-game.html",
+          "hash": "csQ9TWNBFM9txC4CJsAupA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/documents/platform-specific/android.md",
       "output": {
         ".html": {
           "relative_path": "articles/documents/platform-specific/android.html",
-          "hash": "U3iE8sSa2xZ8J9bmrRXRkw=="
+          "hash": "ZukwgskVrwW5QDtaguyHZg=="
         }
       },
       "is_incremental": false,
@@ -1079,7 +1574,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/platform-specific/ios.html",
-          "hash": "HipL7vuYhQ85KOm2Ab3qpQ=="
+          "hash": "lKFCLSpZUXZuir2lfqA+Kw=="
         }
       },
       "is_incremental": false,
@@ -1091,7 +1586,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/platform-specific/macos.html",
-          "hash": "QSnbOQMdJ4ZZiiWNMbXTdA=="
+          "hash": "OCMzpLTmb/Yw0LzVv+KFnQ=="
         }
       },
       "is_incremental": false,
@@ -1103,19 +1598,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/platform-specific/web.html",
-          "hash": "HFHrb/eDqQaq/KFwYASOkg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/documents/platform-specific/windows-Install-nuget.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/documents/platform-specific/windows-Install-nuget.html",
-          "hash": "Gv5lz5rAt44ShPhte0MSqg=="
+          "hash": "ZxbtruSycbMCtSl65x9MlQ=="
         }
       },
       "is_incremental": false,
@@ -1127,7 +1610,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/platform-specific/windows.html",
-          "hash": "7ciWLiRLwV3EXIiNjEBlsw=="
+          "hash": "vPZyyVdldKZjqUnEAGEssQ=="
         }
       },
       "is_incremental": false,
@@ -1139,7 +1622,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/tips/graphics-spec.html",
-          "hash": "7+h/q5n7Y8y+kJxC3gyM2Q=="
+          "hash": "JomTmfp9uyd1OOkZSdwq1Q=="
         }
       },
       "is_incremental": false,
@@ -1154,76 +1637,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/documents/toc.html",
-          "hash": "PGxD5Fy3Yh1+RdByfXMJcA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/downloads/DevVer.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/downloads/DevVer.html",
-          "hash": "fVTcNyVwDRbzdpHR3EHKBA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/downloads/GettingStarted.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/downloads/GettingStarted.html",
-          "hash": "b+wXcaXzmizCRzpQg1tYjQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/downloads/img/1_1.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/downloads/img/1_1.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/downloads/img/1_2.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/downloads/img/1_2.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/downloads/img/installer.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/downloads/img/installer.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/downloads/index.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/downloads/index.html",
-          "hash": "A71Lc7znVBwZf6bVm21/RA=="
+          "hash": "+M+v3Tp7OK1pryuPfIz/Jg=="
         }
       },
       "is_incremental": false,
@@ -1235,7 +1649,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "DF7eiRmUjM6s0HYpqRGD/w=="
+          "hash": "+p/K6coOpmN9ZJbKrWJeGQ=="
         }
       },
       "is_incremental": false,
@@ -1247,7 +1661,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/learning_old/samples/Graphics2D_Sprite2D.html",
-          "hash": "86M/C7ftFV17SMWdihE5eA=="
+          "hash": "dm2nms/esizhUVBXZTY+vw=="
         }
       },
       "is_incremental": false,
@@ -1259,7 +1673,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/learning_old/samples/Graphics2D_Text.html",
-          "hash": "BHo8LrbzmeuomDXhKt5SGQ=="
+          "hash": "IGEMOqC6nFpd7otIMCawNg=="
         }
       },
       "is_incremental": false,
@@ -1274,7 +1688,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/learning_old/samples/Input_VirtualController.html",
-          "hash": "A8CaY/TZEueekJdPOC4bkA=="
+          "hash": "ddHX0qkSSpcuEWdc9UCMnA=="
         }
       },
       "is_incremental": false,
@@ -1286,7 +1700,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/learning_old/samples/Lumino_Basic.html",
-          "hash": "/iFXPuLKU7n/1rC+oNEB3g=="
+          "hash": "bHq8bfE6qPQ7qt9pp5ZJeQ=="
         }
       },
       "is_incremental": false,
@@ -1375,7 +1789,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/learning_old/samples/index.html",
-          "hash": "ZdRfIlVreZayykHHz1FSFg=="
+          "hash": "GsG60HsIjjH0OwgCFuK89A=="
         }
       },
       "is_incremental": false,
@@ -1399,7 +1813,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/learning_old/tutorials/index.html",
-          "hash": "gcQHNjp9YsYjmHwbBTSHMg=="
+          "hash": "jakC3AHejIdAbRcW0gI6GQ=="
         }
       },
       "is_incremental": false,
@@ -1411,7 +1825,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/license/index.html",
-          "hash": "vFGTFgPMLM3gglbGv5a/kA=="
+          "hash": "DfJBml+OEr+4yN+yiUb5Ew=="
         }
       },
       "is_incremental": false,
@@ -1423,7 +1837,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/supports/index.html",
-          "hash": "VUIv2RFbMuJxw3ETREdk+Q=="
+          "hash": "UnGpgJMKaI0zi5sMsDrb3g=="
         }
       },
       "is_incremental": false,
@@ -1441,12 +1855,56 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "img/g1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/g1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/g2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/g2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/g3.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/g3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/g4.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/g4.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "index",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "DWwFdXafLXPC95rhsDWWxA=="
+          "hash": "WcK/WnWtZh59FoXRTP8/cw=="
         }
       },
       "is_incremental": false,
@@ -1472,7 +1930,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "BGbql1YY3ma2cGXB2azaXQ=="
+          "hash": "lfRVGzgCRbhR8bG+jlkAYw=="
         }
       },
       "is_incremental": false,
@@ -1500,7 +1958,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 53,
+          "total_file_count": 84,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

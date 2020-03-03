@@ -46,13 +46,6 @@
               </form>
             </div>
           </div>
-        
-          <div id="navbar-revision-box" class="navbar-revision-box">
-            <div class="container">
-              Showing the latest document under development - 73f80e18a37d30292ac2ddbf4db10c019bc3ce9d
-        
-            </div>
-          </div>
         </nav>
         
         <div class="subnav navbar navbar-default">
@@ -76,6 +69,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="オブジェクトを動かす">オブジェクトを動かす</h1>
 
+<p>この章では、3D 空間内のオブジェクトの姿勢を設定する方法について学びます。</p>
 <h2 id="移動する">移動する</h2>
 <p>既に前のチュートリアルで行ったように、座標を設定することでオブジェクトを移動できます。</p>
 <div class="tabGroup" id="tabgroup_tPYogLv+EK">
@@ -92,7 +86,7 @@
 
 class App : public Application
 {
-    virtual void onInit() override
+    void onInit() override
     {
         Engine::renderView()-&gt;setGuideGridEnabled(true);
         Engine::camera()-&gt;setPosition(5, 5, -5);
@@ -112,11 +106,23 @@ class App : public Application
 LUMINO_APP(App);
 </code></pre></section>
 <section id="tabpanel_tPYogLv+EK_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
-<pre><code class="lang-ruby">require &#39;lumino&#39;
+<pre><code class="lang-ruby">require &quot;lumino&quot;
 
 class App &lt; Application
-    def on_init
-    end
+  def on_init
+    Engine.render_view.guide_grid_enabled = true
+    Engine.camera.set_position(5, 5, -5)
+    Engine.camera.look_at(0, 0, 0)
+
+    box1 = BoxMesh.new
+    box1.set_position(1, 0, 0)
+
+    box2 = BoxMesh.new
+    box2.set_position(0, 2, 0)
+
+    box3 = BoxMesh.new
+    box3.set_position(0, 0, 3)
+  end
 end
 
 App.new.run
@@ -140,7 +146,7 @@ class App : public Application
 {
     Ref&lt;BoxMesh&gt; box;
 
-    virtual void onInit() override
+    void onInit() override
     {
         Engine::renderView()-&gt;setGuideGridEnabled(true);
         Engine::camera()-&gt;setPosition(5, 5, -5);
@@ -149,7 +155,7 @@ class App : public Application
         box = BoxMesh::create();
     }
 
-    virtual void onUpdate() override
+    void onUpdate() override
     {
         float r = Mouse::position().x / 100;
 
@@ -162,11 +168,24 @@ class App : public Application
 LUMINO_APP(App);
 </code></pre></section>
 <section id="tabpanel_tPYogLv+EK-1_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
-<pre><code class="lang-ruby">require &#39;lumino&#39;
+<pre><code class="lang-ruby">require &quot;lumino&quot;
 
 class App &lt; Application
-    def on_init
-    end
+  def on_init
+    Engine.render_view.guide_grid_enabled = true
+    Engine.camera.set_position(5, 5, -5)
+    Engine.camera.look_at(0, 0, 0)
+
+    @box = BoxMesh.new
+  end
+
+  def on_update
+    r = Mouse.position.x / 100
+
+    @box.set_rotation(0, r, 0)
+
+    Debug.print(0, &quot;angle: %f&quot; % r)
+  end
 end
 
 App.new.run
@@ -190,7 +209,7 @@ class App : public Application
 {
     Ref&lt;BoxMesh&gt; box;
 
-    virtual void onInit() override
+    void onInit() override
     {
         Engine::renderView()-&gt;setGuideGridEnabled(true);
         Engine::camera()-&gt;setPosition(5, 5, -5);
@@ -199,7 +218,7 @@ class App : public Application
         box = BoxMesh::create();
     }
 
-    virtual void onUpdate() override
+    void onUpdate() override
     {
         float s = Mouse::position().y / 100;
 
@@ -212,11 +231,24 @@ class App : public Application
 LUMINO_APP(App);
 </code></pre></section>
 <section id="tabpanel_tPYogLv+EK-2_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
-<pre><code class="lang-ruby">require &#39;lumino&#39;
+<pre><code class="lang-ruby">require &quot;lumino&quot;
 
 class App &lt; Application
-    def on_init
-    end
+  def on_init
+    Engine.render_view.guide_grid_enabled = true
+    Engine.camera.set_position(5, 5, -5)
+    Engine.camera.look_at(0, 0, 0)
+
+    @box = BoxMesh.new
+  end
+
+  def on_update
+    s = Mouse.position.y / 100
+
+    @box.set_scale(s)
+
+    Debug.print(0, &quot;scale: %f&quot; % s)
+  end
 end
 
 App.new.run
@@ -249,7 +281,7 @@ App.new.run
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright © 2017-2019 lriki
+            Copyright © 2017-2020 lriki
             
           </div>
         </div>

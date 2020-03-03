@@ -46,13 +46,6 @@
               </form>
             </div>
           </div>
-        
-          <div id="navbar-revision-box" class="navbar-revision-box">
-            <div class="container">
-              Showing the latest document under development - 73f80e18a37d30292ac2ddbf4db10c019bc3ce9d
-        
-            </div>
-          </div>
         </nav>
         
         <div class="subnav navbar navbar-default">
@@ -76,6 +69,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="描画の基本">描画の基本</h1>
 
+<p>この章では、画面上に図形や絵を表示するための基礎を学びます。</p>
 <h2 id="2d-座標系">2D 座標系</h2>
 <p>ウィンドウに描画されるものは座標系に従います。</p>
 <p>座標系はウィンドウの左上隅を X 座標 0、X 座標 0 として、X と Y の値は右下に向かって大きくなります。</p>
@@ -105,12 +99,12 @@ class App : public Application
 LUMINO_APP(App);
 </code></pre></section>
 <section id="tabpanel_ayaw9gJ0HT_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
-<pre><code class="lang-ruby">require &#39;lumino&#39;
+<pre><code class="lang-ruby">require &quot;lumino&quot;
 
 class App &lt; Application
     def on_update
-        Debug.print(0, &quot;X:%f&quot; % [Mouse.pos.x]));
-        Debug.print(0, &quot;Y:%f&quot; % [Mouse.pos.y]));
+        Debug.print(0, &quot;X:%f&quot; % Mouse.position.x)
+        Debug.print(0, &quot;Y:%f&quot; % Mouse.position.y)
     end
 end
 
@@ -158,7 +152,7 @@ App.new.run
 
 class App : public Application
 {
-    virtual void onInit() override
+    void onInit() override
     {
         auto box = BoxMesh::create();
     }
@@ -167,7 +161,7 @@ class App : public Application
 LUMINO_APP(App);
 </code></pre></section>
 <section id="tabpanel_ayaw9gJ0HT-1_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
-<pre><code class="lang-ruby">require &#39;lumino&#39;
+<pre><code class="lang-ruby">require &quot;lumino&quot;
 
 class App &lt; Application
     def on_init
@@ -180,6 +174,8 @@ App.new.run
 </div>
 <p><img src="img/graphics-basic-4.png" alt=""></p>
 <p>ウィンドウ中央に四角形が表示されました。</p>
+<div class="NOTE"><h5>Note</h5><p>このチュートリアルで紹介する方法では、オブジェクトを「描く」というよりは、「作って、3D 空間に置く」といった考え方がメインとなります。</p>
+</div>
 <h2 id="カメラを操作する">カメラを操作する</h2>
 <p>今はちょうどカメラが立方体を正面から撮影している状態ですが、このままではこの四角形が立方体かどうかを判断できません。</p>
 <p>次はカメラを移動して、視点を変えてみましょう。</p>
@@ -200,7 +196,7 @@ App.new.run
 
 class App : public Application
 {
-    virtual void onInit() override
+    void onInit() override
     {
         auto box = BoxMesh::create();
 
@@ -214,7 +210,7 @@ LUMINO_APP(App);
 </code></pre></section>
 <section id="tabpanel_ayaw9gJ0HT-2_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
 <p>デフォルトのカメラは <code>Engine.camera</code> で取得し、<code>set_position</code> で 3D 位置を指定します。また、位置を指定した後に <code>look_at</code> でワールドの原点を向くようにします。</p>
-<pre><code class="lang-ruby">require &#39;lumino&#39;
+<pre><code class="lang-ruby">require &quot;lumino&quot;
 
 class App &lt; Application
     def on_init
@@ -233,7 +229,7 @@ App.new.run
 <p>カメラを座標 (5, 5, -5) に移動し、原点 (0, 0, 0) を注視するようにしました。</p>
 <p>立方体を斜め上から見下ろす形になり、立体的に見えるようになりました。</p>
 <h2 id="座標系を変換する-2d---3d">座標系を変換する (2D -&gt; 3D)</h2>
-<p>マウスで指している位置にオブジェクトを表示したい場合、2D 座標から 3D 座標へ変換する必要があります。</p>
+<p>例えばマウスで指している位置にオブジェクトを表示したい場合、2D 座標から 3D 座標へ変換する必要があります。</p>
 <p>ただし、2D 座標から 3D 座標への変換では、直に 3D の一点を求めることはできません。</p>
 <p>カメラが写している 2D 画面上の &quot;点&quot; を 3D 空間で考えると、次のようにカメラから前方へ伸びる &quot;線分&quot; となります。</p>
 <p><img src="img/graphics-basic-8.png" alt=""></p>
@@ -257,7 +253,7 @@ class App : public Application
 {
     Ref&lt;BoxMesh&gt; box;    // (1)
 
-    virtual void onInit() override
+    void onInit() override
     {
         box = BoxMesh::create();
 
@@ -266,7 +262,7 @@ class App : public Application
         camera-&gt;lookAt(0, 0, 0);
     }
 
-    virtual void onUpdate() override
+    void onUpdate() override
     {
         auto raycaster = Raycaster::fromScreen(Mouse::position());  // (2)
         if (auto result = raycaster-&gt;intersectPlane(0, 1, 0)) {     // (3)
@@ -278,7 +274,7 @@ class App : public Application
 LUMINO_APP(App);
 </code></pre><ol>
 <li><code>onInit()</code> で作成した box を <code>onUpdate()</code> で操作できるようにするため、これまで <code>auto box = ...;</code> と定義していたローカル変数ではなくメンバ変数として定義します。</li>
-<li>スクリーン上の、現在のマウス位置 <code>Mouse::position()</code> を起点としてレイキャスティングを行う <code>Raycaster</code> インスタンスを取得します。</li>
+<li>スクリーン上の現在のマウス位置 <code>Mouse::position()</code> を起点としてレイキャスティングを行う <code>Raycaster</code> インスタンスを取得します。</li>
 <li>レイと平面との衝突判定を行います。 <code>intersectPlane()</code> の引数は面の表方向を表す x, y, z 値です。ここでは、Y+ 方向 （真上）を向く、つまるところ通常の <code>地平面</code> を指定しています。
 衝突した場合、結果を返します。衝突しなければ nullptr で、if 内には入りません。</li>
 <li><code>result-&gt;point()</code> で衝突した点を取得できます、これをカメラの時と同じようして <code>box-&gt;setPosition()</code> にセットすることで、Box を移動させます。</li>
@@ -287,29 +283,39 @@ LUMINO_APP(App);
 </div>
 </section>
 <section id="tabpanel_ayaw9gJ0HT-3_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
-<pre><code class="lang-ruby">require &#39;lumino&#39;
+<pre><code class="lang-ruby">require &quot;lumino&quot;
 
 class App &lt; Application
-    def on_init
-        box = BoxMesh.new
+  def on_init
+    @box = BoxMesh.new
 
-        camera = Engine.camera
-        camera.set_position(5, 5, -5)
-        camera.lookAt(0, 0, 0)
+    camera = Engine.camera
+    camera.set_position(5, 5, -5)
+    camera.look_at(0, 0, 0)
+  end
 
-        light = DirectionalLight.new;
+  def on_update
+    raycaster = Raycaster.from_screen(Mouse.position)  # (1)
+    result = raycaster.intersect_plane(0, 1, 0)  # (2)
+    if result
+      @box.set_position(result.point) # (3)
     end
+  end
 end
 
 App.new.run
-</code></pre></section>
+</code></pre><ol>
+<li>スクリーン上の現在のマウス位置 <code>Mouse.position</code> を起点としてレイキャスティングを行う <code>Raycaster</code> インスタンスを取得します。</li>
+<li>レイと平面との衝突判定を行います。 <code>intersect_plane()</code> の引数は面の表方向を表す x, y, z 値です。ここでは、Y+ 方向 （真上）を向く、つまるところ通常の <code>地平面</code> を指定しています。衝突した場合、結果を返します。衝突しなければ nullptr で、if 内には入りません。</li>
+<li><code>result.point</code> で衝突した点を取得できます、これをカメラの時と同じようして <code>@box.set_position()</code> にセットすることで、Box を移動させます。</li>
+</ol>
+</section>
 </div>
 <p><img src="img/graphics-basic-9.gif" alt=""></p>
-<p>Great!</p>
-<p>これまでよりもずっと 3D 空間を触りやすくなりました！</p>
+<p>マウス位置に Box が表示されるようになり、これまでよりもずっと 3D 空間を触りやすくなりました！</p>
 <h2 id="デバッグ">デバッグ</h2>
 <p>最後に、ワールドのデバッグに使える便利機能を紹介します。</p>
-<p>オブジェクトが上手く表示されないようなケースでは、ワールドの状況を観察することが解決の助けになります。（例えば、配置する座標を間違えて、別のオブジェクトの後ろに隠れているだけかもしれません…）</p>
+<p>オブジェクトが上手く表示されないようなケースでは、ワールドの状況を観察することが解決の助けになります。（例えば、配置する座標を間違えて、別のオブジェクトの後ろに隠れていたり、カメラの裏側に置かれているかもしれません…）</p>
 <p>ここでは 3D 空間にグリッドを表示し、カメラをマウスで操作できるようにして、ワールドを俯瞰しやすくしてみます。</p>
 <div class="tabGroup" id="tabgroup_ayaw9gJ0HT-4">
 <ul role="tablist">
@@ -327,7 +333,7 @@ class App : public Application
 {
     Ref&lt;BoxMesh&gt; box;
 
-    virtual void onInit() override
+    void onInit() override
     {
         Engine::renderView()-&gt;setGuideGridEnabled(true);
         Engine::camera()-&gt;addComponent(CameraOrbitControlComponent::create());
@@ -335,7 +341,7 @@ class App : public Application
         box = BoxMesh::create();
     }
 
-    virtual void onUpdate() override
+    void onUpdate() override
     {
         auto raycaster = Raycaster::fromScreen(Mouse::position());
         if (auto result = raycaster-&gt;intersectPlane(0, 1, 0)) {
@@ -346,26 +352,38 @@ class App : public Application
 
 LUMINO_APP(App);
 </code></pre><p>onInit() の先頭に2行の新しいコードが増えています。</p>
-<p><code>Engine::renderView()-&gt;setGuideGridEnabled(true);</code> は、ワールド全体の地平面にグリッドを表示します。また、原点から各軸方向を示す赤、緑、青の線分を表示します。</p>
-<p><code>Engine::camera()-&gt;addComponent(CameraOrbitControlComponent::create());</code> は、これまで使ってきたカメラに対して、マウスを使って操作できる機能を追加します。</p>
+<ul>
+<li><code>Engine::renderView()-&gt;setGuideGridEnabled(true);</code> は、ワールド全体の地平面にグリッドを表示します。また、原点から各軸方向を示す赤、緑、青の線分を表示します。</li>
+<li><code>Engine::camera()-&gt;addComponent(CameraOrbitControlComponent::create());</code> は、これまで使ってきたカメラに対して、マウスを使って操作できる機能を追加します。</li>
+</ul>
 </section>
 <section id="tabpanel_ayaw9gJ0HT-4_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
-<pre><code class="lang-ruby">require &#39;lumino&#39;
+<pre><code class="lang-ruby">require &quot;lumino&quot;
 
 class App &lt; Application
-    def on_init
-        box = BoxMesh.new
+  def on_init
+    Engine.render_view.guide_grid_enabled = true
+    Engine.camera.add_component(CameraOrbitControlComponent.new)
 
-        camera = Engine.camera
-        camera.set_position(5, 5, -5)
-        camera.lookAt(0, 0, 0)
+    @box = BoxMesh.new
+  end
 
-        light = DirectionalLight.new;
+  def on_update
+    raycaster = Raycaster.from_screen(Mouse.position)
+    result = raycaster.intersect_plane(0, 1, 0)
+    if result
+      @box.set_position(result.point)
     end
+  end
 end
 
 App.new.run
-</code></pre></section>
+</code></pre><p>on_init の先頭に2行の新しいコードが増えています。</p>
+<ul>
+<li><code>Engine.render_view.guide_grid_enabled = true</code> は、ワールド全体の地平面にグリッドを表示します。また、原点から各軸方向を示す赤、緑、青の線分を表示します。</li>
+<li><code>Engine.camera.add_component(CameraOrbitControlComponent.new)</code> は、これまで使ってきたカメラに対して、マウスを使って操作できる機能を追加します。</li>
+</ul>
+</section>
 </div>
 <p>マウス操作は次の通りです。</p>
 <table>
@@ -418,7 +436,7 @@ Lumino をバージョンアップした際にコンパイルエラーなどが�
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright © 2017-2019 lriki
+            Copyright © 2017-2020 lriki
             
           </div>
         </div>

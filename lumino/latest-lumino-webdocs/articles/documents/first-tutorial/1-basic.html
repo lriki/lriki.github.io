@@ -46,13 +46,6 @@
               </form>
             </div>
           </div>
-        
-          <div id="navbar-revision-box" class="navbar-revision-box">
-            <div class="container">
-              Showing the latest document under development - 73f80e18a37d30292ac2ddbf4db10c019bc3ce9d
-        
-            </div>
-          </div>
         </nav>
         
         <div class="subnav navbar navbar-default">
@@ -76,11 +69,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="lumino-の基本">Lumino の基本</h1>
 
-<p>Note:</p>
-<ul>
-<li>Lumino の基本</li>
-<li></li>
-</ul>
+<p>この章では、Lumino を使ってアプリケーションを作成するための最も基本的な流れについて学びます。</p>
 <h2 id="最小のプログラム">最小のプログラム</h2>
 <p>「最初のプログラム」で見たように、Lumino でアプリを開発するには Application クラスの実装から始めます。</p>
 <p>空のウィンドウを表示するだけの最小限のプログラムは、次のようになります。</p>
@@ -103,7 +92,7 @@ class App : public Application
 LUMINO_APP(App);
 </code></pre></section>
 <section id="tabpanel_M3Sl-asvur_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
-<pre><code class="lang-ruby">require &#39;lumino&#39;
+<pre><code class="lang-ruby">require &quot;lumino&quot;
 
 class App &lt; Application
 end
@@ -136,11 +125,11 @@ App.new.run
 
 class App : public Application
 {
-    virtual void onInit() override
+    void onInit() override
     {
     }
 
-    virtual void onUpdate() override
+    void onUpdate() override
     {
     }
 };
@@ -148,14 +137,14 @@ class App : public Application
 LUMINO_APP(App);
 </code></pre></section>
 <section id="tabpanel_M3Sl-asvur-1_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
-<pre><code class="lang-ruby">require &#39;lumino&#39;
+<pre><code class="lang-ruby">require &quot;lumino&quot;
 
 class App &lt; Application
-    def on_init
-    end
+  def on_init
+  end
 
-    def on_update
-    end
+  def on_update
+  end
 end
 
 App.new.run
@@ -163,7 +152,8 @@ App.new.run
 </div>
 <p>空のメソッドを追加しただけなので、実行するとウィンドウは表示できますが、動きは変わりません。</p>
 <p>この後のチュートリアルやサンプルで紹介するプログラムでは、プログラムの開始時に1回呼び出される onInit() メソッドで変数を初期化し、onUpdate() メソッドでこれらの変数を変更して、アプリケーションを実装していくことになります。</p>
-<div class="NOTE"><h5>Note</h5><p>onUpdate() は 1秒間に 60 回、繰り返し実行されます。</p>
+<div class="NOTE"><h5>Note</h5><p>onUpdate() は 1秒間に 60 回、繰り返し実行されます。
+この 1 回分の実行単位を <code>フレーム</code> と呼び、「1 秒間は 60 フレーム」といったように使います。</p>
 </div>
 <h2 id="hello-lumino">Hello, Lumino!</h2>
 <p>ウィンドウに文字列を表示してみましょう。</p>
@@ -182,12 +172,12 @@ App.new.run
 
 class App : public Application
 {
-    virtual void onInit() override
+    void onInit() override
     {
         Debug::print(u&quot;Hello, Lumino!&quot;);
     }
 
-    virtual void onUpdate() override
+    void onUpdate() override
     {
     }
 };
@@ -195,7 +185,18 @@ class App : public Application
 LUMINO_APP(App);
 </code></pre></section>
 <section id="tabpanel_M3Sl-asvur-2_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
-<pre><code class="lang-ruby">ruby
+<pre><code class="lang-ruby">require &quot;lumino&quot;
+
+class App &lt; Application
+  def on_init
+    Debug.print(&quot;Hello, Lumino!&quot;)
+  end
+
+  def on_update
+  end
+end
+
+App.new.run
 </code></pre></section>
 </div>
 <p>文字列がウィンドウ上に表示されます。（その後、しばらくすると消えます）</p>
@@ -216,11 +217,11 @@ LUMINO_APP(App);
 
 class App : public Application
 {
-    virtual void onInit() override
+    void onInit() override
     {
     }
 
-    virtual void onUpdate() override
+    void onUpdate() override
     {
         Debug::print(String::format(u&quot;Time: {0}&quot;, Engine::time()));
     }
@@ -229,14 +230,25 @@ class App : public Application
 LUMINO_APP(App);
 </code></pre></section>
 <section id="tabpanel_M3Sl-asvur-3_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
-<pre><code class="lang-ruby">ruby
+<pre><code class="lang-ruby">require &quot;lumino&quot;
+
+class App &lt; Application
+  def on_init
+  end
+
+  def on_update
+    Debug.print(&quot;Time: %f&quot; % Engine.time)
+  end
+end
+
+App.new.run
 </code></pre></section>
 </div>
 <p><code>Engine::time()</code> は アプリケーションの起動からの経過時間を返します。これを利用して、onUpdate() がどのくらいの頻度で実行されているのかを確認してみます。</p>
 <p><img src="img/basic-3.png" alt=""></p>
 <p>実行してみると、画面からあふれるほどのテキストが表示されてしまいました。</p>
 <p>繰り返し実行されているのはわかりましたが、今は過去の情報は不要です。</p>
-<p><code>Debug::print()</code> は第一引数に数値を指定することで、テキストの表示時間をコントロールできます。次のように修正して、実行してみましょう。</p>
+<p><code>Debug::print()</code> は第一引数に数値を指定することで、テキストの表示時間をコントロールできます。次のように 0 を指定することで、テキストは 1 フレームの間だけ表示されるようになります。</p>
 <div class="tabGroup" id="tabgroup_M3Sl-asvur-4">
 <ul role="tablist">
 <li role="presentation">
@@ -251,11 +263,11 @@ LUMINO_APP(App);
 
 class App : public Application
 {
-    virtual void onInit() override
+    void onInit() override
     {
     }
 
-    virtual void onUpdate() override
+    void onUpdate() override
     {
         Debug::print(0, String::format(u&quot;Time: {0}&quot;, Engine::time()));
     }
@@ -264,11 +276,24 @@ class App : public Application
 LUMINO_APP(App);
 </code></pre></section>
 <section id="tabpanel_M3Sl-asvur-4_lang-ruby" role="tabpanel" data-tab="lang-ruby" aria-hidden="true" hidden="hidden">
-<pre><code class="lang-ruby">ruby
+<pre><code class="lang-ruby">require &quot;lumino&quot;
+
+class App &lt; Application
+  def on_init
+  end
+
+  def on_update
+    Debug.print(0, &quot;Time: %f&quot; % Engine.time)
+  end
+end
+
+App.new.run
 </code></pre></section>
 </div>
+<p>修正したら、実行してみましょう。</p>
 <p><img src="img/basic-4.gif" alt=""></p>
 <p>シンプルなタイマーができました！</p>
+<p>テキストは 1 秒間に 60 回、表示と消去を繰り返すことで、リアルタイムに変化しているように見えます。</p>
 </article>
           </div>
           
@@ -289,7 +314,7 @@ LUMINO_APP(App);
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright © 2017-2019 lriki
+            Copyright © 2017-2020 lriki
             
           </div>
         </div>
